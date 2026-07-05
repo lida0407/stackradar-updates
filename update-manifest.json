@@ -1,10 +1,10 @@
 {
   "schema": 1,
   "app": {
-    "versionCode": 6,
-    "versionName": "1.5",
+    "versionCode": 7,
+    "versionName": "1.6",
     "apkUrl": "https://github.com/lida0407/stackradar-updates/releases/latest/download/stackradar-release-demo-signed.apk",
-    "releaseNotes": "Makes language settings visibly localize common app labels, navigation, settings, update, and startup controls."
+    "releaseNotes": "Makes language settings visibly localize common app labels and switches future update checks to the release-hosted manifest."
   },
   "database": {
     "version": 2,
