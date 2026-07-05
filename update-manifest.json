@@ -7,8 +7,8 @@
     "releaseNotes": "Makes updated catalog entries visible when browsing Servers, Storage, and other category filters."
   },
   "database": {
-    "version": 5,
+    "version": 6,
     "url": "https://github.com/lida0407/stackradar-updates/releases/latest/download/catalog.json",
-    "notes": "Imports the 1,189-entry expanded catalog with deeper database, middleware, platform, storage, server, networking, backup, container, and operating system coverage."
+    "notes": "Imports the 1,341-entry expanded catalog with deeper GPU, accelerator, cloud service, database, middleware, platform, storage, server, networking, backup, container, and operating system coverage."
   }
 }
