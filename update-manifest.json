@@ -1,14 +1,14 @@
 {
   "schema": 1,
   "app": {
-    "versionCode": 7,
-    "versionName": "1.6",
+    "versionCode": 8,
+    "versionName": "1.7",
     "apkUrl": "https://github.com/lida0407/stackradar-updates/releases/latest/download/stackradar-release-demo-signed.apk",
-    "releaseNotes": "Makes language settings visibly localize common app labels and switches future update checks to the release-hosted manifest."
+    "releaseNotes": "Adds About with sensaka.com credit, broader interface localization, and support for richer data bundles."
   },
   "database": {
-    "version": 2,
-    "url": "https://raw.githubusercontent.com/lida0407/stackradar-updates/main/catalog.json",
-    "notes": "Adds sample hardware, accelerator, virtualization, storage, and security catalog entries for remote database refresh."
+    "version": 3,
+    "url": "https://github.com/lida0407/stackradar-updates/releases/latest/download/catalog.json",
+    "notes": "Imports the 103-entry StackRadar catalog and keeps support for future risks, news, and compatibility bundles."
   }
 }

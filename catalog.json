@@ -1,106 +1,5478 @@
 {
-  "schema": 1,
-  "databaseVersion": 2,
   "catalog": [
     {
-      "id": "lenovo-sr650-v3",
-      "name": "Lenovo ThinkSystem SR650 V3",
+      "id": "dell-poweredge-r760",
+      "name": "PowerEdge R760",
+      "vendor": "Dell Technologies",
+      "category": "Servers",
+      "common_versions": [
+        "R760"
+      ],
+      "stack_layer": "Hardware",
+      "used_by": [
+        "Enterprise IT",
+        "AI Data Center",
+        "System Integrator"
+      ],
+      "important_relationships": [
+        {
+          "relates_to": "iDRAC9",
+          "relationship_type": "Firmware requirement",
+          "why_it_matters": "Server management and platform firmware updates are coordinated through the management controller."
+        },
+        {
+          "relates_to": "Operating systems and hypervisors",
+          "relationship_type": "Compatibility",
+          "why_it_matters": "OS and hypervisor support must be checked against Dell support and vendor matrices before upgrades."
+        }
+      ],
+      "official_sources": [
+        {
+          "title": "PowerEdge R760 Installation and Service Manual",
+          "url": "https://www.dell.com/support/manuals/en-us/poweredge-r760/per760_ism_pub/safety-instructions?guid=guid-b85aa68d-c5c9-4ea1-8358-7388139bcfda&lang=en-us",
+          "source_type": "Official vendor docs"
+        },
+        {
+          "title": "Windows Server 2025 installation using Lifecycle Controller",
+          "url": "https://www.dell.com/support/manuals/en-us/microsoft-windows-server-2025/windows_pub_installation_guide_2025/install-windows-server-2025-by-using-dell-lifecycle-controller?guid=guid-e9b1a3ef-bfa6-4777-98a4-e17c3a37b40e&lang=en-us",
+          "source_type": "Official compatibility guide"
+        }
+      ],
+      "lifecycle_source": {
+        "url": "https://www.dell.com/support/product-details/en-us/product/poweredge-r760/overview",
+        "notes": "Needs Verification: a public model-specific end-of-service date was not verified in this catalog pass."
+      },
+      "security_sources": [
+        {
+          "title": "Dell Security Advisories, Notices and Resources",
+          "url": "https://www.dell.com/support/security/en-au",
+          "source_type": "Vendor bulletin"
+        }
+      ],
+      "confidence": "Medium",
+      "notes": "Hardware model identifier is listed because server hardware does not use software-style major versions."
+    },
+    {
+      "id": "dell-poweredge-r760xa",
+      "name": "PowerEdge R760xa",
+      "vendor": "Dell Technologies",
+      "category": "Servers",
+      "common_versions": [
+        "R760xa"
+      ],
+      "stack_layer": "Hardware",
+      "used_by": [
+        "Enterprise IT",
+        "AI Data Center",
+        "Telecom",
+        "System Integrator"
+      ],
+      "important_relationships": [
+        {
+          "relates_to": "NVIDIA and other supported GPUs",
+          "relationship_type": "Compatibility",
+          "why_it_matters": "GPU model, riser, power, cooling, and population rules can constrain accelerator upgrades."
+        },
+        {
+          "relates_to": "iDRAC9 and system BIOS",
+          "relationship_type": "Firmware requirement",
+          "why_it_matters": "Platform firmware should be evaluated together with GPU and OS driver changes."
+        }
+      ],
+      "official_sources": [
+        {
+          "title": "PowerEdge R760xa Installation and Service Manual",
+          "url": "https://www.dell.com/support/manuals/en-us/poweredge-r760xa/r760xa_ism_pub/about-this-document?guid=guid-bf9eed9e-52b2-4860-911b-954e25631b96&lang=en-us",
+          "source_type": "Official vendor docs"
+        },
+        {
+          "title": "PowerEdge R760xa GPU kit guidance",
+          "url": "https://www.dell.com/support/manuals/en-hk/oth-r760xa/r760xa_ism_pub/gpu-kit?guid=guid-8b34fee1-24be-4115-80f7-431b8f32aba7&lang=en-us",
+          "source_type": "Official compatibility guide"
+        }
+      ],
+      "lifecycle_source": {
+        "url": "https://www.dell.com/support/product-details/en-us/product/poweredge-r760xa/resources/manuals",
+        "notes": "Needs Verification: a public model-specific end-of-service date was not verified in this catalog pass."
+      },
+      "security_sources": [
+        {
+          "title": "Dell Security Advisories, Notices and Resources",
+          "url": "https://www.dell.com/support/security/en-au",
+          "source_type": "Vendor bulletin"
+        }
+      ],
+      "confidence": "High",
+      "notes": "Dell documentation should be used for exact GPU population and firmware requirements."
+    },
+    {
+      "id": "hpe-proliant-dl380-gen11",
+      "name": "ProLiant DL380 Gen11",
+      "vendor": "HPE",
+      "category": "Servers",
+      "common_versions": [
+        "Gen11"
+      ],
+      "stack_layer": "Hardware",
+      "used_by": [
+        "Enterprise IT",
+        "AI Data Center",
+        "System Integrator"
+      ],
+      "important_relationships": [
+        {
+          "relates_to": "HPE iLO 6",
+          "relationship_type": "Firmware requirement",
+          "why_it_matters": "Server firmware, health monitoring, and remote management are tied to the iLO generation."
+        },
+        {
+          "relates_to": "Operating systems and hypervisors",
+          "relationship_type": "Support matrix",
+          "why_it_matters": "OS and hypervisor certification should be checked before platform upgrades."
+        }
+      ],
+      "official_sources": [
+        {
+          "title": "HPE ProLiant DL380 Gen11 QuickSpecs",
+          "url": "https://www.hpe.com/us/en/collaterals/collateral.a50004307enw.html",
+          "source_type": "Official vendor docs"
+        },
+        {
+          "title": "HPE ProLiant DL380 Gen11 product page",
+          "url": "https://www.hpe.com/lamerica/en/compute/hpe-proliant-compute/dl380-gen11.html",
+          "source_type": "Official vendor docs"
+        }
+      ],
+      "lifecycle_source": {
+        "url": "https://support.hpe.com/",
+        "notes": "Needs Verification: a public model-specific support end date was not verified in this catalog pass."
+      },
+      "security_sources": [
+        {
+          "title": "HPE Security Bulletin Library",
+          "url": "https://support.hpe.com/connect/s/securitybulletinlibrary?language=en_US",
+          "source_type": "Vendor bulletin"
+        }
+      ],
+      "confidence": "High",
+      "notes": "Configuration support varies by CPU, storage controller, NIC, accelerator, and operating environment."
+    },
+    {
+      "id": "hpe-proliant-dl360-gen11",
+      "name": "ProLiant DL360 Gen11",
+      "vendor": "HPE",
+      "category": "Servers",
+      "common_versions": [
+        "Gen11"
+      ],
+      "stack_layer": "Hardware",
+      "used_by": [
+        "Enterprise IT",
+        "AI Data Center",
+        "System Integrator"
+      ],
+      "important_relationships": [
+        {
+          "relates_to": "HPE iLO 6",
+          "relationship_type": "Firmware requirement",
+          "why_it_matters": "Management firmware is part of the server lifecycle and upgrade path."
+        },
+        {
+          "relates_to": "PCIe and OCP adapters",
+          "relationship_type": "Compatibility",
+          "why_it_matters": "Adapter support depends on platform configuration and firmware."
+        }
+      ],
+      "official_sources": [
+        {
+          "title": "HPE ProLiant DL360 Gen11 QuickSpecs",
+          "url": "https://www.hpe.com/psnow/doc/a50004306enw",
+          "source_type": "Official vendor docs"
+        },
+        {
+          "title": "HPE ProLiant DL360 Gen11 product page",
+          "url": "https://www.hpe.com/us/en/compute/hpe-proliant-compute/dl360-gen11.html",
+          "source_type": "Official vendor docs"
+        }
+      ],
+      "lifecycle_source": {
+        "url": "https://support.hpe.com/connect/s/product?kmpmoid=1014696065&language=en_US&tab=manuals",
+        "notes": "Needs Verification: public model-specific support end date not verified."
+      },
+      "security_sources": [
+        {
+          "title": "HPE Security Bulletin Library",
+          "url": "https://support.hpe.com/connect/s/securitybulletinlibrary?language=en_US",
+          "source_type": "Vendor bulletin"
+        }
+      ],
+      "confidence": "High",
+      "notes": "Use QuickSpecs and HPE support documents for exact option support."
+    },
+    {
+      "id": "lenovo-thinksystem-sr650-v3",
+      "name": "ThinkSystem SR650 V3",
       "vendor": "Lenovo",
       "category": "Servers",
-      "common_versions": ["Firmware bundle 2026.1"],
+      "common_versions": [
+        "V3"
+      ],
       "stack_layer": "Hardware",
-      "confidence": "Needs Verification",
-      "notes": "Seed update entry. Replace with sourced compatibility/lifecycle records before production use."
+      "used_by": [
+        "Enterprise IT",
+        "AI Data Center",
+        "System Integrator"
+      ],
+      "important_relationships": [
+        {
+          "relates_to": "Lenovo XClarity Controller 2",
+          "relationship_type": "Firmware requirement",
+          "why_it_matters": "BMC and platform firmware changes can affect server management and component support."
+        },
+        {
+          "relates_to": "Operating systems and hypervisors",
+          "relationship_type": "Support matrix",
+          "why_it_matters": "Validated OS and hypervisor combinations should be checked before upgrades."
+        }
+      ],
+      "official_sources": [
+        {
+          "title": "ThinkSystem SR650 V3 Server Product Guide",
+          "url": "https://lenovopress.lenovo.com/lp1601-thinksystem-sr650-v3-server",
+          "source_type": "Official vendor docs"
+        },
+        {
+          "title": "ThinkSystem SR650 V3 family page",
+          "url": "https://lenovopress.lenovo.com/servers/thinksystem-v3/sr650-v3",
+          "source_type": "Official vendor docs"
+        }
+      ],
+      "lifecycle_source": {
+        "url": "https://lenovopress.lenovo.com/servers/thinksystem-v3/sr650-v3",
+        "notes": "Needs Verification: model-specific end-of-support date not verified."
+      },
+      "security_sources": [
+        {
+          "title": "Lenovo Product Security Advisories and Announcements",
+          "url": "https://support.lenovo.com/us/en/product_security/ps500001",
+          "source_type": "Vendor bulletin"
+        }
+      ],
+      "confidence": "High",
+      "notes": "Product guide is the primary evidence for supported components and configuration constraints."
     },
     {
-      "id": "supermicro-sys-221h-tnr",
-      "name": "Supermicro SYS-221H-TNR",
+      "id": "lenovo-thinksystem-sr630-v3",
+      "name": "ThinkSystem SR630 V3",
+      "vendor": "Lenovo",
+      "category": "Servers",
+      "common_versions": [
+        "V3"
+      ],
+      "stack_layer": "Hardware",
+      "used_by": [
+        "Enterprise IT",
+        "AI Data Center",
+        "System Integrator"
+      ],
+      "important_relationships": [
+        {
+          "relates_to": "Lenovo XClarity Controller 2",
+          "relationship_type": "Firmware requirement",
+          "why_it_matters": "Management controller and system firmware updates should be assessed together."
+        },
+        {
+          "relates_to": "PCIe adapters and storage options",
+          "relationship_type": "Compatibility",
+          "why_it_matters": "Supported options vary by chassis configuration and firmware."
+        }
+      ],
+      "official_sources": [
+        {
+          "title": "ThinkSystem SR630 V3 Server Product Guide",
+          "url": "https://lenovopress.lenovo.com/lp1600-thinksystem-sr630-v3-server",
+          "source_type": "Official vendor docs"
+        },
+        {
+          "title": "ThinkSystem SR630 V3 Datasheet",
+          "url": "https://lenovopress.lenovo.com/datasheet/ds0142-lenovo-thinksystem-sr630-v3",
+          "source_type": "Official vendor docs"
+        }
+      ],
+      "lifecycle_source": {
+        "url": "https://lenovopress.lenovo.com/servers/thinksystem-v3/sr630-v3",
+        "notes": "Needs Verification: model-specific end-of-support date not verified."
+      },
+      "security_sources": [
+        {
+          "title": "Lenovo Product Security Advisories and Announcements",
+          "url": "https://support.lenovo.com/us/en/product_security/ps500001",
+          "source_type": "Vendor bulletin"
+        }
+      ],
+      "confidence": "High",
+      "notes": "Use Lenovo Press guidance for exact configurations."
+    },
+    {
+      "id": "cisco-ucs-c240-m7",
+      "name": "UCS C240 M7",
+      "vendor": "Cisco",
+      "category": "Servers",
+      "common_versions": [
+        "M7"
+      ],
+      "stack_layer": "Hardware",
+      "used_by": [
+        "Enterprise IT",
+        "AI Data Center",
+        "System Integrator"
+      ],
+      "important_relationships": [
+        {
+          "relates_to": "Cisco Intersight and UCS management",
+          "relationship_type": "Integration",
+          "why_it_matters": "Management mode and firmware bundles affect operational lifecycle."
+        },
+        {
+          "relates_to": "Operating systems and hypervisors",
+          "relationship_type": "Compatibility",
+          "why_it_matters": "Cisco support matrices and vendor matrices govern supported combinations."
+        }
+      ],
+      "official_sources": [
+        {
+          "title": "Cisco UCS C240 M7 Rack Server Data Sheet",
+          "url": "https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c240-m7-rack-server-ds.html",
+          "source_type": "Official vendor docs"
+        },
+        {
+          "title": "Cisco UCS C240 M7 support page",
+          "url": "https://www.cisco.com/c/en/us/support/servers-unified-computing/ucs-c240-m7-rack-server/model.html",
+          "source_type": "Official vendor docs"
+        }
+      ],
+      "lifecycle_source": {
+        "url": "https://www.cisco.com/c/en/us/support/servers-unified-computing/ucs-c240-m7-rack-server/model.html",
+        "notes": "Needs Verification: end-of-sale or end-of-support notice should be checked for the exact PID."
+      },
+      "security_sources": [
+        {
+          "title": "Cisco Security Advisories",
+          "url": "https://sec.cloudapps.cisco.com/security/center/publicationListing.x",
+          "source_type": "PSIRT"
+        }
+      ],
+      "confidence": "High",
+      "notes": "Exact PID and management mode matter for firmware and support evidence."
+    },
+    {
+      "id": "cisco-ucs-c220-m7",
+      "name": "UCS C220 M7",
+      "vendor": "Cisco",
+      "category": "Servers",
+      "common_versions": [
+        "M7"
+      ],
+      "stack_layer": "Hardware",
+      "used_by": [
+        "Enterprise IT",
+        "AI Data Center",
+        "System Integrator"
+      ],
+      "important_relationships": [
+        {
+          "relates_to": "Cisco Intersight and UCS management",
+          "relationship_type": "Integration",
+          "why_it_matters": "Firmware and policy management depend on deployment mode."
+        },
+        {
+          "relates_to": "Operating systems and hypervisors",
+          "relationship_type": "Compatibility",
+          "why_it_matters": "Supported combinations should be verified before changes."
+        }
+      ],
+      "official_sources": [
+        {
+          "title": "Cisco UCS C220 M7 Rack Server Data Sheet",
+          "url": "https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c220-m7-rack-server-ds.html",
+          "source_type": "Official vendor docs"
+        },
+        {
+          "title": "Cisco UCS C220 M7 installation guide",
+          "url": "https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/c/hw/C220M7/install/b-c220-m7-installation-guide/m-specifications.html",
+          "source_type": "Official vendor docs"
+        }
+      ],
+      "lifecycle_source": {
+        "url": "https://www.cisco.com/c/en/us/support/servers-unified-computing/ucs-c220-m7-rack-server/model.html",
+        "notes": "Needs Verification: end-of-sale or end-of-support notice should be checked for the exact PID."
+      },
+      "security_sources": [
+        {
+          "title": "Cisco Security Advisories",
+          "url": "https://sec.cloudapps.cisco.com/security/center/publicationListing.x",
+          "source_type": "PSIRT"
+        }
+      ],
+      "confidence": "High",
+      "notes": "Exact PID and firmware bundle should be recorded in watched stacks."
+    },
+    {
+      "id": "supermicro-sys-821ge-tnhr",
+      "name": "SuperServer SYS-821GE-TNHR",
       "vendor": "Supermicro",
       "category": "Servers",
-      "common_versions": ["BIOS 2.x"],
+      "common_versions": [
+        "SYS-821GE-TNHR"
+      ],
       "stack_layer": "Hardware",
-      "confidence": "Needs Verification",
-      "notes": "Seed update entry for AI/data-center server discovery."
+      "used_by": [
+        "Enterprise IT",
+        "AI Data Center",
+        "Telecom",
+        "System Integrator"
+      ],
+      "important_relationships": [
+        {
+          "relates_to": "NVIDIA HGX H100 or H200 platform",
+          "relationship_type": "Compatibility",
+          "why_it_matters": "Accelerator platform, power, cooling, and firmware compatibility are central to system support."
+        },
+        {
+          "relates_to": "BIOS and BMC firmware",
+          "relationship_type": "Firmware requirement",
+          "why_it_matters": "Incorrect firmware selection can create upgrade risk."
+        }
+      ],
+      "official_sources": [
+        {
+          "title": "SYS-821GE-TNHR product page",
+          "url": "https://www.supermicro.com/en/products/system/gpu/8u/sys-821ge-tnhr",
+          "source_type": "Official vendor docs"
+        },
+        {
+          "title": "SYS-821GE-TNHR download center",
+          "url": "https://www.supermicro.com/en/support/resources/downloadcenter/SYS-821GE-TNHR",
+          "source_type": "Official compatibility guide"
+        }
+      ],
+      "lifecycle_source": {
+        "url": "https://www.supermicro.com/en/support/resources/downloadcenter/SYS-821GE-TNHR",
+        "notes": "Needs Verification: public model-specific end-of-support date not verified."
+      },
+      "security_sources": [
+        {
+          "title": "Supermicro Security Center",
+          "url": "https://www.supermicro.com/en/support/security_center",
+          "source_type": "Vendor bulletin"
+        }
+      ],
+      "confidence": "High",
+      "notes": "Use exact system SKU and board revision when correlating BIOS and BMC firmware."
     },
     {
-      "id": "amd-mi300x",
+      "id": "fujitsu-primergy-rx2540-m7",
+      "name": "PRIMERGY RX2540 M7",
+      "vendor": "Fujitsu",
+      "category": "Servers",
+      "common_versions": [
+        "M7"
+      ],
+      "stack_layer": "Hardware",
+      "used_by": [
+        "Enterprise IT",
+        "AI Data Center",
+        "System Integrator"
+      ],
+      "important_relationships": [
+        {
+          "relates_to": "ServerView and platform firmware",
+          "relationship_type": "Firmware requirement",
+          "why_it_matters": "Management and platform firmware should be assessed as a coordinated stack."
+        },
+        {
+          "relates_to": "Operating systems and hypervisors",
+          "relationship_type": "Compatibility",
+          "why_it_matters": "Support depends on validated platform and OS combinations."
+        }
+      ],
+      "official_sources": [
+        {
+          "title": "PRIMERGY RX2540 M7 Data Sheet",
+          "url": "https://sp.ts.fujitsu.com/dmsp/Publications/public/ds-py-RX2540M7.pdf",
+          "source_type": "Official vendor docs"
+        },
+        {
+          "title": "PRIMERGY RX2540 M7 documentation",
+          "url": "https://docs.ts.fujitsu.com/dl.aspx?id=53c150ee-8ae2-43a4-a9cd-f79d80b0d228",
+          "source_type": "Official vendor docs"
+        }
+      ],
+      "lifecycle_source": {
+        "url": "https://support.ts.fujitsu.com/",
+        "notes": "Needs Verification: public model-specific lifecycle date not verified."
+      },
+      "security_sources": [
+        {
+          "title": "Fujitsu PSIRT",
+          "url": "https://security.ts.fujitsu.com/",
+          "source_type": "PSIRT"
+        }
+      ],
+      "confidence": "Medium",
+      "notes": "Regional product and service status may differ; verify using the local Fujitsu support portal."
+    },
+    {
+      "id": "nvidia-h100",
+      "name": "NVIDIA H100",
+      "vendor": "NVIDIA",
+      "category": "GPUs & Accelerators",
+      "common_versions": [
+        "H100 PCIe",
+        "H100 SXM"
+      ],
+      "stack_layer": "Hardware",
+      "used_by": [
+        "Enterprise IT",
+        "AI Data Center",
+        "Telecom",
+        "System Integrator"
+      ],
+      "important_relationships": [
+        {
+          "relates_to": "NVIDIA Data Center GPU Driver",
+          "relationship_type": "Driver requirement",
+          "why_it_matters": "Driver branch and GPU support must match the OS and workload stack."
+        },
+        {
+          "relates_to": "Certified server systems",
+          "relationship_type": "Compatibility",
+          "why_it_matters": "System certification and platform qualification reduce hardware integration risk."
+        }
+      ],
+      "official_sources": [
+        {
+          "title": "NVIDIA Certified Systems",
+          "url": "https://docs.nvidia.com/certification-programs/latest/nvidia-certified-systems.html",
+          "source_type": "Official compatibility guide"
+        },
+        {
+          "title": "NVIDIA Data Center Driver Lifecycle",
+          "url": "https://docs.nvidia.com/datacenter/tesla/drivers/driver-lifecycle.html",
+          "source_type": "Official lifecycle docs"
+        }
+      ],
+      "lifecycle_source": {
+        "url": "https://docs.nvidia.com/datacenter/tesla/drivers/driver-lifecycle.html",
+        "notes": "Driver lifecycle is published by NVIDIA; product board lifecycle may require separate verification."
+      },
+      "security_sources": [
+        {
+          "title": "NVIDIA Product Security",
+          "url": "https://www.nvidia.com/en-us/product-security/",
+          "source_type": "PSIRT"
+        }
+      ],
+      "confidence": "High",
+      "notes": "Exact board form factor, OEM system qualification, driver branch, and CUDA stack should be tracked."
+    },
+    {
+      "id": "nvidia-h200",
+      "name": "NVIDIA H200",
+      "vendor": "NVIDIA",
+      "category": "GPUs & Accelerators",
+      "common_versions": [
+        "H200 SXM",
+        "H200 NVL"
+      ],
+      "stack_layer": "Hardware",
+      "used_by": [
+        "Enterprise IT",
+        "AI Data Center",
+        "Telecom",
+        "System Integrator"
+      ],
+      "important_relationships": [
+        {
+          "relates_to": "NVIDIA Data Center GPU Driver",
+          "relationship_type": "Driver requirement",
+          "why_it_matters": "Driver support and CUDA stack compatibility govern upgrades."
+        },
+        {
+          "relates_to": "Certified server systems",
+          "relationship_type": "Compatibility",
+          "why_it_matters": "Platform qualification is important for power, thermals, firmware, and support."
+        }
+      ],
+      "official_sources": [
+        {
+          "title": "NVIDIA Certified Systems",
+          "url": "https://docs.nvidia.com/certification-programs/latest/nvidia-certified-systems.html",
+          "source_type": "Official compatibility guide"
+        },
+        {
+          "title": "NVIDIA Data Center Driver Lifecycle",
+          "url": "https://docs.nvidia.com/datacenter/tesla/drivers/driver-lifecycle.html",
+          "source_type": "Official lifecycle docs"
+        }
+      ],
+      "lifecycle_source": {
+        "url": "https://docs.nvidia.com/datacenter/tesla/drivers/driver-lifecycle.html",
+        "notes": "Driver lifecycle is published by NVIDIA; product board lifecycle may require separate verification."
+      },
+      "security_sources": [
+        {
+          "title": "NVIDIA Product Security",
+          "url": "https://www.nvidia.com/en-us/product-security/",
+          "source_type": "PSIRT"
+        }
+      ],
+      "confidence": "High",
+      "notes": "Exact board form factor, OEM system qualification, driver branch, and CUDA stack should be tracked."
+    },
+    {
+      "id": "nvidia-a100",
+      "name": "NVIDIA A100",
+      "vendor": "NVIDIA",
+      "category": "GPUs & Accelerators",
+      "common_versions": [
+        "A100 PCIe",
+        "A100 SXM"
+      ],
+      "stack_layer": "Hardware",
+      "used_by": [
+        "Enterprise IT",
+        "AI Data Center",
+        "Telecom",
+        "System Integrator"
+      ],
+      "important_relationships": [
+        {
+          "relates_to": "NVIDIA Data Center GPU Driver",
+          "relationship_type": "Driver requirement",
+          "why_it_matters": "Supported driver branches and CUDA versions constrain upgrades."
+        },
+        {
+          "relates_to": "Hypervisors and GPU virtualization",
+          "relationship_type": "Compatibility",
+          "why_it_matters": "vGPU or passthrough support depends on the surrounding platform matrix."
+        }
+      ],
+      "official_sources": [
+        {
+          "title": "NVIDIA Certified Systems",
+          "url": "https://docs.nvidia.com/certification-programs/latest/nvidia-certified-systems.html",
+          "source_type": "Official compatibility guide"
+        },
+        {
+          "title": "NVIDIA Data Center Driver Lifecycle",
+          "url": "https://docs.nvidia.com/datacenter/tesla/drivers/driver-lifecycle.html",
+          "source_type": "Official lifecycle docs"
+        }
+      ],
+      "lifecycle_source": {
+        "url": "https://docs.nvidia.com/datacenter/tesla/drivers/driver-lifecycle.html",
+        "notes": "Driver lifecycle is published by NVIDIA; product board lifecycle may require separate verification."
+      },
+      "security_sources": [
+        {
+          "title": "NVIDIA Product Security",
+          "url": "https://www.nvidia.com/en-us/product-security/",
+          "source_type": "PSIRT"
+        }
+      ],
+      "confidence": "High",
+      "notes": "Exact board form factor, OEM system qualification, driver branch, and CUDA stack should be tracked."
+    },
+    {
+      "id": "nvidia-l40s",
+      "name": "NVIDIA L40S",
+      "vendor": "NVIDIA",
+      "category": "GPUs & Accelerators",
+      "common_versions": [
+        "L40S"
+      ],
+      "stack_layer": "Hardware",
+      "used_by": [
+        "Enterprise IT",
+        "AI Data Center",
+        "Telecom",
+        "System Integrator"
+      ],
+      "important_relationships": [
+        {
+          "relates_to": "NVIDIA Data Center GPU Driver",
+          "relationship_type": "Driver requirement",
+          "why_it_matters": "Driver and CUDA compatibility must be checked."
+        },
+        {
+          "relates_to": "Server hardware",
+          "relationship_type": "Compatibility",
+          "why_it_matters": "Power, slot, cooling, and firmware support must be validated."
+        }
+      ],
+      "official_sources": [
+        {
+          "title": "NVIDIA Certified Systems",
+          "url": "https://docs.nvidia.com/certification-programs/latest/nvidia-certified-systems.html",
+          "source_type": "Official compatibility guide"
+        },
+        {
+          "title": "NVIDIA Data Center Driver Lifecycle",
+          "url": "https://docs.nvidia.com/datacenter/tesla/drivers/driver-lifecycle.html",
+          "source_type": "Official lifecycle docs"
+        }
+      ],
+      "lifecycle_source": {
+        "url": "https://docs.nvidia.com/datacenter/tesla/drivers/driver-lifecycle.html",
+        "notes": "Driver lifecycle is published by NVIDIA; product board lifecycle may require separate verification."
+      },
+      "security_sources": [
+        {
+          "title": "NVIDIA Product Security",
+          "url": "https://www.nvidia.com/en-us/product-security/",
+          "source_type": "PSIRT"
+        }
+      ],
+      "confidence": "High",
+      "notes": "Exact board form factor, OEM system qualification, driver branch, and CUDA stack should be tracked."
+    },
+    {
+      "id": "nvidia-rtx-6000-ada",
+      "name": "NVIDIA RTX 6000 Ada Generation",
+      "vendor": "NVIDIA",
+      "category": "GPUs & Accelerators",
+      "common_versions": [
+        "RTX 6000 Ada Generation"
+      ],
+      "stack_layer": "Hardware",
+      "used_by": [
+        "Enterprise IT",
+        "AI Data Center",
+        "Telecom",
+        "System Integrator"
+      ],
+      "important_relationships": [
+        {
+          "relates_to": "NVIDIA driver branches",
+          "relationship_type": "Driver requirement",
+          "why_it_matters": "Workstation or data center deployment support depends on the driver branch and OS."
+        },
+        {
+          "relates_to": "Server or workstation platform",
+          "relationship_type": "Compatibility",
+          "why_it_matters": "PCIe power, cooling, and OEM qualification matter."
+        }
+      ],
+      "official_sources": [
+        {
+          "title": "NVIDIA Certified Systems",
+          "url": "https://docs.nvidia.com/certification-programs/latest/nvidia-certified-systems.html",
+          "source_type": "Official compatibility guide"
+        },
+        {
+          "title": "NVIDIA Data Center Driver Lifecycle",
+          "url": "https://docs.nvidia.com/datacenter/tesla/drivers/driver-lifecycle.html",
+          "source_type": "Official lifecycle docs"
+        }
+      ],
+      "lifecycle_source": {
+        "url": "https://docs.nvidia.com/datacenter/tesla/drivers/driver-lifecycle.html",
+        "notes": "Driver lifecycle is published by NVIDIA; product board lifecycle may require separate verification."
+      },
+      "security_sources": [
+        {
+          "title": "NVIDIA Product Security",
+          "url": "https://www.nvidia.com/en-us/product-security/",
+          "source_type": "PSIRT"
+        }
+      ],
+      "confidence": "High",
+      "notes": "Exact board form factor, OEM system qualification, driver branch, and CUDA stack should be tracked."
+    },
+    {
+      "id": "amd-instinct-mi300x",
       "name": "AMD Instinct MI300X",
       "vendor": "AMD",
       "category": "GPUs & Accelerators",
-      "common_versions": ["ROCm 6.x"],
+      "common_versions": [
+        "MI300X"
+      ],
       "stack_layer": "Hardware",
-      "confidence": "Needs Verification",
-      "notes": "Seed update entry for accelerator stack discovery."
+      "used_by": [
+        "Enterprise IT",
+        "AI Data Center",
+        "Telecom",
+        "System Integrator"
+      ],
+      "important_relationships": [
+        {
+          "relates_to": "AMD ROCm",
+          "relationship_type": "Driver requirement",
+          "why_it_matters": "ROCm and supported OS combinations govern the accelerator software stack."
+        },
+        {
+          "relates_to": "Qualified server platforms",
+          "relationship_type": "Compatibility",
+          "why_it_matters": "Platform power, firmware, and topology must be validated."
+        }
+      ],
+      "official_sources": [
+        {
+          "title": "AMD Instinct MI300X product page",
+          "url": "https://www.amd.com/en/products/accelerators/instinct/mi300/mi300x.html",
+          "source_type": "Official vendor docs"
+        },
+        {
+          "title": "ROCm Compatibility Matrix",
+          "url": "https://rocm.docs.amd.com/en/latest/compatibility/compatibility-matrix.html",
+          "source_type": "Official compatibility guide"
+        }
+      ],
+      "lifecycle_source": {
+        "url": "https://rocm.docs.amd.com/en/latest/compatibility/compatibility-matrix.html",
+        "notes": "Software stack lifecycle and compatibility are documented; board-level lifecycle Needs Verification."
+      },
+      "security_sources": [
+        {
+          "title": "AMD Product Security",
+          "url": "https://www.amd.com/en/resources/product-security.html",
+          "source_type": "PSIRT"
+        }
+      ],
+      "confidence": "High",
+      "notes": "Track exact ROCm, amdgpu, kernel, OS, and server platform."
+    },
+    {
+      "id": "intel-gaudi-2",
+      "name": "Intel Gaudi 2",
+      "vendor": "Intel",
+      "category": "GPUs & Accelerators",
+      "common_versions": [
+        "Gaudi 2"
+      ],
+      "stack_layer": "Hardware",
+      "used_by": [
+        "Enterprise IT",
+        "AI Data Center",
+        "Telecom",
+        "System Integrator"
+      ],
+      "important_relationships": [
+        {
+          "relates_to": "Intel Gaudi software stack",
+          "relationship_type": "Driver requirement",
+          "why_it_matters": "Driver and software package versions must match supported OS and framework combinations."
+        },
+        {
+          "relates_to": "Server platform",
+          "relationship_type": "Compatibility",
+          "why_it_matters": "Qualified platform and firmware combinations should be checked."
+        }
+      ],
+      "official_sources": [
+        {
+          "title": "Intel Gaudi product page",
+          "url": "https://www.intel.com/content/www/us/en/products/details/processors/ai-accelerators/gaudi.html",
+          "source_type": "Official vendor docs"
+        },
+        {
+          "title": "Intel Gaudi Documentation",
+          "url": "https://docs.habana.ai/en/latest/",
+          "source_type": "Official compatibility guide"
+        }
+      ],
+      "lifecycle_source": {
+        "url": "https://docs.habana.ai/en/latest/",
+        "notes": "Needs Verification: product-specific hardware lifecycle date not verified."
+      },
+      "security_sources": [
+        {
+          "title": "Intel Product Security Center",
+          "url": "https://www.intel.com/content/www/us/en/security-center/default.html",
+          "source_type": "PSIRT"
+        }
+      ],
+      "confidence": "Medium",
+      "notes": "Use Intel Gaudi documentation for exact software and framework compatibility."
     },
     {
       "id": "intel-gaudi-3",
       "name": "Intel Gaudi 3",
       "vendor": "Intel",
       "category": "GPUs & Accelerators",
-      "common_versions": ["SynapseAI 1.x"],
+      "common_versions": [
+        "Gaudi 3"
+      ],
       "stack_layer": "Hardware",
-      "confidence": "Needs Verification",
-      "notes": "Seed update entry for accelerator stack discovery."
+      "used_by": [
+        "Enterprise IT",
+        "AI Data Center",
+        "Telecom",
+        "System Integrator"
+      ],
+      "important_relationships": [
+        {
+          "relates_to": "Intel Gaudi software stack",
+          "relationship_type": "Driver requirement",
+          "why_it_matters": "Driver and software package versions must match supported OS and framework combinations."
+        },
+        {
+          "relates_to": "Server platform",
+          "relationship_type": "Compatibility",
+          "why_it_matters": "Qualified platform and firmware combinations should be checked."
+        }
+      ],
+      "official_sources": [
+        {
+          "title": "Intel Gaudi product page",
+          "url": "https://www.intel.com/content/www/us/en/products/details/processors/ai-accelerators/gaudi.html",
+          "source_type": "Official vendor docs"
+        },
+        {
+          "title": "Intel Gaudi Documentation",
+          "url": "https://docs.habana.ai/en/latest/",
+          "source_type": "Official compatibility guide"
+        }
+      ],
+      "lifecycle_source": {
+        "url": "https://docs.habana.ai/en/latest/",
+        "notes": "Needs Verification: product-specific hardware lifecycle date not verified."
+      },
+      "security_sources": [
+        {
+          "title": "Intel Product Security Center",
+          "url": "https://www.intel.com/content/www/us/en/security-center/default.html",
+          "source_type": "PSIRT"
+        }
+      ],
+      "confidence": "Medium",
+      "notes": "Use Intel Gaudi documentation for exact software and framework compatibility."
+    },
+    {
+      "id": "vmware-vsphere-esxi",
+      "name": "VMware vSphere / ESXi",
+      "vendor": "Broadcom VMware",
+      "category": "Virtualization",
+      "common_versions": [
+        "8.0"
+      ],
+      "stack_layer": "Platform",
+      "used_by": [
+        "MSP",
+        "Enterprise IT",
+        "Telecom",
+        "Financial Services",
+        "System Integrator"
+      ],
+      "important_relationships": [
+        {
+          "relates_to": "vCenter Server",
+          "relationship_type": "Dependency",
+          "why_it_matters": "vCenter and ESXi interoperability must be validated before upgrades."
+        },
+        {
+          "relates_to": "Server hardware, NIC and storage drivers",
+          "relationship_type": "Compatibility",
+          "why_it_matters": "The VMware compatibility ecosystem governs supported hardware and driver combinations."
+        }
+      ],
+      "official_sources": [
+        {
+          "title": "VMware vSphere 8 Release Notes",
+          "url": "https://techdocs.broadcom.com/us/en/vmware-cis/vsphere/vsphere/8-0/release-notes/vmware-vsphere-80-release-notes.html",
+          "source_type": "Official vendor docs"
+        },
+        {
+          "title": "VMware ESXi 8.0 Update 3 Release Notes",
+          "url": "https://techdocs.broadcom.com/us/en/vmware-cis/vsphere/vsphere/8-0/release-notes/esxi-update-and-patch-release-notes/vsphere-esxi-803-release-notes.html",
+          "source_type": "Official compatibility guide"
+        }
+      ],
+      "lifecycle_source": {
+        "url": "https://support.broadcom.com/",
+        "notes": "Broadcom product lifecycle and support entitlements should be checked for the exact release."
+      },
+      "security_sources": [
+        {
+          "title": "Broadcom Security Advisories",
+          "url": "https://support.broadcom.com/web/ecx/security-advisory",
+          "source_type": "Vendor bulletin"
+        }
+      ],
+      "confidence": "High",
+      "notes": "Hardware compatibility should be verified with Broadcom and OEM matrices; exact lifecycle may depend on support entitlement."
+    },
+    {
+      "id": "vmware-vcenter-server",
+      "name": "VMware vCenter Server",
+      "vendor": "Broadcom VMware",
+      "category": "Virtualization",
+      "common_versions": [
+        "8.0"
+      ],
+      "stack_layer": "Platform",
+      "used_by": [
+        "MSP",
+        "Enterprise IT",
+        "Telecom",
+        "Financial Services",
+        "System Integrator"
+      ],
+      "important_relationships": [
+        {
+          "relates_to": "VMware ESXi",
+          "relationship_type": "Compatibility",
+          "why_it_matters": "vCenter and ESXi version interoperability constrains upgrade order."
+        },
+        {
+          "relates_to": "Plugins and backup products",
+          "relationship_type": "Upgrade impact",
+          "why_it_matters": "Extensions and backup integrations can fail after API or certificate changes."
+        }
+      ],
+      "official_sources": [
+        {
+          "title": "VMware vSphere 8 Release Notes",
+          "url": "https://techdocs.broadcom.com/us/en/vmware-cis/vsphere/vsphere/8-0/release-notes/vmware-vsphere-80-release-notes.html",
+          "source_type": "Official vendor docs"
+        }
+      ],
+      "lifecycle_source": {
+        "url": "https://support.broadcom.com/",
+        "notes": "Check exact vCenter release lifecycle in Broadcom support."
+      },
+      "security_sources": [
+        {
+          "title": "Broadcom Security Advisories",
+          "url": "https://support.broadcom.com/web/ecx/security-advisory",
+          "source_type": "Vendor bulletin"
+        }
+      ],
+      "confidence": "Medium",
+      "notes": "Record exact build number; major version alone is insufficient for patch and advisory matching."
+    },
+    {
+      "id": "proxmox-ve",
+      "name": "Proxmox VE",
+      "vendor": "Proxmox Server Solutions",
+      "category": "Virtualization",
+      "common_versions": [
+        "8.x",
+        "9.x"
+      ],
+      "stack_layer": "Platform",
+      "used_by": [
+        "MSP",
+        "Enterprise IT",
+        "System Integrator"
+      ],
+      "important_relationships": [
+        {
+          "relates_to": "Linux kernel, QEMU and LXC",
+          "relationship_type": "Dependency",
+          "why_it_matters": "Platform upgrades can change kernel, virtualization, and container components together."
+        },
+        {
+          "relates_to": "Ceph",
+          "relationship_type": "Compatibility",
+          "why_it_matters": "Integrated Ceph support depends on compatible Proxmox and Ceph release combinations."
+        }
+      ],
+      "official_sources": [
+        {
+          "title": "Proxmox VE Documentation",
+          "url": "https://pve.proxmox.com/",
+          "source_type": "Official vendor docs"
+        },
+        {
+          "title": "Proxmox VE Roadmap",
+          "url": "https://pve.proxmox.com/wiki/Roadmap",
+          "source_type": "Official lifecycle docs"
+        }
+      ],
+      "lifecycle_source": {
+        "url": "https://pve.proxmox.com/wiki/Roadmap",
+        "notes": "Roadmap and release history are public; a separate formal lifecycle page was not verified."
+      },
+      "security_sources": [
+        {
+          "title": "NIST National Vulnerability Database",
+          "url": "https://nvd.nist.gov/",
+          "source_type": "NVD"
+        }
+      ],
+      "confidence": "Medium",
+      "notes": "Exact package versions and Debian base matter; lifecycle policy Needs Verification where not explicit. No dedicated Proxmox security advisory index was verified in this pass; use NVD as a secondary authoritative source and verify vendor notices before recommendations."
+    },
+    {
+      "id": "microsoft-hyper-v",
+      "name": "Microsoft Hyper-V",
+      "vendor": "Microsoft",
+      "category": "Virtualization",
+      "common_versions": [
+        "Windows Server 2022",
+        "Windows Server 2025"
+      ],
+      "stack_layer": "Platform",
+      "used_by": [
+        "MSP",
+        "Enterprise IT",
+        "Telecom",
+        "Financial Services",
+        "System Integrator"
+      ],
+      "important_relationships": [
+        {
+          "relates_to": "Windows Server",
+          "relationship_type": "Dependency",
+          "why_it_matters": "Hyper-V lifecycle follows the host Windows Server release."
+        },
+        {
+          "relates_to": "Guest operating systems and hardware",
+          "relationship_type": "Compatibility",
+          "why_it_matters": "Guest support and certified hardware should be checked before upgrades."
+        }
+      ],
+      "official_sources": [
+        {
+          "title": "Hyper-V documentation",
+          "url": "https://learn.microsoft.com/en-us/windows-server/virtualization/hyper-v/",
+          "source_type": "Official vendor docs"
+        },
+        {
+          "title": "Windows Server Catalog",
+          "url": "https://www.windowsservercatalog.com/",
+          "source_type": "Official compatibility guide"
+        }
+      ],
+      "lifecycle_source": {
+        "url": "https://learn.microsoft.com/en-us/lifecycle/",
+        "notes": "Hyper-V support should be evaluated through the lifecycle of the hosting Windows Server release."
+      },
+      "security_sources": [
+        {
+          "title": "Microsoft Security Response Center",
+          "url": "https://msrc.microsoft.com/update-guide/",
+          "source_type": "Vendor bulletin"
+        }
+      ],
+      "confidence": "High",
+      "notes": "Track the Windows Server edition, build, cumulative update, and hardware certification."
     },
     {
       "id": "nutanix-ahv",
       "name": "Nutanix AHV",
       "vendor": "Nutanix",
       "category": "Virtualization",
-      "common_versions": ["AOS 6.x"],
+      "common_versions": [
+        "AHV on supported AOS releases"
+      ],
       "stack_layer": "Platform",
-      "confidence": "Needs Verification",
-      "notes": "Seed update entry for virtualization compatibility discovery."
+      "used_by": [
+        "MSP",
+        "Enterprise IT",
+        "Telecom",
+        "Financial Services",
+        "System Integrator"
+      ],
+      "important_relationships": [
+        {
+          "relates_to": "Nutanix AOS",
+          "relationship_type": "Dependency",
+          "why_it_matters": "AHV is delivered with the Nutanix platform and compatibility depends on AOS and platform versions."
+        },
+        {
+          "relates_to": "Guest operating systems",
+          "relationship_type": "Support matrix",
+          "why_it_matters": "Guest OS support should be checked in Nutanix matrices."
+        }
+      ],
+      "official_sources": [
+        {
+          "title": "Nutanix Compatibility and Interoperability Matrix",
+          "url": "https://portal.nutanix.com/page/documents/compatibility-interoperability-matrix/software",
+          "source_type": "Official compatibility guide"
+        },
+        {
+          "title": "Nutanix Guest OS Compatibility Matrix",
+          "url": "https://portal.nutanix.com/page/documents/compatibility-interoperability-matrix/guestos",
+          "source_type": "Official compatibility guide"
+        }
+      ],
+      "lifecycle_source": {
+        "url": "https://portal.nutanix.com/page/documents/compatibility-interoperability-matrix/software",
+        "notes": "Lifecycle status should be verified for the exact AOS/AHV release in the Nutanix portal."
+      },
+      "security_sources": [
+        {
+          "title": "Nutanix Security Advisories",
+          "url": "https://portal.nutanix.com/page/documents/security-advisories/list/",
+          "source_type": "Vendor bulletin"
+        }
+      ],
+      "confidence": "High",
+      "notes": "Exact AHV and AOS build numbers should be stored together."
     },
     {
-      "id": "openshift",
-      "name": "Red Hat OpenShift",
+      "id": "linux-kvm",
+      "name": "KVM",
+      "vendor": "Linux Kernel community",
+      "category": "Virtualization",
+      "common_versions": [
+        "Kernel-integrated KVM"
+      ],
+      "stack_layer": "Platform",
+      "used_by": [
+        "MSP",
+        "Enterprise IT",
+        "Telecom",
+        "Financial Services",
+        "System Integrator"
+      ],
+      "important_relationships": [
+        {
+          "relates_to": "Linux kernel",
+          "relationship_type": "Dependency",
+          "why_it_matters": "KVM is part of the Linux kernel, so host kernel lifecycle governs fixes and hardware enablement."
+        },
+        {
+          "relates_to": "QEMU",
+          "relationship_type": "Integration",
+          "why_it_matters": "Userspace device emulation and machine types can affect migration compatibility."
+        }
+      ],
+      "official_sources": [
+        {
+          "title": "Linux kernel KVM documentation",
+          "url": "https://docs.kernel.org/virt/kvm/index.html",
+          "source_type": "Official vendor docs"
+        },
+        {
+          "title": "Linux kernel releases",
+          "url": "https://www.kernel.org/",
+          "source_type": "Official lifecycle docs"
+        }
+      ],
+      "lifecycle_source": {
+        "url": "https://www.kernel.org/category/releases.html",
+        "notes": "Lifecycle depends on the selected kernel branch and distribution support policy."
+      },
+      "security_sources": [
+        {
+          "title": "NVD",
+          "url": "https://nvd.nist.gov/",
+          "source_type": "NVD"
+        }
+      ],
+      "confidence": "Medium",
+      "notes": "For enterprise support, also track the distribution package and QEMU version; upstream KVM alone is insufficient."
+    },
+    {
+      "id": "xenserver",
+      "name": "XenServer",
+      "vendor": "Cloud Software Group",
+      "category": "Virtualization",
+      "common_versions": [
+        "8.4",
+        "9 release stream"
+      ],
+      "stack_layer": "Platform",
+      "used_by": [
+        "MSP",
+        "Enterprise IT",
+        "Telecom",
+        "Financial Services",
+        "System Integrator"
+      ],
+      "important_relationships": [
+        {
+          "relates_to": "XenCenter",
+          "relationship_type": "Compatibility",
+          "why_it_matters": "Management console compatibility and host support should be checked before upgrades."
+        },
+        {
+          "relates_to": "Server hardware and guest OS",
+          "relationship_type": "Support matrix",
+          "why_it_matters": "Hardware and guest support constrain deployment and upgrade paths."
+        }
+      ],
+      "official_sources": [
+        {
+          "title": "XenServer 8 update documentation",
+          "url": "https://docs.xenserver.com/en-us/xenserver/8/update.html",
+          "source_type": "Official vendor docs"
+        },
+        {
+          "title": "XenServer technical FAQ",
+          "url": "https://docs.xenserver.com/en-us/xenserver/8/technical-overview/faq.html",
+          "source_type": "Official compatibility guide"
+        }
+      ],
+      "lifecycle_source": {
+        "url": "https://www.xenserver.com/resources/lifecycle",
+        "notes": "XenServer publishes lifecycle information and a release stream model."
+      },
+      "security_sources": [
+        {
+          "title": "Citrix/XenServer Security Bulletins",
+          "url": "https://support.citrix.com/securitybulletins",
+          "source_type": "Vendor bulletin"
+        }
+      ],
+      "confidence": "High",
+      "notes": "Track exact host release and update channel state."
+    },
+    {
+      "id": "ubuntu-server",
+      "name": "Ubuntu Server",
+      "vendor": "Canonical",
+      "category": "Operating Systems",
+      "common_versions": [
+        "22.04 LTS",
+        "24.04 LTS"
+      ],
+      "stack_layer": "OS",
+      "used_by": [
+        "MSP",
+        "Enterprise IT",
+        "Telecom",
+        "Financial Services",
+        "System Integrator"
+      ],
+      "important_relationships": [
+        {
+          "relates_to": "Kernel and hardware enablement stack",
+          "relationship_type": "Dependency",
+          "why_it_matters": "Kernel changes can affect drivers, storage, networking, and GPU compatibility."
+        },
+        {
+          "relates_to": "Kubernetes, Docker and vendor agents",
+          "relationship_type": "Upgrade impact",
+          "why_it_matters": "Third-party agents must support the target Ubuntu release."
+        }
+      ],
+      "official_sources": [
+        {
+          "title": "Ubuntu Release Cycle",
+          "url": "https://ubuntu.com/about/release-cycle",
+          "source_type": "Official lifecycle docs"
+        }
+      ],
+      "lifecycle_source": {
+        "url": "https://ubuntu.com/about/release-cycle",
+        "notes": "Canonical publishes standard and extended support periods for Ubuntu releases."
+      },
+      "security_sources": [
+        {
+          "title": "Ubuntu Security Notices",
+          "url": "https://ubuntu.com/security/notices",
+          "source_type": "Vendor bulletin"
+        }
+      ],
+      "confidence": "High",
+      "notes": "Point releases and kernel tracks should be recorded for compatibility analysis."
+    },
+    {
+      "id": "red-hat-enterprise-linux",
+      "name": "Red Hat Enterprise Linux",
+      "vendor": "Red Hat",
+      "category": "Operating Systems",
+      "common_versions": [
+        "8",
+        "9",
+        "10"
+      ],
+      "stack_layer": "OS",
+      "used_by": [
+        "MSP",
+        "Enterprise IT",
+        "Telecom",
+        "Financial Services",
+        "System Integrator"
+      ],
+      "important_relationships": [
+        {
+          "relates_to": "Kernel and kABI-dependent drivers",
+          "relationship_type": "Driver requirement",
+          "why_it_matters": "Kernel and driver compatibility can affect storage, networking, and accelerators."
+        },
+        {
+          "relates_to": "Enterprise applications",
+          "relationship_type": "Support matrix",
+          "why_it_matters": "Application vendors often certify specific RHEL minors and architectures."
+        }
+      ],
+      "official_sources": [
+        {
+          "title": "Red Hat Enterprise Linux Life Cycle",
+          "url": "https://access.redhat.com/support/policy/updates/errata",
+          "source_type": "Official lifecycle docs"
+        },
+        {
+          "title": "Red Hat Product Life Cycles",
+          "url": "https://access.redhat.com/product-life-cycles",
+          "source_type": "Official lifecycle docs"
+        }
+      ],
+      "lifecycle_source": {
+        "url": "https://access.redhat.com/support/policy/updates/errata",
+        "notes": "RHEL lifecycle stages and maintenance policies are published by Red Hat."
+      },
+      "security_sources": [
+        {
+          "title": "Red Hat Security Updates",
+          "url": "https://access.redhat.com/security/security-updates/",
+          "source_type": "Vendor bulletin"
+        }
+      ],
+      "confidence": "High",
+      "notes": "Track major, minor, architecture, kernel, and enabled repositories."
+    },
+    {
+      "id": "rocky-linux",
+      "name": "Rocky Linux",
+      "vendor": "Rocky Enterprise Software Foundation",
+      "category": "Operating Systems",
+      "common_versions": [
+        "8",
+        "9",
+        "10"
+      ],
+      "stack_layer": "OS",
+      "used_by": [
+        "MSP",
+        "Enterprise IT",
+        "Telecom",
+        "Financial Services",
+        "System Integrator"
+      ],
+      "important_relationships": [
+        {
+          "relates_to": "Enterprise Linux package ecosystem",
+          "relationship_type": "Compatibility",
+          "why_it_matters": "Package ABI and repository choices affect third-party certification."
+        },
+        {
+          "relates_to": "Kernel modules and drivers",
+          "relationship_type": "Driver requirement",
+          "why_it_matters": "Out-of-tree modules can break across kernel updates."
+        }
+      ],
+      "official_sources": [
+        {
+          "title": "Rocky Linux Version Guide",
+          "url": "https://wiki.rockylinux.org/rocky/version/",
+          "source_type": "Official lifecycle docs"
+        }
+      ],
+      "lifecycle_source": {
+        "url": "https://wiki.rockylinux.org/rocky/version/",
+        "notes": "Version and support information is published in the Rocky Linux wiki."
+      },
+      "security_sources": [
+        {
+          "title": "Rocky Linux CVE Hygiene Guide",
+          "url": "https://docs.rockylinux.org/10/guides/security/cve_hygiene/",
+          "source_type": "Vendor bulletin"
+        }
+      ],
+      "confidence": "High",
+      "notes": "Third-party vendors may certify RHEL but not Rocky Linux; certification must be checked separately."
+    },
+    {
+      "id": "almalinux-os",
+      "name": "AlmaLinux OS",
+      "vendor": "AlmaLinux OS Foundation",
+      "category": "Operating Systems",
+      "common_versions": [
+        "8",
+        "9",
+        "10"
+      ],
+      "stack_layer": "OS",
+      "used_by": [
+        "MSP",
+        "Enterprise IT",
+        "Telecom",
+        "Financial Services",
+        "System Integrator"
+      ],
+      "important_relationships": [
+        {
+          "relates_to": "Enterprise Linux package ecosystem",
+          "relationship_type": "Compatibility",
+          "why_it_matters": "Repository and ABI compatibility affect application support."
+        },
+        {
+          "relates_to": "Kernel modules and drivers",
+          "relationship_type": "Driver requirement",
+          "why_it_matters": "Out-of-tree drivers require validation after kernel updates."
+        }
+      ],
+      "official_sources": [
+        {
+          "title": "AlmaLinux Security",
+          "url": "https://almalinux.org/security/",
+          "source_type": "Official vendor docs"
+        },
+        {
+          "title": "AlmaLinux Errata",
+          "url": "https://wiki.almalinux.org/documentation/errata.html",
+          "source_type": "Official security advisory"
+        }
+      ],
+      "lifecycle_source": {
+        "url": "https://wiki.almalinux.org/release-notes/",
+        "notes": "Needs Verification: exact lifecycle page should be verified for each major release."
+      },
+      "security_sources": [
+        {
+          "title": "AlmaLinux Security",
+          "url": "https://almalinux.org/security/",
+          "source_type": "Vendor bulletin"
+        }
+      ],
+      "confidence": "Medium",
+      "notes": "Vendor application certification may differ from RHEL; verify explicitly."
+    },
+    {
+      "id": "debian",
+      "name": "Debian",
+      "vendor": "Debian Project",
+      "category": "Operating Systems",
+      "common_versions": [
+        "12",
+        "13"
+      ],
+      "stack_layer": "OS",
+      "used_by": [
+        "MSP",
+        "Enterprise IT",
+        "System Integrator"
+      ],
+      "important_relationships": [
+        {
+          "relates_to": "Linux kernel and package repositories",
+          "relationship_type": "Dependency",
+          "why_it_matters": "Release and repository selection govern security and package compatibility."
+        },
+        {
+          "relates_to": "Container and application runtimes",
+          "relationship_type": "Upgrade impact",
+          "why_it_matters": "Major upgrades can change runtime and library versions."
+        }
+      ],
+      "official_sources": [
+        {
+          "title": "Debian Releases",
+          "url": "https://wiki.debian.org/DebianReleases",
+          "source_type": "Official lifecycle docs"
+        }
+      ],
+      "lifecycle_source": {
+        "url": "https://wiki.debian.org/DebianReleases",
+        "notes": "Debian release status and support information are published by the project."
+      },
+      "security_sources": [
+        {
+          "title": "Debian Security",
+          "url": "https://www.debian.org/security/",
+          "source_type": "Vendor bulletin"
+        }
+      ],
+      "confidence": "High",
+      "notes": "Track stable release, point release, architecture, and enabled repositories."
+    },
+    {
+      "id": "suse-linux-enterprise-server",
+      "name": "SUSE Linux Enterprise Server",
+      "vendor": "SUSE",
+      "category": "Operating Systems",
+      "common_versions": [
+        "15 SP6",
+        "15 SP7"
+      ],
+      "stack_layer": "OS",
+      "used_by": [
+        "MSP",
+        "Enterprise IT",
+        "Telecom",
+        "Financial Services",
+        "System Integrator"
+      ],
+      "important_relationships": [
+        {
+          "relates_to": "Kernel modules and drivers",
+          "relationship_type": "Driver requirement",
+          "why_it_matters": "Service pack and kernel changes can affect hardware and third-party modules."
+        },
+        {
+          "relates_to": "SAP and enterprise applications",
+          "relationship_type": "Support matrix",
+          "why_it_matters": "Application vendors often certify specific SLES service packs."
+        }
+      ],
+      "official_sources": [
+        {
+          "title": "SUSE Product Lifecycle",
+          "url": "https://www.suse.com/lifecycle/",
+          "source_type": "Official lifecycle docs"
+        },
+        {
+          "title": "SUSE Product Lifecycle Policy",
+          "url": "https://www.suse.com/support/policy-products/",
+          "source_type": "Official lifecycle docs"
+        }
+      ],
+      "lifecycle_source": {
+        "url": "https://www.suse.com/lifecycle/",
+        "notes": "SUSE publishes lifecycle status by product and version."
+      },
+      "security_sources": [
+        {
+          "title": "SUSE Security Updates",
+          "url": "https://www.suse.com/support/update/",
+          "source_type": "Vendor bulletin"
+        }
+      ],
+      "confidence": "High",
+      "notes": "Track service pack, architecture, kernel, and LTSS entitlement where applicable."
+    },
+    {
+      "id": "windows-server",
+      "name": "Windows Server",
+      "vendor": "Microsoft",
+      "category": "Operating Systems",
+      "common_versions": [
+        "2022",
+        "2025"
+      ],
+      "stack_layer": "OS",
+      "used_by": [
+        "MSP",
+        "Enterprise IT",
+        "Telecom",
+        "Financial Services",
+        "System Integrator"
+      ],
+      "important_relationships": [
+        {
+          "relates_to": "Hyper-V",
+          "relationship_type": "Integration",
+          "why_it_matters": "Host OS lifecycle and cumulative updates affect virtualization."
+        },
+        {
+          "relates_to": "Server hardware and drivers",
+          "relationship_type": "Compatibility",
+          "why_it_matters": "Certified systems and drivers should be checked before upgrades."
+        }
+      ],
+      "official_sources": [
+        {
+          "title": "Windows Server 2025 Lifecycle",
+          "url": "https://learn.microsoft.com/en-us/lifecycle/products/windows-server-2025",
+          "source_type": "Official lifecycle docs"
+        },
+        {
+          "title": "Windows Server Release Information",
+          "url": "https://learn.microsoft.com/en-us/windows/release-health/windows-server-release-info",
+          "source_type": "Official vendor docs"
+        }
+      ],
+      "lifecycle_source": {
+        "url": "https://learn.microsoft.com/en-us/lifecycle/",
+        "notes": "Microsoft publishes lifecycle by Windows Server release."
+      },
+      "security_sources": [
+        {
+          "title": "Microsoft Security Response Center Update Guide",
+          "url": "https://msrc.microsoft.com/update-guide/",
+          "source_type": "Vendor bulletin"
+        }
+      ],
+      "confidence": "High",
+      "notes": "Track edition, build, servicing channel, cumulative update, and driver versions."
+    },
+    {
+      "id": "oracle-linux",
+      "name": "Oracle Linux",
+      "vendor": "Oracle",
+      "category": "Operating Systems",
+      "common_versions": [
+        "8",
+        "9"
+      ],
+      "stack_layer": "OS",
+      "used_by": [
+        "MSP",
+        "Enterprise IT",
+        "Telecom",
+        "Financial Services",
+        "System Integrator"
+      ],
+      "important_relationships": [
+        {
+          "relates_to": "UEK or RHCK kernel",
+          "relationship_type": "Dependency",
+          "why_it_matters": "Kernel choice changes driver, module, and application compatibility."
+        },
+        {
+          "relates_to": "Oracle Database and applications",
+          "relationship_type": "Support matrix",
+          "why_it_matters": "Oracle certification depends on exact OS and product versions."
+        }
+      ],
+      "official_sources": [
+        {
+          "title": "Oracle Linux Security",
+          "url": "https://linux.oracle.com/security/",
+          "source_type": "Official vendor docs"
+        },
+        {
+          "title": "Oracle Critical Patch Updates and Security Alerts",
+          "url": "https://www.oracle.com/pl/security-alerts/",
+          "source_type": "Official security advisory"
+        }
+      ],
+      "lifecycle_source": {
+        "url": "https://www.oracle.com/a/ocom/docs/elsp-lifetime-069338.pdf",
+        "notes": "Oracle support policies should be checked for the exact major release and support entitlement."
+      },
+      "security_sources": [
+        {
+          "title": "Oracle Linux Security",
+          "url": "https://linux.oracle.com/security/",
+          "source_type": "Vendor bulletin"
+        }
+      ],
+      "confidence": "Medium",
+      "notes": "Kernel flavor and support entitlement are important lifecycle attributes."
+    },
+    {
+      "id": "kubernetes",
+      "name": "Kubernetes",
+      "vendor": "Cloud Native Computing Foundation",
+      "category": "Containers",
+      "common_versions": [
+        "1.33",
+        "1.34",
+        "1.35"
+      ],
+      "stack_layer": "Platform",
+      "used_by": [
+        "MSP",
+        "Enterprise IT",
+        "Telecom",
+        "Financial Services",
+        "System Integrator"
+      ],
+      "important_relationships": [
+        {
+          "relates_to": "containerd or other CRI runtime",
+          "relationship_type": "Dependency",
+          "why_it_matters": "Runtime compatibility is required for node operation."
+        },
+        {
+          "relates_to": "CNI, CSI and ingress components",
+          "relationship_type": "Compatibility",
+          "why_it_matters": "Cluster upgrades can break networking, storage, and ingress integrations."
+        }
+      ],
+      "official_sources": [
+        {
+          "title": "Kubernetes Releases",
+          "url": "https://kubernetes.io/releases/",
+          "source_type": "Official lifecycle docs"
+        },
+        {
+          "title": "Kubernetes Version Skew Policy",
+          "url": "https://kubernetes.io/releases/version-skew-policy/",
+          "source_type": "Official compatibility guide"
+        }
+      ],
+      "lifecycle_source": {
+        "url": "https://kubernetes.io/releases/",
+        "notes": "Supported minor releases and release cadence are published by Kubernetes."
+      },
+      "security_sources": [
+        {
+          "title": "Kubernetes Security Response Committee",
+          "url": "https://github.com/kubernetes/committee-security-response/security",
+          "source_type": "Vendor bulletin"
+        }
+      ],
+      "confidence": "High",
+      "notes": "Versions listed reflect recent upstream release lines, not telemetry-backed deployment prevalence."
+    },
+    {
+      "id": "red-hat-openshift-container-platform",
+      "name": "Red Hat OpenShift Container Platform",
       "vendor": "Red Hat",
       "category": "Containers",
-      "common_versions": ["4.16", "4.17"],
+      "common_versions": [
+        "4.x"
+      ],
       "stack_layer": "Platform",
-      "confidence": "Needs Verification",
-      "notes": "Seed update entry for Kubernetes platform discovery."
+      "used_by": [
+        "MSP",
+        "Enterprise IT",
+        "Telecom",
+        "Financial Services",
+        "System Integrator"
+      ],
+      "important_relationships": [
+        {
+          "relates_to": "Kubernetes and RHCOS",
+          "relationship_type": "Dependency",
+          "why_it_matters": "Cluster release bundles tie Kubernetes and host OS components together."
+        },
+        {
+          "relates_to": "Operators and CSI/CNI integrations",
+          "relationship_type": "Upgrade impact",
+          "why_it_matters": "Operators and infrastructure plugins must support the target release."
+        }
+      ],
+      "official_sources": [
+        {
+          "title": "OpenShift Container Platform Life Cycle",
+          "url": "https://access.redhat.com/support/policy/updates/openshift",
+          "source_type": "Official lifecycle docs"
+        },
+        {
+          "title": "Red Hat Product Life Cycles",
+          "url": "https://access.redhat.com/product-life-cycles",
+          "source_type": "Official lifecycle docs"
+        }
+      ],
+      "lifecycle_source": {
+        "url": "https://access.redhat.com/support/policy/updates/openshift",
+        "notes": "OpenShift release lifecycle is published by Red Hat."
+      },
+      "security_sources": [
+        {
+          "title": "Red Hat Security Updates",
+          "url": "https://access.redhat.com/security/security-updates/",
+          "source_type": "Vendor bulletin"
+        }
+      ],
+      "confidence": "High",
+      "notes": "Track exact z-stream, channel, operators, and infrastructure integrations."
     },
     {
-      "id": "pure-flasharray",
+      "id": "suse-rancher-manager",
+      "name": "Rancher Manager",
+      "vendor": "SUSE",
+      "category": "Containers",
+      "common_versions": [
+        "2.7",
+        "2.8",
+        "2.9",
+        "2.10"
+      ],
+      "stack_layer": "Platform",
+      "used_by": [
+        "MSP",
+        "Enterprise IT",
+        "Telecom",
+        "Financial Services",
+        "System Integrator"
+      ],
+      "important_relationships": [
+        {
+          "relates_to": "Kubernetes distributions",
+          "relationship_type": "Compatibility",
+          "why_it_matters": "Rancher support matrices govern downstream cluster versions."
+        },
+        {
+          "relates_to": "RKE2 and K3s",
+          "relationship_type": "Integration",
+          "why_it_matters": "Manager and downstream distribution versions must be validated together."
+        }
+      ],
+      "official_sources": [
+        {
+          "title": "Rancher Support Matrix",
+          "url": "https://www.suse.com/suse-rancher/support-matrix/all-supported-versions/rancher-v2-7-1/",
+          "source_type": "Official compatibility guide"
+        },
+        {
+          "title": "Rancher GitHub Releases",
+          "url": "https://github.com/rancher/rancher/releases",
+          "source_type": "Official vendor docs"
+        }
+      ],
+      "lifecycle_source": {
+        "url": "https://www.rancher.com/support",
+        "notes": "Needs Verification: exact community and commercial lifecycle differs by release and entitlement."
+      },
+      "security_sources": [
+        {
+          "title": "Rancher Security Advisories",
+          "url": "https://github.com/rancher/rancher/security/advisories",
+          "source_type": "Vendor bulletin"
+        }
+      ],
+      "confidence": "Medium",
+      "notes": "Versions listed are release families; verify currently supported patch levels in the SUSE matrix."
+    },
+    {
+      "id": "docker-engine",
+      "name": "Docker Engine",
+      "vendor": "Docker",
+      "category": "Containers",
+      "common_versions": [
+        "24.x",
+        "27.x",
+        "28.x",
+        "29.x"
+      ],
+      "stack_layer": "Runtime",
+      "used_by": [
+        "MSP",
+        "Enterprise IT",
+        "System Integrator"
+      ],
+      "important_relationships": [
+        {
+          "relates_to": "containerd and runc",
+          "relationship_type": "Dependency",
+          "why_it_matters": "Bundled or external runtime component versions can affect behavior and security."
+        },
+        {
+          "relates_to": "Linux kernel and cgroups",
+          "relationship_type": "Compatibility",
+          "why_it_matters": "Host kernel and cgroup mode can affect container runtime behavior."
+        }
+      ],
+      "official_sources": [
+        {
+          "title": "Docker Engine 29 Release Notes",
+          "url": "https://docs.docker.com/engine/release-notes/29/",
+          "source_type": "Official vendor docs"
+        },
+        {
+          "title": "Docker Engine 24 Release Notes",
+          "url": "https://docs.docker.com/engine/release-notes/24.0/",
+          "source_type": "Official vendor docs"
+        }
+      ],
+      "lifecycle_source": {
+        "url": "https://docs.docker.com/engine/release-notes/",
+        "notes": "Needs Verification: a single public lifecycle table for all Engine branches was not verified."
+      },
+      "security_sources": [
+        {
+          "title": "Docker Security Announcements",
+          "url": "https://docs.docker.com/security/security-announcements/",
+          "source_type": "Vendor bulletin"
+        }
+      ],
+      "confidence": "Medium",
+      "notes": "Record exact Engine, containerd, runc, OS, and kernel versions."
+    },
+    {
+      "id": "containerd",
+      "name": "containerd",
+      "vendor": "CNCF containerd project",
+      "category": "Containers",
+      "common_versions": [
+        "1.7",
+        "2.0",
+        "2.1",
+        "2.3"
+      ],
+      "stack_layer": "Runtime",
+      "used_by": [
+        "MSP",
+        "Enterprise IT",
+        "Telecom",
+        "Financial Services",
+        "System Integrator"
+      ],
+      "important_relationships": [
+        {
+          "relates_to": "Kubernetes",
+          "relationship_type": "Compatibility",
+          "why_it_matters": "Kubernetes CRI compatibility and support windows constrain runtime upgrades."
+        },
+        {
+          "relates_to": "runc and Linux kernel",
+          "relationship_type": "Dependency",
+          "why_it_matters": "Runtime behavior and security depend on lower-level runtime and kernel components."
+        }
+      ],
+      "official_sources": [
+        {
+          "title": "containerd Versioning and Release",
+          "url": "https://containerd.io/releases/",
+          "source_type": "Official lifecycle docs"
+        },
+        {
+          "title": "containerd Releases",
+          "url": "https://github.com/containerd/containerd/releases",
+          "source_type": "Official vendor docs"
+        }
+      ],
+      "lifecycle_source": {
+        "url": "https://containerd.io/releases/",
+        "notes": "Project publishes support windows and extended support notes by branch."
+      },
+      "security_sources": [
+        {
+          "title": "containerd Security",
+          "url": "https://github.com/containerd/containerd/security",
+          "source_type": "Vendor bulletin"
+        }
+      ],
+      "confidence": "High",
+      "notes": "Some branches have scoped extended support; verify exact support conditions."
+    },
+    {
+      "id": "vmware-tanzu-kubernetes-grid",
+      "name": "VMware Tanzu Kubernetes Grid",
+      "vendor": "Broadcom VMware",
+      "category": "Containers",
+      "common_versions": [
+        "2.4",
+        "2.5"
+      ],
+      "stack_layer": "Platform",
+      "used_by": [
+        "MSP",
+        "Enterprise IT",
+        "Telecom",
+        "Financial Services",
+        "System Integrator"
+      ],
+      "important_relationships": [
+        {
+          "relates_to": "Kubernetes",
+          "relationship_type": "Dependency",
+          "why_it_matters": "TKG bundles supported Kubernetes versions and components."
+        },
+        {
+          "relates_to": "vSphere and networking integrations",
+          "relationship_type": "Compatibility",
+          "why_it_matters": "Infrastructure and load balancer versions can constrain upgrades."
+        }
+      ],
+      "official_sources": [
+        {
+          "title": "Tanzu Kubernetes Grid 2.5 Release Notes",
+          "url": "https://techdocs.broadcom.com/us/en/vmware-tanzu/standalone-components/tanzu-kubernetes-grid/2-5/tkg/mgmt-release-notes.html",
+          "source_type": "Official compatibility guide"
+        },
+        {
+          "title": "Tanzu Kubernetes Grid 2.4 Release Notes",
+          "url": "https://techdocs.broadcom.com/us/en/vmware-tanzu/standalone-components/tanzu-kubernetes-grid/2-4/tkg-deploy-mc/mgmt-release-notes.html",
+          "source_type": "Official lifecycle docs"
+        }
+      ],
+      "lifecycle_source": {
+        "url": "https://techdocs.broadcom.com/us/en/vmware-tanzu/standalone-components/tanzu-kubernetes-grid/2-4/tkg-deploy-mc/mgmt-release-notes.html",
+        "notes": "Release notes document the N-2 lifecycle policy for TKG 2.4; verify current policy for the exact release."
+      },
+      "security_sources": [
+        {
+          "title": "Broadcom Security Advisories",
+          "url": "https://support.broadcom.com/web/ecx/security-advisory",
+          "source_type": "Vendor bulletin"
+        }
+      ],
+      "confidence": "Medium",
+      "notes": "Compatibility can depend on vSphere, NSX, AVI/AKO, and Kubernetes release."
+    },
+    {
+      "id": "canonical-microk8s",
+      "name": "Canonical MicroK8s",
+      "vendor": "Canonical",
+      "category": "Containers",
+      "common_versions": [
+        "1.33",
+        "1.34",
+        "1.35"
+      ],
+      "stack_layer": "Platform",
+      "used_by": [
+        "MSP",
+        "Enterprise IT",
+        "System Integrator"
+      ],
+      "important_relationships": [
+        {
+          "relates_to": "Kubernetes",
+          "relationship_type": "Dependency",
+          "why_it_matters": "MicroK8s release channels track Kubernetes minor versions."
+        },
+        {
+          "relates_to": "Add-ons and CNI",
+          "relationship_type": "Upgrade impact",
+          "why_it_matters": "Workloads and add-ons may require separate upgrade handling."
+        }
+      ],
+      "official_sources": [
+        {
+          "title": "MicroK8s Release Notes",
+          "url": "https://canonical.com/microk8s/docs/release-notes",
+          "source_type": "Official vendor docs"
+        },
+        {
+          "title": "Upgrading MicroK8s",
+          "url": "https://canonical.com/microk8s/docs/upgrading",
+          "source_type": "Official compatibility guide"
+        }
+      ],
+      "lifecycle_source": {
+        "url": "https://canonical.com/microk8s/docs/release-notes",
+        "notes": "Needs Verification: support duration depends on channel and Canonical support arrangement."
+      },
+      "security_sources": [
+        {
+          "title": "Ubuntu Security Notices",
+          "url": "https://ubuntu.com/security/notices",
+          "source_type": "Vendor bulletin"
+        }
+      ],
+      "confidence": "Medium",
+      "notes": "Exact snap channel and add-on revisions should be watched."
+    },
+    {
+      "id": "suse-rke2",
+      "name": "RKE2",
+      "vendor": "SUSE Rancher",
+      "category": "Containers",
+      "common_versions": [
+        "1.31",
+        "1.32",
+        "1.33",
+        "1.34"
+      ],
+      "stack_layer": "Platform",
+      "used_by": [
+        "MSP",
+        "Enterprise IT",
+        "Telecom",
+        "Financial Services",
+        "System Integrator"
+      ],
+      "important_relationships": [
+        {
+          "relates_to": "Kubernetes",
+          "relationship_type": "Dependency",
+          "why_it_matters": "RKE2 versions are tied to Kubernetes minor releases."
+        },
+        {
+          "relates_to": "Rancher Manager",
+          "relationship_type": "Compatibility",
+          "why_it_matters": "Management platform support matrices govern validated combinations."
+        }
+      ],
+      "official_sources": [
+        {
+          "title": "RKE2 Requirements",
+          "url": "https://docs.rke2.io/install/requirements",
+          "source_type": "Official compatibility guide"
+        },
+        {
+          "title": "SUSE RKE2 Support Matrix",
+          "url": "https://www.suse.com/suse-rke2/support-matrix/all-supported-versions/rke2-v1-24/",
+          "source_type": "Official compatibility guide"
+        }
+      ],
+      "lifecycle_source": {
+        "url": "https://www.suse.com/suse-rke2/support-matrix/all-supported-versions/",
+        "notes": "Verify exact release support in the current SUSE matrix."
+      },
+      "security_sources": [
+        {
+          "title": "RKE2 Security Advisories",
+          "url": "https://github.com/rancher/rke2/security/advisories",
+          "source_type": "Vendor bulletin"
+        }
+      ],
+      "confidence": "Medium",
+      "notes": "Versions listed are recent Kubernetes-aligned families; confirm current support and patch levels."
+    },
+    {
+      "id": "netapp-ontap",
+      "name": "NetApp ONTAP",
+      "vendor": "NetApp",
+      "category": "Storage",
+      "common_versions": [
+        "9.x"
+      ],
+      "stack_layer": "Data",
+      "used_by": [
+        "MSP",
+        "Enterprise IT",
+        "Telecom",
+        "Financial Services",
+        "System Integrator"
+      ],
+      "important_relationships": [
+        {
+          "relates_to": "Host OS, hypervisor and HBA/NIC stack",
+          "relationship_type": "Compatibility",
+          "why_it_matters": "NetApp IMT governs validated end-to-end combinations."
+        },
+        {
+          "relates_to": "System firmware and disk shelf firmware",
+          "relationship_type": "Firmware requirement",
+          "why_it_matters": "Storage upgrades may require coordinated platform firmware."
+        }
+      ],
+      "official_sources": [
+        {
+          "title": "NetApp Interoperability Matrix Tool",
+          "url": "https://www.netapp.com/company/interoperability/",
+          "source_type": "Official compatibility guide"
+        },
+        {
+          "title": "NetApp Software Version Support",
+          "url": "https://mysupport.netapp.com/site/info/version-support",
+          "source_type": "Official lifecycle docs"
+        }
+      ],
+      "lifecycle_source": {
+        "url": "https://mysupport.netapp.com/site/info/version-support",
+        "notes": "Version support status is published by NetApp."
+      },
+      "security_sources": [
+        {
+          "title": "NetApp Security Advisories",
+          "url": "https://security.netapp.com/advisory/",
+          "source_type": "PSIRT"
+        }
+      ],
+      "confidence": "High",
+      "notes": "Exact ONTAP patch, platform model, protocol, host stack, and multipath software matter."
+    },
+    {
+      "id": "dell-powerstore",
+      "name": "PowerStore",
+      "vendor": "Dell Technologies",
+      "category": "Storage",
+      "common_versions": [
+        "PowerStoreOS 3.x",
+        "PowerStoreOS 4.x"
+      ],
+      "stack_layer": "Data",
+      "used_by": [
+        "MSP",
+        "Enterprise IT",
+        "Telecom",
+        "Financial Services",
+        "System Integrator"
+      ],
+      "important_relationships": [
+        {
+          "relates_to": "VMware, Windows and Linux hosts",
+          "relationship_type": "Compatibility",
+          "why_it_matters": "Host multipathing, HBA, OS and hypervisor versions must match support matrices."
+        },
+        {
+          "relates_to": "Drive and appliance firmware",
+          "relationship_type": "Firmware requirement",
+          "why_it_matters": "Array software and component firmware can be coupled."
+        }
+      ],
+      "official_sources": [
+        {
+          "title": "PowerStoreOS Matrix",
+          "url": "https://www.dell.com/support/kbdoc/en-bg/000175213/powerstoreos-matrix",
+          "source_type": "Official compatibility guide"
+        },
+        {
+          "title": "Dell Storage Compatibility Matrix Support Policy",
+          "url": "https://www.dell.com/support/kbdoc/en-au/000126411/dell-emc-storage-compatibility-matrix-support-policy-statement",
+          "source_type": "Official compatibility guide"
+        }
+      ],
+      "lifecycle_source": {
+        "url": "https://www.dell.com/support/kbdoc/en-us/000185734/all-dell-emc-end-of-life-documents",
+        "notes": "Dell publishes storage lifecycle files; verify exact appliance and software version."
+      },
+      "security_sources": [
+        {
+          "title": "Dell Security Advisories, Notices and Resources",
+          "url": "https://www.dell.com/support/security/en-au",
+          "source_type": "Vendor bulletin"
+        }
+      ],
+      "confidence": "High",
+      "notes": "Exact appliance model and PowerStoreOS patch level should be tracked."
+    },
+    {
+      "id": "dell-powermax",
+      "name": "PowerMax",
+      "vendor": "Dell Technologies",
+      "category": "Storage",
+      "common_versions": [
+        "PowerMaxOS"
+      ],
+      "stack_layer": "Data",
+      "used_by": [
+        "MSP",
+        "Enterprise IT",
+        "Telecom",
+        "Financial Services",
+        "System Integrator"
+      ],
+      "important_relationships": [
+        {
+          "relates_to": "Host OS, HBA and multipathing stack",
+          "relationship_type": "Compatibility",
+          "why_it_matters": "Enterprise storage support depends on validated host connectivity stacks."
+        },
+        {
+          "relates_to": "Solutions Enabler and management tools",
+          "relationship_type": "Compatibility",
+          "why_it_matters": "Management client and array code compatibility should be checked."
+        }
+      ],
+      "official_sources": [
+        {
+          "title": "Dell PowerMax product page",
+          "url": "https://www.dell.com/en-us/shop/storage-servers-and-networking-for-business/sf/powermax",
+          "source_type": "Official vendor docs"
+        },
+        {
+          "title": "Dell Minimum, Recommended, and Latest Code Versions",
+          "url": "https://www.dell.com/support/kbdoc/en-us/000205512/target-revisions-and-runtime",
+          "source_type": "Official compatibility guide"
+        }
+      ],
+      "lifecycle_source": {
+        "url": "https://www.dell.com/support/kbdoc/en-us/000185734/all-dell-emc-end-of-life-documents",
+        "notes": "Dell publishes storage lifecycle files; verify exact array and software release."
+      },
+      "security_sources": [
+        {
+          "title": "Dell Security Advisories, Notices and Resources",
+          "url": "https://www.dell.com/support/security/en-au",
+          "source_type": "Vendor bulletin"
+        }
+      ],
+      "confidence": "Medium",
+      "notes": "Exact PowerMax model, PowerMaxOS code, host connectivity, and management tools should be watched."
+    },
+    {
+      "id": "hpe-alletra-6000",
+      "name": "HPE Alletra 6000",
+      "vendor": "HPE",
+      "category": "Storage",
+      "common_versions": [
+        "Alletra 6000 family"
+      ],
+      "stack_layer": "Data",
+      "used_by": [
+        "MSP",
+        "Enterprise IT",
+        "Telecom",
+        "Financial Services",
+        "System Integrator"
+      ],
+      "important_relationships": [
+        {
+          "relates_to": "Host OS, hypervisor and multipathing software",
+          "relationship_type": "Compatibility",
+          "why_it_matters": "Validated host connectivity is required for supported operation."
+        },
+        {
+          "relates_to": "Array OS and component firmware",
+          "relationship_type": "Firmware requirement",
+          "why_it_matters": "Controller and drive firmware can affect upgrade safety."
+        }
+      ],
+      "official_sources": [
+        {
+          "title": "HPE Alletra 6000 product information",
+          "url": "https://www.hpe.com/us/en/storage/alletra-6000.html",
+          "source_type": "Official vendor docs"
+        }
+      ],
+      "lifecycle_source": {
+        "url": "https://support.hpe.com/",
+        "notes": "Needs Verification: exact model and software lifecycle date should be checked in HPE support."
+      },
+      "security_sources": [
+        {
+          "title": "HPE Security Bulletin Library",
+          "url": "https://support.hpe.com/connect/s/securitybulletinlibrary?language=en_US",
+          "source_type": "Vendor bulletin"
+        }
+      ],
+      "confidence": "Medium",
+      "notes": "Use HPE SPOCK or current support matrices for host interoperability; exact public matrix URL Needs Verification."
+    },
+    {
+      "id": "hpe-alletra-storage-mp",
+      "name": "HPE Alletra Storage MP",
+      "vendor": "HPE",
+      "category": "Storage",
+      "common_versions": [
+        "Alletra Storage MP"
+      ],
+      "stack_layer": "Data",
+      "used_by": [
+        "Enterprise IT",
+        "AI Data Center",
+        "System Integrator"
+      ],
+      "important_relationships": [
+        {
+          "relates_to": "Host OS and hypervisor stack",
+          "relationship_type": "Compatibility",
+          "why_it_matters": "Supported connectivity depends on host, protocol, and multipath combinations."
+        },
+        {
+          "relates_to": "Storage software and firmware",
+          "relationship_type": "Firmware requirement",
+          "why_it_matters": "Disaggregated platform upgrades require coordinated software and hardware validation."
+        }
+      ],
+      "official_sources": [
+        {
+          "title": "HPE Alletra Storage MP product page",
+          "url": "https://www.hpe.com/us/en/storage/alletra-storage-mp.html",
+          "source_type": "Official vendor docs"
+        }
+      ],
+      "lifecycle_source": {
+        "url": "https://support.hpe.com/",
+        "notes": "Needs Verification: exact lifecycle and version matrix should be checked by product configuration."
+      },
+      "security_sources": [
+        {
+          "title": "HPE Security Bulletin Library",
+          "url": "https://support.hpe.com/connect/s/securitybulletinlibrary?language=en_US",
+          "source_type": "Vendor bulletin"
+        }
+      ],
+      "confidence": "Medium",
+      "notes": "Model and software release naming should be normalized from the HPE support portal."
+    },
+    {
+      "id": "pure-storage-flasharray",
       "name": "Pure Storage FlashArray",
       "vendor": "Pure Storage",
       "category": "Storage",
-      "common_versions": ["Purity 6.x"],
-      "stack_layer": "Hardware",
-      "confidence": "Needs Verification",
-      "notes": "Seed update entry for storage/hypervisor compatibility discovery."
+      "common_versions": [
+        "Purity//FA 6.x"
+      ],
+      "stack_layer": "Data",
+      "used_by": [
+        "MSP",
+        "Enterprise IT",
+        "Telecom",
+        "Financial Services",
+        "System Integrator"
+      ],
+      "important_relationships": [
+        {
+          "relates_to": "Host OS, hypervisor and multipathing stack",
+          "relationship_type": "Compatibility",
+          "why_it_matters": "Host interoperability is required for supported operation."
+        },
+        {
+          "relates_to": "Purity//FA and array model",
+          "relationship_type": "Compatibility",
+          "why_it_matters": "Feature and platform support can vary by Purity release."
+        }
+      ],
+      "official_sources": [
+        {
+          "title": "Pure Storage Product Security Policy",
+          "url": "https://support.purestorage.com/bundle/m_product_security_policy/page/Pure_Security/topics/concept/c_product_security_vulnerability_response_and_remediation_poli.html",
+          "source_type": "Official vendor docs"
+        },
+        {
+          "title": "Purity//FA 6.9.2 announcement",
+          "url": "https://purecommunity.purestorage.com/discussions/flasharray/announcing-the-general-availability-of-purityfa-6-9-2/3425",
+          "source_type": "Official vendor docs"
+        }
+      ],
+      "lifecycle_source": {
+        "url": "https://support.purestorage.com/",
+        "notes": "Needs Verification: exact lifecycle table may require support portal access."
+      },
+      "security_sources": [
+        {
+          "title": "Pure Storage Product Security Policy",
+          "url": "https://support.purestorage.com/bundle/m_product_security_policy/page/Pure_Security/topics/concept/c_product_security_vulnerability_response_and_remediation_poli.html",
+          "source_type": "PSIRT"
+        }
+      ],
+      "confidence": "Medium",
+      "notes": "Exact array model and Purity release should be correlated with host interoperability."
+    },
+    {
+      "id": "ceph",
+      "name": "Ceph",
+      "vendor": "Ceph Foundation",
+      "category": "Storage",
+      "common_versions": [
+        "Reef",
+        "Squid",
+        "Tentacle"
+      ],
+      "stack_layer": "Data",
+      "used_by": [
+        "Enterprise IT",
+        "AI Data Center",
+        "System Integrator"
+      ],
+      "important_relationships": [
+        {
+          "relates_to": "Linux distribution and kernel",
+          "relationship_type": "Dependency",
+          "why_it_matters": "Packaging, kernel clients, and support differ by distribution."
+        },
+        {
+          "relates_to": "Kubernetes and virtualization platforms",
+          "relationship_type": "Integration",
+          "why_it_matters": "CSI, RBD and CephFS integrations can be version sensitive."
+        }
+      ],
+      "official_sources": [
+        {
+          "title": "Ceph Releases",
+          "url": "https://docs.ceph.com/en/latest/releases/",
+          "source_type": "Official lifecycle docs"
+        }
+      ],
+      "lifecycle_source": {
+        "url": "https://docs.ceph.com/en/latest/releases/",
+        "notes": "Ceph publishes release status and support information."
+      },
+      "security_sources": [
+        {
+          "title": "Ceph Security",
+          "url": "https://github.com/ceph/ceph/security",
+          "source_type": "Vendor bulletin"
+        }
+      ],
+      "confidence": "High",
+      "notes": "Distribution-supported Ceph may have a different lifecycle from upstream."
+    },
+    {
+      "id": "truenas-scale",
+      "name": "TrueNAS SCALE",
+      "vendor": "iXsystems",
+      "category": "Storage",
+      "common_versions": [
+        "24.10",
+        "25.10"
+      ],
+      "stack_layer": "Data",
+      "used_by": [
+        "MSP",
+        "Enterprise IT",
+        "System Integrator"
+      ],
+      "important_relationships": [
+        {
+          "relates_to": "ZFS and Linux kernel",
+          "relationship_type": "Dependency",
+          "why_it_matters": "Storage behavior and driver support can change with platform upgrades."
+        },
+        {
+          "relates_to": "SMB, NFS and iSCSI clients",
+          "relationship_type": "Compatibility",
+          "why_it_matters": "Protocol clients and authentication integrations can be affected by upgrades."
+        }
+      ],
+      "official_sources": [
+        {
+          "title": "TrueNAS Software Status",
+          "url": "https://www.truenas.com/docs/softwarestatus/",
+          "source_type": "Official lifecycle docs"
+        },
+        {
+          "title": "TrueNAS SCALE 25.10 Release Notes",
+          "url": "https://www.truenas.com/docs/scale/25.10/gettingstarted/scalereleasenotes/",
+          "source_type": "Official vendor docs"
+        }
+      ],
+      "lifecycle_source": {
+        "url": "https://www.truenas.com/docs/softwarestatus/",
+        "notes": "TrueNAS publishes software status and links to its development lifecycle."
+      },
+      "security_sources": [
+        {
+          "title": "TrueNAS SCALE Release Notes",
+          "url": "https://www.truenas.com/docs/scale/25.10/gettingstarted/scalereleasenotes/",
+          "source_type": "Vendor bulletin"
+        }
+      ],
+      "confidence": "High",
+      "notes": "Record exact train and patch release; applications and integrations can change between trains."
+    },
+    {
+      "id": "synology-dsm",
+      "name": "Synology DSM",
+      "vendor": "Synology",
+      "category": "Storage",
+      "common_versions": [
+        "7.2"
+      ],
+      "stack_layer": "Data",
+      "used_by": [
+        "MSP",
+        "Enterprise IT",
+        "System Integrator"
+      ],
+      "important_relationships": [
+        {
+          "relates_to": "Synology NAS hardware",
+          "relationship_type": "Compatibility",
+          "why_it_matters": "DSM support depends on the NAS model and package availability."
+        },
+        {
+          "relates_to": "Packages and backup integrations",
+          "relationship_type": "Upgrade impact",
+          "why_it_matters": "Package compatibility can change with DSM upgrades."
+        }
+      ],
+      "official_sources": [
+        {
+          "title": "DSM Release Notes",
+          "url": "https://www.synology.com/pl-pl/releaseNote/DSM",
+          "source_type": "Official vendor docs"
+        },
+        {
+          "title": "Synology Software Life Cycle Policy",
+          "url": "https://global.download.synology.com/download/Document/Software/WhitePaper/Os/DSM/All/enu/Software_Life_Cycle_Policy_enu.pdf",
+          "source_type": "Official lifecycle docs"
+        }
+      ],
+      "lifecycle_source": {
+        "url": "https://global.download.synology.com/download/Document/Software/WhitePaper/Os/DSM/All/enu/Software_Life_Cycle_Policy_enu.pdf",
+        "notes": "Synology publishes a software lifecycle policy; model eligibility should be checked separately."
+      },
+      "security_sources": [
+        {
+          "title": "Synology Security Advisory",
+          "url": "https://www.synology.com/security/advisory",
+          "source_type": "Vendor bulletin"
+        }
+      ],
+      "confidence": "High",
+      "notes": "NAS model and installed package versions are required for meaningful compatibility analysis."
+    },
+    {
+      "id": "dell-powerscale-onefs",
+      "name": "PowerScale OneFS",
+      "vendor": "Dell Technologies",
+      "category": "Storage",
+      "common_versions": [
+        "9.x",
+        "10.x"
+      ],
+      "stack_layer": "Data",
+      "used_by": [
+        "MSP",
+        "Enterprise IT",
+        "Telecom",
+        "Financial Services",
+        "System Integrator"
+      ],
+      "important_relationships": [
+        {
+          "relates_to": "PowerScale hardware models",
+          "relationship_type": "Compatibility",
+          "why_it_matters": "Supported OneFS versions vary by cluster hardware generation."
+        },
+        {
+          "relates_to": "SMB, NFS, HDFS and S3 clients",
+          "relationship_type": "Upgrade impact",
+          "why_it_matters": "Protocol behavior and client compatibility can change across releases."
+        }
+      ],
+      "official_sources": [
+        {
+          "title": "OneFS 9.10 Administration Guide",
+          "url": "https://www.dell.com/support/manuals/en-us/isilon-onefs/ifs-pub-91000-administration-guide-cli/enabling-external-key-management?guid=guid-631c34b8-f3eb-4121-91c3-9c5d4c54761f&lang=en-us",
+          "source_type": "Official vendor docs"
+        },
+        {
+          "title": "OneFS Supportability and Compatibility Guide listing",
+          "url": "https://www.dell.com/support/product-details/en-us/product/isilon-insightiq/resources/manuals",
+          "source_type": "Official compatibility guide"
+        }
+      ],
+      "lifecycle_source": {
+        "url": "https://www.dell.com/support/kbdoc/en-us/000185734/all-dell-emc-end-of-life-documents",
+        "notes": "Dell lifecycle files should be checked for exact OneFS and hardware versions."
+      },
+      "security_sources": [
+        {
+          "title": "Dell Security Advisories, Notices and Resources",
+          "url": "https://www.dell.com/support/security/en-au",
+          "source_type": "Vendor bulletin"
+        }
+      ],
+      "confidence": "Medium",
+      "notes": "Exact OneFS patch and cluster node generations should be tracked."
+    },
+    {
+      "id": "cisco-ios-xe",
+      "name": "Cisco IOS XE",
+      "vendor": "Cisco",
+      "category": "Networking",
+      "common_versions": [
+        "17.x"
+      ],
+      "stack_layer": "Network",
+      "used_by": [
+        "MSP",
+        "Enterprise IT",
+        "Telecom",
+        "Financial Services",
+        "System Integrator"
+      ],
+      "important_relationships": [
+        {
+          "relates_to": "Cisco switch or router platform",
+          "relationship_type": "Compatibility",
+          "why_it_matters": "Release support varies by hardware platform."
+        },
+        {
+          "relates_to": "Network automation and management tools",
+          "relationship_type": "Upgrade impact",
+          "why_it_matters": "API, telemetry, and feature behavior can change across releases."
+        }
+      ],
+      "official_sources": [
+        {
+          "title": "Cisco IOS XE 17 Release Notes",
+          "url": "https://www.cisco.com/c/en/us/support/ios-nx-os-software/ios-xe-17/products-release-notes-list.html",
+          "source_type": "Official vendor docs"
+        },
+        {
+          "title": "Cisco IOS XE lifecycle bulletin",
+          "url": "https://www.cisco.com/c/en/us/products/collateral/ios-nx-os-software/ios-xe-26/bulletin-c25-2378701.html",
+          "source_type": "Official lifecycle docs"
+        }
+      ],
+      "lifecycle_source": {
+        "url": "https://www.cisco.com/c/en/us/products/collateral/ios-nx-os-software/ios-xe-26/bulletin-c25-2378701.html",
+        "notes": "Check exact train and platform lifecycle in Cisco notices."
+      },
+      "security_sources": [
+        {
+          "title": "Cisco Security Advisories",
+          "url": "https://sec.cloudapps.cisco.com/security/center/publicationListing.x",
+          "source_type": "PSIRT"
+        }
+      ],
+      "confidence": "High",
+      "notes": "Platform PID and exact release are required because support differs by device family."
+    },
+    {
+      "id": "cisco-nx-os",
+      "name": "Cisco NX-OS",
+      "vendor": "Cisco",
+      "category": "Networking",
+      "common_versions": [
+        "9.x",
+        "10.x"
+      ],
+      "stack_layer": "Network",
+      "used_by": [
+        "Enterprise IT",
+        "AI Data Center",
+        "System Integrator"
+      ],
+      "important_relationships": [
+        {
+          "relates_to": "Cisco Nexus hardware",
+          "relationship_type": "Compatibility",
+          "why_it_matters": "Supported NX-OS trains vary by switch family and hardware generation."
+        },
+        {
+          "relates_to": "ACI or data center integrations",
+          "relationship_type": "Upgrade impact",
+          "why_it_matters": "Fabric controllers and integrations can constrain upgrade order."
+        }
+      ],
+      "official_sources": [
+        {
+          "title": "Minimum and Recommended NX-OS Releases for Nexus 9000",
+          "url": "https://www.cisco.com/c/en/us/td/docs/switches/datacenter/nexus9000/sw/recommended_release/b_Minimum_and_Recommended_Cisco_NX-OS_Releases_for_Cisco_Nexus_9000_Series_Switches.html",
+          "source_type": "Official compatibility guide"
+        },
+        {
+          "title": "Nexus 9000 Release Notes",
+          "url": "https://www.cisco.com/c/en/us/support/switches/nexus-9000-series-switches/products-release-notes-list.html",
+          "source_type": "Official vendor docs"
+        }
+      ],
+      "lifecycle_source": {
+        "url": "https://www.cisco.com/c/en/us/products/collateral/ios-nx-os-software/nx-os-software/guide_c07-658595.html",
+        "notes": "Cisco publishes NX-OS lifecycle guidance; verify exact platform and release."
+      },
+      "security_sources": [
+        {
+          "title": "Cisco Security Advisories",
+          "url": "https://sec.cloudapps.cisco.com/security/center/publicationListing.x",
+          "source_type": "PSIRT"
+        }
+      ],
+      "confidence": "High",
+      "notes": "Record hardware PID, NX-OS release, line cards, and fabric mode."
+    },
+    {
+      "id": "juniper-junos-os",
+      "name": "Junos OS",
+      "vendor": "Juniper Networks",
+      "category": "Networking",
+      "common_versions": [
+        "21.x",
+        "22.x",
+        "23.x",
+        "24.x"
+      ],
+      "stack_layer": "Network",
+      "used_by": [
+        "MSP",
+        "Enterprise IT",
+        "Telecom",
+        "Financial Services",
+        "System Integrator"
+      ],
+      "important_relationships": [
+        {
+          "relates_to": "Juniper hardware platform",
+          "relationship_type": "Compatibility",
+          "why_it_matters": "Junos release support varies by platform."
+        },
+        {
+          "relates_to": "Routing protocols and automation",
+          "relationship_type": "Upgrade impact",
+          "why_it_matters": "Feature behavior and API compatibility can affect network operations."
+        }
+      ],
+      "official_sources": [
+        {
+          "title": "Junos OS Lifecycle Dates",
+          "url": "https://support.juniper.net/support/eol/software/junos/",
+          "source_type": "Official lifecycle docs"
+        },
+        {
+          "title": "Junos Suggested Releases",
+          "url": "https://supportportal.juniper.net/s/article/Junos-Software-Versions-Suggested-Releases-to-Consider-and-Evaluate",
+          "source_type": "Official compatibility guide"
+        }
+      ],
+      "lifecycle_source": {
+        "url": "https://support.juniper.net/support/eol/software/junos/",
+        "notes": "Juniper publishes lifecycle dates by Junos release."
+      },
+      "security_sources": [
+        {
+          "title": "Juniper Security Advisories",
+          "url": "https://supportportal.juniper.net/s/security-advisories",
+          "source_type": "PSIRT"
+        }
+      ],
+      "confidence": "High",
+      "notes": "Hardware platform and exact release train should be stored together."
     },
     {
       "id": "arista-eos",
       "name": "Arista EOS",
-      "vendor": "Arista",
+      "vendor": "Arista Networks",
       "category": "Networking",
-      "common_versions": ["4.32"],
+      "common_versions": [
+        "4.x"
+      ],
       "stack_layer": "Network",
-      "confidence": "Needs Verification",
-      "notes": "Seed update entry for network OS lifecycle and advisory discovery."
+      "used_by": [
+        "Enterprise IT",
+        "AI Data Center",
+        "System Integrator"
+      ],
+      "important_relationships": [
+        {
+          "relates_to": "Arista switch platform",
+          "relationship_type": "Compatibility",
+          "why_it_matters": "Hardware platform support varies by EOS release."
+        },
+        {
+          "relates_to": "CloudVision and automation",
+          "relationship_type": "Compatibility",
+          "why_it_matters": "Management and telemetry components can require compatible EOS versions."
+        }
+      ],
+      "official_sources": [
+        {
+          "title": "Arista End of Support Notices",
+          "url": "https://www.arista.com/en/support/advisories-notices/endofsupport",
+          "source_type": "Official lifecycle docs"
+        },
+        {
+          "title": "Arista End of Sale Notices",
+          "url": "https://www.arista.com/en/support/advisories-notices/endofsale",
+          "source_type": "Official lifecycle docs"
+        }
+      ],
+      "lifecycle_source": {
+        "url": "https://www.arista.com/en/support/advisories-notices/endofsupport",
+        "notes": "Arista publishes end-of-support notices; verify exact release and platform."
+      },
+      "security_sources": [
+        {
+          "title": "Arista Security Advisories",
+          "url": "https://www.arista.com/en/support/advisories-notices/security-advisories",
+          "source_type": "PSIRT"
+        }
+      ],
+      "confidence": "High",
+      "notes": "Exact EOS image, switch model, and CloudVision version matter."
     },
     {
-      "id": "palo-alto-panos",
-      "name": "Palo Alto PAN-OS",
+      "id": "hpe-arubaos-cx",
+      "name": "ArubaOS-CX",
+      "vendor": "HPE Aruba Networking",
+      "category": "Networking",
+      "common_versions": [
+        "10.13",
+        "10.14",
+        "10.15"
+      ],
+      "stack_layer": "Network",
+      "used_by": [
+        "MSP",
+        "Enterprise IT",
+        "Telecom",
+        "Financial Services",
+        "System Integrator"
+      ],
+      "important_relationships": [
+        {
+          "relates_to": "Aruba CX switch platform",
+          "relationship_type": "Compatibility",
+          "why_it_matters": "Supported software releases vary by switch family."
+        },
+        {
+          "relates_to": "Aruba Central and management tools",
+          "relationship_type": "Compatibility",
+          "why_it_matters": "Cloud and on-prem management features depend on supported versions."
+        }
+      ],
+      "official_sources": [
+        {
+          "title": "ArubaOS-CX 10.14 Release Notes",
+          "url": "https://arubanetworking.hpe.com/techdocs/AOS-CX/10.14/RN/rn_8100-8360_10-14-0001.pdf",
+          "source_type": "Official vendor docs"
+        }
+      ],
+      "lifecycle_source": {
+        "url": "https://networkingsupport.hpe.com/",
+        "notes": "Needs Verification: exact release lifecycle should be checked for the switch family."
+      },
+      "security_sources": [
+        {
+          "title": "HPE Security Bulletin Library",
+          "url": "https://support.hpe.com/connect/s/securitybulletinlibrary?language=en_US",
+          "source_type": "Vendor bulletin"
+        }
+      ],
+      "confidence": "Medium",
+      "notes": "Use the release notes matching the exact switch family."
+    },
+    {
+      "id": "mikrotik-routeros",
+      "name": "MikroTik RouterOS",
+      "vendor": "MikroTik",
+      "category": "Networking",
+      "common_versions": [
+        "6.x",
+        "7.x"
+      ],
+      "stack_layer": "Network",
+      "used_by": [
+        "MSP",
+        "Enterprise IT",
+        "Telecom",
+        "System Integrator"
+      ],
+      "important_relationships": [
+        {
+          "relates_to": "MikroTik hardware architecture",
+          "relationship_type": "Compatibility",
+          "why_it_matters": "Package and feature support varies by device and architecture."
+        },
+        {
+          "relates_to": "Routing and VPN configurations",
+          "relationship_type": "Upgrade impact",
+          "why_it_matters": "Behavior changes can affect routing, firewall, and VPN services."
+        }
+      ],
+      "official_sources": [
+        {
+          "title": "RouterOS Changelogs",
+          "url": "https://mikrotik.com/download/changelogs",
+          "source_type": "Official vendor docs"
+        }
+      ],
+      "lifecycle_source": {
+        "url": "https://mikrotik.com/download/changelogs",
+        "notes": "Needs Verification: a formal public lifecycle table for major branches was not verified."
+      },
+      "security_sources": [
+        {
+          "title": "MikroTik Security",
+          "url": "https://mikrotik.com/supportsec",
+          "source_type": "PSIRT"
+        }
+      ],
+      "confidence": "Medium",
+      "notes": "Record device model, architecture, channel, and exact patch version."
+    },
+    {
+      "id": "nvidia-cumulus-linux",
+      "name": "NVIDIA Cumulus Linux",
+      "vendor": "NVIDIA",
+      "category": "Networking",
+      "common_versions": [
+        "5.15",
+        "5.16"
+      ],
+      "stack_layer": "Network",
+      "used_by": [
+        "Enterprise IT",
+        "AI Data Center",
+        "System Integrator"
+      ],
+      "important_relationships": [
+        {
+          "relates_to": "Supported switch hardware",
+          "relationship_type": "Compatibility",
+          "why_it_matters": "Cumulus Linux support depends on qualified switch platforms."
+        },
+        {
+          "relates_to": "NVIDIA networking drivers and firmware",
+          "relationship_type": "Firmware requirement",
+          "why_it_matters": "NOS, ASIC SDK, drivers, and switch firmware can be coupled."
+        }
+      ],
+      "official_sources": [
+        {
+          "title": "Cumulus Linux 5.15 Release Notes",
+          "url": "https://docs.nvidia.com/networking-ethernet-software/cumulus-linux-515/Whats-New/rn/",
+          "source_type": "Official vendor docs"
+        },
+        {
+          "title": "Cumulus Linux Release Versioning and Support Policy",
+          "url": "https://docs.nvidia.com/networking-ethernet-software/knowledge-base/Support/Support-Offerings/Cumulus-Linux-Release-Versioning-and-Support-Policy/",
+          "source_type": "Official lifecycle docs"
+        }
+      ],
+      "lifecycle_source": {
+        "url": "https://docs.nvidia.com/networking-ethernet-software/knowledge-base/Support/Support-Offerings/Cumulus-Linux-Release-Versioning-and-Support-Policy/",
+        "notes": "NVIDIA publishes release versioning and support policy."
+      },
+      "security_sources": [
+        {
+          "title": "NVIDIA Product Security",
+          "url": "https://www.nvidia.com/en-us/product-security/",
+          "source_type": "PSIRT"
+        }
+      ],
+      "confidence": "High",
+      "notes": "Switch model, ASIC, Cumulus release, and firmware versions should be correlated."
+    },
+    {
+      "id": "fortinet-fortios",
+      "name": "FortiOS",
+      "vendor": "Fortinet",
+      "category": "Security",
+      "common_versions": [
+        "7.0",
+        "7.2",
+        "7.4",
+        "7.6"
+      ],
+      "stack_layer": "Security",
+      "used_by": [
+        "MSP",
+        "Enterprise IT",
+        "Telecom",
+        "Financial Services",
+        "System Integrator"
+      ],
+      "important_relationships": [
+        {
+          "relates_to": "FortiGate hardware model",
+          "relationship_type": "Compatibility",
+          "why_it_matters": "Supported FortiOS releases vary by appliance model."
+        },
+        {
+          "relates_to": "FortiManager and FortiAnalyzer",
+          "relationship_type": "Compatibility",
+          "why_it_matters": "Central management and logging versions can constrain upgrades."
+        }
+      ],
+      "official_sources": [
+        {
+          "title": "Fortinet PSIRT Advisories",
+          "url": "https://www.fortiguard.com/psirt",
+          "source_type": "Official security advisory"
+        }
+      ],
+      "lifecycle_source": {
+        "url": "https://support.fortinet.com/",
+        "notes": "Needs Verification: exact FortiOS lifecycle should be checked against Fortinet support notices and appliance model."
+      },
+      "security_sources": [
+        {
+          "title": "Fortinet PSIRT",
+          "url": "https://www.fortiguard.com/psirt",
+          "source_type": "PSIRT"
+        }
+      ],
+      "confidence": "Medium",
+      "notes": "Record FortiGate model and exact build; major version alone is insufficient."
+    },
+    {
+      "id": "palo-alto-pan-os",
+      "name": "PAN-OS",
       "vendor": "Palo Alto Networks",
       "category": "Security",
-      "common_versions": ["10.2", "11.1"],
+      "common_versions": [
+        "10.2",
+        "11.1",
+        "11.2",
+        "12.1"
+      ],
       "stack_layer": "Security",
-      "confidence": "Needs Verification",
-      "notes": "Seed update entry for security appliance advisory discovery."
+      "used_by": [
+        "MSP",
+        "Enterprise IT",
+        "Telecom",
+        "Financial Services",
+        "System Integrator"
+      ],
+      "important_relationships": [
+        {
+          "relates_to": "Palo Alto firewall model",
+          "relationship_type": "Compatibility",
+          "why_it_matters": "Supported PAN-OS releases vary by hardware model."
+        },
+        {
+          "relates_to": "Panorama",
+          "relationship_type": "Compatibility",
+          "why_it_matters": "Management version and firewall versions must be compatible."
+        }
+      ],
+      "official_sources": [
+        {
+          "title": "PAN-OS Documentation",
+          "url": "https://docs.paloaltonetworks.com/pan-os",
+          "source_type": "Official vendor docs"
+        },
+        {
+          "title": "Supported OS Releases by Model",
+          "url": "https://docs.paloaltonetworks.com/compatibility-matrix/reference/supported-os-releases-by-model",
+          "source_type": "Official compatibility guide"
+        }
+      ],
+      "lifecycle_source": {
+        "url": "https://docs.paloaltonetworks.com/resources/eol",
+        "notes": "Palo Alto Networks publishes software end-of-life information."
+      },
+      "security_sources": [
+        {
+          "title": "Palo Alto Networks Security Advisories",
+          "url": "https://security.paloaltonetworks.com/",
+          "source_type": "PSIRT"
+        }
+      ],
+      "confidence": "High",
+      "notes": "Versions listed are supported/current release families visible in official docs; verify exact model support."
+    },
+    {
+      "id": "check-point-gaia",
+      "name": "Check Point Gaia",
+      "vendor": "Check Point",
+      "category": "Security",
+      "common_versions": [
+        "R81.10",
+        "R81.20",
+        "R82"
+      ],
+      "stack_layer": "Security",
+      "used_by": [
+        "MSP",
+        "Enterprise IT",
+        "Telecom",
+        "Financial Services",
+        "System Integrator"
+      ],
+      "important_relationships": [
+        {
+          "relates_to": "Check Point appliances and open server hardware",
+          "relationship_type": "Compatibility",
+          "why_it_matters": "Hardware compatibility and appliance support constrain upgrades."
+        },
+        {
+          "relates_to": "Management Server and gateways",
+          "relationship_type": "Compatibility",
+          "why_it_matters": "Management and gateway versions must follow supported upgrade paths."
+        }
+      ],
+      "official_sources": [
+        {
+          "title": "Check Point Support Life Cycle Policy",
+          "url": "https://www.checkpoint.com/support-services/support-life-cycle-policy/",
+          "source_type": "Official lifecycle docs"
+        },
+        {
+          "title": "Check Point Hardware Compatibility List",
+          "url": "https://www.checkpoint.com/support-services/hcl/",
+          "source_type": "Official compatibility guide"
+        }
+      ],
+      "lifecycle_source": {
+        "url": "https://www.checkpoint.com/support-services/support-life-cycle-policy/",
+        "notes": "Check Point publishes support lifecycle policy; verify exact release."
+      },
+      "security_sources": [
+        {
+          "title": "Check Point Security Advisories",
+          "url": "https://support.checkpoint.com/security-advisories",
+          "source_type": "PSIRT"
+        }
+      ],
+      "confidence": "High",
+      "notes": "Track management, gateway, Jumbo Hotfix Accumulator, and hardware model."
+    },
+    {
+      "id": "cisco-asa-software",
+      "name": "Cisco ASA Software",
+      "vendor": "Cisco",
+      "category": "Security",
+      "common_versions": [
+        "9.x"
+      ],
+      "stack_layer": "Security",
+      "used_by": [
+        "MSP",
+        "Enterprise IT",
+        "Telecom",
+        "Financial Services",
+        "System Integrator"
+      ],
+      "important_relationships": [
+        {
+          "relates_to": "Cisco ASA hardware",
+          "relationship_type": "Compatibility",
+          "why_it_matters": "Software release support varies by appliance model."
+        },
+        {
+          "relates_to": "VPN clients and management tools",
+          "relationship_type": "Compatibility",
+          "why_it_matters": "AnyConnect/Secure Client and management compatibility can constrain upgrades."
+        }
+      ],
+      "official_sources": [
+        {
+          "title": "Cisco ASA lifecycle bulletin",
+          "url": "https://www.cisco.com/c/en/us/products/collateral/security/firewalls/bulletin-c25-743178.html",
+          "source_type": "Official lifecycle docs"
+        }
+      ],
+      "lifecycle_source": {
+        "url": "https://www.cisco.com/c/en/us/products/collateral/security/firewalls/bulletin-c25-743178.html",
+        "notes": "Verify exact ASA model and software release against Cisco lifecycle notices."
+      },
+      "security_sources": [
+        {
+          "title": "Cisco Security Advisories",
+          "url": "https://sec.cloudapps.cisco.com/security/center/publicationListing.x",
+          "source_type": "PSIRT"
+        }
+      ],
+      "confidence": "High",
+      "notes": "Record appliance model and exact ASA build."
+    },
+    {
+      "id": "cisco-secure-firewall-threat-defense",
+      "name": "Cisco Secure Firewall Threat Defense",
+      "vendor": "Cisco",
+      "category": "Security",
+      "common_versions": [
+        "7.x"
+      ],
+      "stack_layer": "Security",
+      "used_by": [
+        "MSP",
+        "Enterprise IT",
+        "Telecom",
+        "Financial Services",
+        "System Integrator"
+      ],
+      "important_relationships": [
+        {
+          "relates_to": "Secure Firewall hardware or virtual platform",
+          "relationship_type": "Compatibility",
+          "why_it_matters": "FTD release support varies by platform."
+        },
+        {
+          "relates_to": "Firewall Management Center",
+          "relationship_type": "Compatibility",
+          "why_it_matters": "FMC and managed device versions must be supported together."
+        }
+      ],
+      "official_sources": [
+        {
+          "title": "Secure Firewall Threat Defense Compatibility Guide",
+          "url": "https://www.cisco.com/c/en/us/td/docs/security/secure-firewall/compatibility/threat-defense-compatibility.html",
+          "source_type": "Official compatibility guide"
+        }
+      ],
+      "lifecycle_source": {
+        "url": "https://www.cisco.com/c/en/us/products/security/firewalls/eos-eol-notice-listing.html",
+        "notes": "Check exact platform and release lifecycle in Cisco notices."
+      },
+      "security_sources": [
+        {
+          "title": "Cisco Security Advisories",
+          "url": "https://sec.cloudapps.cisco.com/security/center/publicationListing.x",
+          "source_type": "PSIRT"
+        }
+      ],
+      "confidence": "High",
+      "notes": "FMC, FTD, device model, and plugin versions should be tracked."
+    },
+    {
+      "id": "sophos-firewall",
+      "name": "Sophos Firewall",
+      "vendor": "Sophos",
+      "category": "Security",
+      "common_versions": [
+        "SFOS 20",
+        "SFOS 21"
+      ],
+      "stack_layer": "Security",
+      "used_by": [
+        "MSP",
+        "Enterprise IT",
+        "System Integrator"
+      ],
+      "important_relationships": [
+        {
+          "relates_to": "Sophos firewall appliance or virtual platform",
+          "relationship_type": "Compatibility",
+          "why_it_matters": "Supported firmware and features vary by platform."
+        },
+        {
+          "relates_to": "Sophos Central and endpoint integrations",
+          "relationship_type": "Integration",
+          "why_it_matters": "Integration versions and licensing can affect operations."
+        }
+      ],
+      "official_sources": [
+        {
+          "title": "Sophos Product Lifecycle",
+          "url": "https://www.sophos.com/en-us/content/product-lifecycle",
+          "source_type": "Official lifecycle docs"
+        }
+      ],
+      "lifecycle_source": {
+        "url": "https://www.sophos.com/en-us/content/product-lifecycle",
+        "notes": "Sophos publishes product lifecycle information; verify exact appliance and SFOS release."
+      },
+      "security_sources": [
+        {
+          "title": "Sophos Security Advisories",
+          "url": "https://www.sophos.com/en-us/security-advisories",
+          "source_type": "PSIRT"
+        }
+      ],
+      "confidence": "High",
+      "notes": "Track exact SFOS patch and appliance model."
+    },
+    {
+      "id": "pfsense-software",
+      "name": "pfSense Software",
+      "vendor": "Netgate",
+      "category": "Security",
+      "common_versions": [
+        "2.7.x",
+        "Plus 24.x",
+        "Plus 25.x"
+      ],
+      "stack_layer": "Security",
+      "used_by": [
+        "MSP",
+        "Enterprise IT",
+        "System Integrator"
+      ],
+      "important_relationships": [
+        {
+          "relates_to": "FreeBSD base and Netgate platform",
+          "relationship_type": "Dependency",
+          "why_it_matters": "Platform and base OS changes can affect drivers and packages."
+        },
+        {
+          "relates_to": "Packages and VPN integrations",
+          "relationship_type": "Upgrade impact",
+          "why_it_matters": "Third-party packages and VPN behavior can change after upgrades."
+        }
+      ],
+      "official_sources": [
+        {
+          "title": "pfSense Software Downloads",
+          "url": "https://www.pfsense.org/download/",
+          "source_type": "Official vendor docs"
+        }
+      ],
+      "lifecycle_source": {
+        "url": "https://docs.netgate.com/pfsense/en/latest/releases/index.html",
+        "notes": "Needs Verification: exact support duration differs between Community Edition and pfSense Plus."
+      },
+      "security_sources": [
+        {
+          "title": "Netgate Security Advisories",
+          "url": "https://docs.netgate.com/advisories/index.html",
+          "source_type": "Vendor bulletin"
+        }
+      ],
+      "confidence": "Medium",
+      "notes": "Edition and exact patch release must be tracked separately."
+    },
+    {
+      "id": "opnsense",
+      "name": "OPNsense",
+      "vendor": "Deciso",
+      "category": "Security",
+      "common_versions": [
+        "25.7",
+        "26.1"
+      ],
+      "stack_layer": "Security",
+      "used_by": [
+        "MSP",
+        "Enterprise IT",
+        "System Integrator"
+      ],
+      "important_relationships": [
+        {
+          "relates_to": "FreeBSD base and hardware drivers",
+          "relationship_type": "Dependency",
+          "why_it_matters": "Base system changes can affect NICs and platform behavior."
+        },
+        {
+          "relates_to": "Plugins and VPN components",
+          "relationship_type": "Upgrade impact",
+          "why_it_matters": "Plugin and protocol component compatibility should be checked."
+        }
+      ],
+      "official_sources": [
+        {
+          "title": "OPNsense Releases",
+          "url": "https://docs.opnsense.org/releases.html",
+          "source_type": "Official vendor docs"
+        },
+        {
+          "title": "OPNsense Updates",
+          "url": "https://docs.opnsense.org/manual/updates.html",
+          "source_type": "Official lifecycle docs"
+        }
+      ],
+      "lifecycle_source": {
+        "url": "https://docs.opnsense.org/manual/updates.html",
+        "notes": "OPNsense documents its update schedule; exact branch retirement date should be verified."
+      },
+      "security_sources": [
+        {
+          "title": "OPNsense Security",
+          "url": "https://docs.opnsense.org/security.html",
+          "source_type": "Vendor bulletin"
+        }
+      ],
+      "confidence": "High",
+      "notes": "Versions listed reflect recent release series in official docs."
+    },
+    {
+      "id": "crowdstrike-falcon",
+      "name": "CrowdStrike Falcon",
+      "vendor": "CrowdStrike",
+      "category": "Security",
+      "common_versions": [
+        "Cloud-delivered platform"
+      ],
+      "stack_layer": "Security",
+      "used_by": [
+        "MSP",
+        "Enterprise IT",
+        "Telecom",
+        "Financial Services",
+        "System Integrator"
+      ],
+      "important_relationships": [
+        {
+          "relates_to": "Endpoint operating systems and sensor versions",
+          "relationship_type": "Compatibility",
+          "why_it_matters": "Sensor support depends on OS and kernel versions."
+        },
+        {
+          "relates_to": "Identity and cloud integrations",
+          "relationship_type": "Integration",
+          "why_it_matters": "Connector and API changes can affect coverage and workflows."
+        }
+      ],
+      "official_sources": [
+        {
+          "title": "Falcon Platform Quarterly Release Highlights",
+          "url": "https://www.crowdstrike.com/en-us/platform/quarterly-falcon-platform-release-highlights/",
+          "source_type": "Official vendor docs"
+        }
+      ],
+      "lifecycle_source": {
+        "url": "https://www.crowdstrike.com/en-us/platform/quarterly-falcon-platform-release-highlights/",
+        "notes": "Needs Verification: cloud service lifecycle differs from discrete on-prem software versions."
+      },
+      "security_sources": [
+        {
+          "title": "NIST National Vulnerability Database",
+          "url": "https://nvd.nist.gov/",
+          "source_type": "NVD"
+        }
+      ],
+      "confidence": "Medium",
+      "notes": "Track endpoint sensor version and OS support, not only the cloud platform name. A public product-specific CrowdStrike advisory index was not verified in this pass; validate product notices in the customer portal before making a recommendation."
+    },
+    {
+      "id": "microsoft-defender-for-endpoint",
+      "name": "Microsoft Defender for Endpoint",
+      "vendor": "Microsoft",
+      "category": "Security",
+      "common_versions": [
+        "Service",
+        "Windows platform updates"
+      ],
+      "stack_layer": "Security",
+      "used_by": [
+        "MSP",
+        "Enterprise IT",
+        "Telecom",
+        "Financial Services",
+        "System Integrator"
+      ],
+      "important_relationships": [
+        {
+          "relates_to": "Windows, macOS and Linux endpoints",
+          "relationship_type": "Compatibility",
+          "why_it_matters": "Feature and sensor support depend on endpoint OS and version."
+        },
+        {
+          "relates_to": "Microsoft Defender Antivirus",
+          "relationship_type": "Integration",
+          "why_it_matters": "Engine, platform, and intelligence updates can affect endpoint behavior."
+        }
+      ],
+      "official_sources": [
+        {
+          "title": "Microsoft Defender for Endpoint Releases",
+          "url": "https://learn.microsoft.com/en-us/defender-endpoint/microsoft-defender-endpoint-releases",
+          "source_type": "Official vendor docs"
+        },
+        {
+          "title": "Microsoft Defender Antivirus Updates",
+          "url": "https://learn.microsoft.com/en-us/defender-endpoint/microsoft-defender-antivirus-updates",
+          "source_type": "Official vendor docs"
+        }
+      ],
+      "lifecycle_source": {
+        "url": "https://learn.microsoft.com/en-us/lifecycle/",
+        "notes": "Service and platform components should be checked against Microsoft lifecycle and endpoint OS support."
+      },
+      "security_sources": [
+        {
+          "title": "Microsoft Security Response Center Update Guide",
+          "url": "https://msrc.microsoft.com/update-guide/",
+          "source_type": "Vendor bulletin"
+        }
+      ],
+      "confidence": "High",
+      "notes": "Track endpoint OS, sensor/platform version, engine, and security intelligence version."
+    },
+    {
+      "id": "veeam-backup-and-replication",
+      "name": "Veeam Backup & Replication",
+      "vendor": "Veeam",
+      "category": "Backup & Recovery",
+      "common_versions": [
+        "12.x",
+        "13.x"
+      ],
+      "stack_layer": "Backup",
+      "used_by": [
+        "MSP",
+        "Enterprise IT",
+        "Telecom",
+        "Financial Services",
+        "System Integrator"
+      ],
+      "important_relationships": [
+        {
+          "relates_to": "VMware vSphere, Hyper-V and Proxmox VE",
+          "relationship_type": "Compatibility",
+          "why_it_matters": "Protected platform versions and backup components must be supported together."
+        },
+        {
+          "relates_to": "Backup repositories and object storage",
+          "relationship_type": "Compatibility",
+          "why_it_matters": "Repository platform, immutability and object storage behavior can constrain upgrades."
+        }
+      ],
+      "official_sources": [
+        {
+          "title": "Veeam Backup & Replication User Guide",
+          "url": "https://helpcenter.veeam.com/docs/vbr/userguide/general_limitations.html",
+          "source_type": "Official vendor docs"
+        },
+        {
+          "title": "Veeam KMS Requirements and Limitations",
+          "url": "https://helpcenter.veeam.com/docs/vbr/userguide/kms_requirements.html",
+          "source_type": "Official compatibility guide"
+        }
+      ],
+      "lifecycle_source": {
+        "url": "https://www.veeam.com/product-lifecycle.html",
+        "notes": "Verify exact product version lifecycle on Veeam's lifecycle page."
+      },
+      "security_sources": [
+        {
+          "title": "Veeam Support Knowledge Base",
+          "url": "https://www.veeam.com/knowledge-base.html",
+          "source_type": "Vendor bulletin"
+        }
+      ],
+      "confidence": "High",
+      "notes": "Exact build, protected platform, proxy, repository, and plugin versions should be correlated."
+    },
+    {
+      "id": "commvault",
+      "name": "Commvault",
+      "vendor": "Commvault",
+      "category": "Backup & Recovery",
+      "common_versions": [
+        "11.36",
+        "11.40",
+        "11.42"
+      ],
+      "stack_layer": "Backup",
+      "used_by": [
+        "MSP",
+        "Enterprise IT",
+        "Telecom",
+        "Financial Services",
+        "System Integrator"
+      ],
+      "important_relationships": [
+        {
+          "relates_to": "Protected OS, hypervisor, database and application versions",
+          "relationship_type": "Support matrix",
+          "why_it_matters": "Commvault support depends on protected workload versions."
+        },
+        {
+          "relates_to": "MediaAgents and CommServe",
+          "relationship_type": "Compatibility",
+          "why_it_matters": "Mixed-version environments and upgrade order can affect support."
+        }
+      ],
+      "official_sources": [
+        {
+          "title": "Commvault Software Releases and Release Tracks",
+          "url": "https://documentation.commvault.com/11.40/software/commvault_software_releases_release_types_and_release_tracks.html",
+          "source_type": "Official lifecycle docs"
+        },
+        {
+          "title": "Commvault End-of-Life and Extended Support",
+          "url": "https://documentation.commvault.com/v11/software/obsolescence_policy_end_of_life_deprecated_and_extended_support.html",
+          "source_type": "Official lifecycle docs"
+        }
+      ],
+      "lifecycle_source": {
+        "url": "https://documentation.commvault.com/11.40/software/commvault_software_releases_release_types_and_release_tracks.html",
+        "notes": "Commvault publishes release types, supported releases, and end-of-life dates."
+      },
+      "security_sources": [
+        {
+          "title": "Commvault Security Advisories",
+          "url": "https://documentation.commvault.com/securityadvisories/",
+          "source_type": "Vendor bulletin"
+        }
+      ],
+      "confidence": "High",
+      "notes": "Versions listed come from official release track documentation dated 2026."
     },
     {
       "id": "rubrik-security-cloud",
       "name": "Rubrik Security Cloud",
       "vendor": "Rubrik",
       "category": "Backup & Recovery",
-      "common_versions": ["SaaS"],
+      "common_versions": [
+        "SaaS service",
+        "Rubrik CDM release families"
+      ],
       "stack_layer": "Backup",
-      "confidence": "Needs Verification",
-      "notes": "Seed update entry for backup/recovery stack discovery."
+      "used_by": [
+        "MSP",
+        "Enterprise IT",
+        "Telecom",
+        "Financial Services",
+        "System Integrator"
+      ],
+      "important_relationships": [
+        {
+          "relates_to": "Rubrik CDM clusters and connectors",
+          "relationship_type": "Compatibility",
+          "why_it_matters": "Cloud service, cluster, and connector versions can affect supported features."
+        },
+        {
+          "relates_to": "Protected workloads",
+          "relationship_type": "Support matrix",
+          "why_it_matters": "VMware, databases, cloud and SaaS sources have workload-specific requirements."
+        }
+      ],
+      "official_sources": [
+        {
+          "title": "Rubrik CDM Release Table",
+          "url": "https://docs.rubrik.com/en-us/saas/saas/rubrik_cdm_release_table.html",
+          "source_type": "Official vendor docs"
+        }
+      ],
+      "lifecycle_source": {
+        "url": "https://docs.rubrik.com/en-us/saas/saas/rubrik_cdm_release_table.html",
+        "notes": "Needs Verification: some Rubrik documentation requires authenticated access; exact lifecycle should be checked per component."
+      },
+      "security_sources": [
+        {
+          "title": "Rubrik Trust Center",
+          "url": "https://www.rubrik.com/trust-center",
+          "source_type": "Vendor bulletin"
+        }
+      ],
+      "confidence": "Medium",
+      "notes": "Do not treat the SaaS service and on-prem CDM release as one version field."
+    },
+    {
+      "id": "cohesity-dataprotect",
+      "name": "Cohesity DataProtect",
+      "vendor": "Cohesity",
+      "category": "Backup & Recovery",
+      "common_versions": [
+        "Cohesity Data Cloud service",
+        "DataProtect"
+      ],
+      "stack_layer": "Backup",
+      "used_by": [
+        "MSP",
+        "Enterprise IT",
+        "Telecom",
+        "Financial Services",
+        "System Integrator"
+      ],
+      "important_relationships": [
+        {
+          "relates_to": "Cohesity Data Cloud platform",
+          "relationship_type": "Dependency",
+          "why_it_matters": "Service and platform release compatibility governs feature availability."
+        },
+        {
+          "relates_to": "Protected workloads and certified platforms",
+          "relationship_type": "Support matrix",
+          "why_it_matters": "Workload and platform support should be checked before upgrades."
+        }
+      ],
+      "official_sources": [
+        {
+          "title": "Cohesity Documentation",
+          "url": "https://docs.cohesity.com/",
+          "source_type": "Official vendor docs"
+        },
+        {
+          "title": "Cohesity Global Support and Services Handbook",
+          "url": "https://www.cohesity.com/content/dam/cohesity/agreements-docs/cohesity-global-support-and-services-handbook-en.pdf",
+          "source_type": "Official lifecycle docs"
+        }
+      ],
+      "lifecycle_source": {
+        "url": "https://www.cohesity.com/content/dam/cohesity/agreements-docs/cohesity-global-support-and-services-handbook-en.pdf",
+        "notes": "Support handbook describes product lifecycle concepts; exact product EOL information should be checked separately."
+      },
+      "security_sources": [
+        {
+          "title": "Cohesity RedLab Advisories",
+          "url": "https://www.cohesity.com/trust/redlab/advisories/",
+          "source_type": "Vendor bulletin"
+        }
+      ],
+      "confidence": "Medium",
+      "notes": "Some detailed support matrices require authenticated documentation access."
+    },
+    {
+      "id": "acronis-cyber-protect",
+      "name": "Acronis Cyber Protect",
+      "vendor": "Acronis",
+      "category": "Backup & Recovery",
+      "common_versions": [
+        "17",
+        "Cyber Protect Cloud service"
+      ],
+      "stack_layer": "Backup",
+      "used_by": [
+        "MSP",
+        "Enterprise IT",
+        "System Integrator"
+      ],
+      "important_relationships": [
+        {
+          "relates_to": "Endpoint operating systems and hypervisors",
+          "relationship_type": "Compatibility",
+          "why_it_matters": "Agent and workload support depend on exact platform versions."
+        },
+        {
+          "relates_to": "Acronis agents and management service",
+          "relationship_type": "Compatibility",
+          "why_it_matters": "Agent updates and service release changes can affect protection plans."
+        }
+      ],
+      "official_sources": [
+        {
+          "title": "Acronis Cyber Protect Cloud What's New",
+          "url": "https://www.acronis.com/en/products/cloud/cyber-protect/whats-new/",
+          "source_type": "Official vendor docs"
+        },
+        {
+          "title": "Acronis Cyber Protect Cloud 26.06 Release Notes",
+          "url": "https://go.acronis.com/RN_Acronis_Cyber_Cloud_EN-US",
+          "source_type": "Official vendor docs"
+        }
+      ],
+      "lifecycle_source": {
+        "url": "https://www.acronis.com/en/support/lifecycle/",
+        "notes": "Verify lifecycle for the exact local or cloud product edition."
+      },
+      "security_sources": [
+        {
+          "title": "Acronis Security Advisory Database",
+          "url": "https://security-advisory.acronis.com/",
+          "source_type": "Vendor bulletin"
+        }
+      ],
+      "confidence": "Medium",
+      "notes": "Cloud and local product lines have different release models and should be separate watched components where possible."
+    },
+    {
+      "id": "cohesity-netbackup",
+      "name": "NetBackup",
+      "vendor": "Cohesity",
+      "category": "Backup & Recovery",
+      "common_versions": [
+        "11.0",
+        "11.1",
+        "11.2"
+      ],
+      "stack_layer": "Backup",
+      "used_by": [
+        "MSP",
+        "Enterprise IT",
+        "Telecom",
+        "Financial Services",
+        "System Integrator"
+      ],
+      "important_relationships": [
+        {
+          "relates_to": "Protected OS, hypervisor, database and application versions",
+          "relationship_type": "Support matrix",
+          "why_it_matters": "Software Compatibility Lists govern supported workloads."
+        },
+        {
+          "relates_to": "Storage targets and hardware",
+          "relationship_type": "Compatibility",
+          "why_it_matters": "Hardware and Cloud Storage Compatibility Lists govern targets."
+        }
+      ],
+      "official_sources": [
+        {
+          "title": "NetBackup Compatibility Lists information",
+          "url": "https://docs.cohesity.com/docs/netbackup/11.1/103228346-170351487-0/v95435731-170351487",
+          "source_type": "Official compatibility guide"
+        },
+        {
+          "title": "NetBackup Latest Features and Past Releases",
+          "url": "https://www.cohesity.com/platform/netbackup/latest-features/",
+          "source_type": "Official vendor docs"
+        }
+      ],
+      "lifecycle_source": {
+        "url": "https://www.cohesity.com/content/dam/cohesity/agreements-docs/cohesity-global-support-and-services-handbook-en.pdf",
+        "notes": "Cohesity support handbook describes lifecycle; exact NetBackup release status should be verified."
+      },
+      "security_sources": [
+        {
+          "title": "Cohesity Security Advisories",
+          "url": "https://www.cohesity.com/trust/redlab/advisories/",
+          "source_type": "Vendor bulletin"
+        }
+      ],
+      "confidence": "High",
+      "notes": "Use SCL and HCL for exact compatibility; ownership and documentation transitioned from Veritas to Cohesity."
+    },
+    {
+      "id": "nakivo-backup-and-replication",
+      "name": "NAKIVO Backup & Replication",
+      "vendor": "NAKIVO",
+      "category": "Backup & Recovery",
+      "common_versions": [
+        "11.0",
+        "11.1",
+        "11.2"
+      ],
+      "stack_layer": "Backup",
+      "used_by": [
+        "MSP",
+        "Enterprise IT",
+        "System Integrator"
+      ],
+      "important_relationships": [
+        {
+          "relates_to": "VMware, Hyper-V, Proxmox VE and cloud workloads",
+          "relationship_type": "Compatibility",
+          "why_it_matters": "Protected platform support varies by release."
+        },
+        {
+          "relates_to": "Transporters and repositories",
+          "relationship_type": "Dependency",
+          "why_it_matters": "Distributed components and repository platforms must be compatible."
+        }
+      ],
+      "official_sources": [
+        {
+          "title": "NAKIVO v11.2 Release Notes",
+          "url": "https://helpcenter.nakivo.com/Release-Notes/Content/v11-Release-Notes/v11.2-Release-Notes.htm",
+          "source_type": "Official vendor docs"
+        },
+        {
+          "title": "NAKIVO Feature Requirements",
+          "url": "https://helpcenter.nakivo.com/User-Guide/Content/Deployment/System-Requirements/Feature-Requirements.htm",
+          "source_type": "Official compatibility guide"
+        }
+      ],
+      "lifecycle_source": {
+        "url": "https://helpcenter.nakivo.com/Release-Notes/",
+        "notes": "Needs Verification: formal lifecycle duration for each major release was not verified."
+      },
+      "security_sources": [
+        {
+          "title": "NAKIVO Security Advisory Index",
+          "url": "https://helpcenter.nakivo.com/Knowledge-Base/Content/Security-Advisory/Security-Advisory.htm",
+          "source_type": "Vendor bulletin"
+        }
+      ],
+      "confidence": "Medium",
+      "notes": "Exact build and protected platform versions should be stored."
+    },
+    {
+      "id": "postgresql",
+      "name": "PostgreSQL",
+      "vendor": "PostgreSQL Global Development Group",
+      "category": "Databases",
+      "common_versions": [
+        "14",
+        "15",
+        "16",
+        "17",
+        "18"
+      ],
+      "stack_layer": "Data",
+      "used_by": [
+        "MSP",
+        "Enterprise IT",
+        "Telecom",
+        "Financial Services",
+        "System Integrator"
+      ],
+      "important_relationships": [
+        {
+          "relates_to": "Operating system and extensions",
+          "relationship_type": "Compatibility",
+          "why_it_matters": "Extensions and package builds can constrain major upgrades."
+        },
+        {
+          "relates_to": "Client drivers and applications",
+          "relationship_type": "Upgrade impact",
+          "why_it_matters": "Protocol-compatible clients may still depend on removed behavior or extension APIs."
+        }
+      ],
+      "official_sources": [
+        {
+          "title": "PostgreSQL Versioning Policy",
+          "url": "https://www.postgresql.org/support/versioning/",
+          "source_type": "Official lifecycle docs"
+        }
+      ],
+      "lifecycle_source": {
+        "url": "https://www.postgresql.org/support/versioning/",
+        "notes": "PostgreSQL publishes support duration by major version."
+      },
+      "security_sources": [
+        {
+          "title": "PostgreSQL Security Information",
+          "url": "https://www.postgresql.org/support/security/",
+          "source_type": "Vendor bulletin"
+        }
+      ],
+      "confidence": "High",
+      "notes": "Versions listed are supported or recently supported major lines; verify current dates in the versioning page."
+    },
+    {
+      "id": "mysql",
+      "name": "MySQL",
+      "vendor": "Oracle",
+      "category": "Databases",
+      "common_versions": [
+        "8.0",
+        "8.4 LTS",
+        "9.x Innovation"
+      ],
+      "stack_layer": "Data",
+      "used_by": [
+        "MSP",
+        "Enterprise IT",
+        "Telecom",
+        "Financial Services",
+        "System Integrator"
+      ],
+      "important_relationships": [
+        {
+          "relates_to": "Operating system and connectors",
+          "relationship_type": "Compatibility",
+          "why_it_matters": "Server, connector, and OS support must be checked together."
+        },
+        {
+          "relates_to": "Applications and replication topology",
+          "relationship_type": "Upgrade impact",
+          "why_it_matters": "SQL behavior, authentication, and replication compatibility can change across majors."
+        }
+      ],
+      "official_sources": [
+        {
+          "title": "MySQL EOL Notices",
+          "url": "https://www.mysql.com/support/eol-notice.html",
+          "source_type": "Official lifecycle docs"
+        }
+      ],
+      "lifecycle_source": {
+        "url": "https://www.mysql.com/support/eol-notice.html",
+        "notes": "Oracle publishes MySQL end-of-life notices."
+      },
+      "security_sources": [
+        {
+          "title": "Oracle Critical Patch Updates and Security Alerts",
+          "url": "https://www.oracle.com/pl/security-alerts/",
+          "source_type": "Vendor bulletin"
+        }
+      ],
+      "confidence": "High",
+      "notes": "Edition and release model, including LTS versus Innovation, should be stored."
+    },
+    {
+      "id": "mariadb-server",
+      "name": "MariaDB Server",
+      "vendor": "MariaDB",
+      "category": "Databases",
+      "common_versions": [
+        "10.6",
+        "10.11",
+        "11.x"
+      ],
+      "stack_layer": "Data",
+      "used_by": [
+        "MSP",
+        "Enterprise IT",
+        "Telecom",
+        "Financial Services",
+        "System Integrator"
+      ],
+      "important_relationships": [
+        {
+          "relates_to": "Operating system packages",
+          "relationship_type": "Compatibility",
+          "why_it_matters": "Distribution packages may have different patch and support policies."
+        },
+        {
+          "relates_to": "MySQL-compatible applications and connectors",
+          "relationship_type": "Upgrade impact",
+          "why_it_matters": "Compatibility is not identical across all MySQL and MariaDB releases."
+        }
+      ],
+      "official_sources": [
+        {
+          "title": "MariaDB Community Server Corrective Releases",
+          "url": "https://mariadb.org/mariadb-community-server-corrective-releases/",
+          "source_type": "Official vendor docs"
+        }
+      ],
+      "lifecycle_source": {
+        "url": "https://mariadb.org/mariadb-community-server-corrective-releases/",
+        "notes": "Corrective release policy is documented here; Needs Verification for exact end-of-maintenance date of each deployed branch."
+      },
+      "security_sources": [
+        {
+          "title": "MariaDB CVE Documentation",
+          "url": "https://mariadb.com/docs/server/security/cve",
+          "source_type": "Vendor bulletin"
+        }
+      ],
+      "confidence": "Medium",
+      "notes": "Do not infer MySQL compatibility without testing and vendor evidence."
+    },
+    {
+      "id": "microsoft-sql-server",
+      "name": "Microsoft SQL Server",
+      "vendor": "Microsoft",
+      "category": "Databases",
+      "common_versions": [
+        "2019",
+        "2022",
+        "2025"
+      ],
+      "stack_layer": "Data",
+      "used_by": [
+        "MSP",
+        "Enterprise IT",
+        "Telecom",
+        "Financial Services",
+        "System Integrator"
+      ],
+      "important_relationships": [
+        {
+          "relates_to": "Windows Server or Linux host",
+          "relationship_type": "Compatibility",
+          "why_it_matters": "Supported OS combinations and cumulative updates matter."
+        },
+        {
+          "relates_to": "Drivers, applications and availability groups",
+          "relationship_type": "Upgrade impact",
+          "why_it_matters": "Client drivers and HA topologies can constrain upgrade order."
+        }
+      ],
+      "official_sources": [
+        {
+          "title": "SQL Server Latest Updates and Version History",
+          "url": "https://learn.microsoft.com/en-us/troubleshoot/sql/releases/download-and-install-latest-updates",
+          "source_type": "Official vendor docs"
+        },
+        {
+          "title": "SQL Server End of Support Overview",
+          "url": "https://learn.microsoft.com/en-us/sql/sql-server/end-of-support/sql-server-end-of-support-overview?view=sql-server-ver17",
+          "source_type": "Official lifecycle docs"
+        }
+      ],
+      "lifecycle_source": {
+        "url": "https://learn.microsoft.com/en-us/lifecycle/",
+        "notes": "Microsoft lifecycle pages govern each SQL Server release."
+      },
+      "security_sources": [
+        {
+          "title": "Microsoft Security Response Center Update Guide",
+          "url": "https://msrc.microsoft.com/update-guide/",
+          "source_type": "Vendor bulletin"
+        }
+      ],
+      "confidence": "High",
+      "notes": "Track major version, CU, edition, OS, and HA topology."
+    },
+    {
+      "id": "oracle-database",
+      "name": "Oracle Database",
+      "vendor": "Oracle",
+      "category": "Databases",
+      "common_versions": [
+        "19c",
+        "23ai"
+      ],
+      "stack_layer": "Data",
+      "used_by": [
+        "Enterprise IT",
+        "Telecom",
+        "Financial Services",
+        "System Integrator"
+      ],
+      "important_relationships": [
+        {
+          "relates_to": "Operating system and clusterware",
+          "relationship_type": "Compatibility",
+          "why_it_matters": "Database certification depends on OS, architecture, and RAC/Grid versions."
+        },
+        {
+          "relates_to": "Client drivers and enterprise applications",
+          "relationship_type": "Upgrade impact",
+          "why_it_matters": "Application certification and client compatibility can constrain upgrades."
+        }
+      ],
+      "official_sources": [
+        {
+          "title": "Oracle Database Documentation",
+          "url": "https://docs.oracle.com/en/database/",
+          "source_type": "Official vendor docs"
+        },
+        {
+          "title": "Oracle Critical Patch Updates and Security Alerts",
+          "url": "https://www.oracle.com/pl/security-alerts/",
+          "source_type": "Official security advisory"
+        }
+      ],
+      "lifecycle_source": {
+        "url": "https://www.oracle.com/us/support/library/lifetime-support-technology-069183.pdf",
+        "notes": "Oracle Lifetime Support Policy should be checked for the exact database release and support tier."
+      },
+      "security_sources": [
+        {
+          "title": "Oracle Critical Patch Updates and Security Alerts",
+          "url": "https://www.oracle.com/pl/security-alerts/",
+          "source_type": "Vendor bulletin"
+        }
+      ],
+      "confidence": "High",
+      "notes": "Patch set, RU, platform, RAC/Grid, and application certification should be tracked."
+    },
+    {
+      "id": "mongodb",
+      "name": "MongoDB",
+      "vendor": "MongoDB Inc.",
+      "category": "Databases",
+      "common_versions": [
+        "6.0",
+        "7.0",
+        "8.0"
+      ],
+      "stack_layer": "Data",
+      "used_by": [
+        "MSP",
+        "Enterprise IT",
+        "Telecom",
+        "Financial Services",
+        "System Integrator"
+      ],
+      "important_relationships": [
+        {
+          "relates_to": "Operating system and drivers",
+          "relationship_type": "Compatibility",
+          "why_it_matters": "Server and driver support must be validated together."
+        },
+        {
+          "relates_to": "Replica sets and sharded clusters",
+          "relationship_type": "Upgrade impact",
+          "why_it_matters": "Rolling upgrade paths and feature compatibility versions constrain changes."
+        }
+      ],
+      "official_sources": [
+        {
+          "title": "MongoDB Software Lifecycle Schedules",
+          "url": "https://www.mongodb.com/legal/support-policy/lifecycles",
+          "source_type": "Official lifecycle docs"
+        }
+      ],
+      "lifecycle_source": {
+        "url": "https://www.mongodb.com/legal/support-policy/lifecycles",
+        "notes": "MongoDB publishes lifecycle schedules."
+      },
+      "security_sources": [
+        {
+          "title": "MongoDB Security",
+          "url": "https://www.mongodb.com/docs/manual/core/security/",
+          "source_type": "Vendor bulletin"
+        }
+      ],
+      "confidence": "High",
+      "notes": "Track edition, exact patch, featureCompatibilityVersion, and driver versions."
+    },
+    {
+      "id": "redis",
+      "name": "Redis",
+      "vendor": "Redis Ltd.",
+      "category": "Databases",
+      "common_versions": [
+        "7.x",
+        "8.x"
+      ],
+      "stack_layer": "Data",
+      "used_by": [
+        "MSP",
+        "Enterprise IT",
+        "Telecom",
+        "Financial Services",
+        "System Integrator"
+      ],
+      "important_relationships": [
+        {
+          "relates_to": "Client libraries",
+          "relationship_type": "Compatibility",
+          "why_it_matters": "Protocol and command behavior can affect applications."
+        },
+        {
+          "relates_to": "Persistence, clustering and modules",
+          "relationship_type": "Upgrade impact",
+          "why_it_matters": "Module ABI and cluster behavior can constrain upgrades."
+        }
+      ],
+      "official_sources": [
+        {
+          "title": "Redis Release Notes",
+          "url": "https://redis.io/docs/latest/operate/rs/release-notes/",
+          "source_type": "Official vendor docs"
+        }
+      ],
+      "lifecycle_source": {
+        "url": "https://redis.io/docs/latest/operate/rs/release-notes/",
+        "notes": "Needs Verification: lifecycle differs between Redis Open Source and Redis Software."
+      },
+      "security_sources": [
+        {
+          "title": "Redis GitHub Security",
+          "url": "https://github.com/redis/redis/security",
+          "source_type": "Vendor bulletin"
+        }
+      ],
+      "confidence": "Medium",
+      "notes": "Distinguish Redis Open Source from Redis Software and cloud services."
+    },
+    {
+      "id": "elasticsearch",
+      "name": "Elasticsearch",
+      "vendor": "Elastic",
+      "category": "Databases",
+      "common_versions": [
+        "8.x",
+        "9.x"
+      ],
+      "stack_layer": "Data",
+      "used_by": [
+        "MSP",
+        "Enterprise IT",
+        "Telecom",
+        "Financial Services",
+        "System Integrator"
+      ],
+      "important_relationships": [
+        {
+          "relates_to": "Kibana and Elastic Stack components",
+          "relationship_type": "Compatibility",
+          "why_it_matters": "Stack component version compatibility constrains upgrades."
+        },
+        {
+          "relates_to": "JVM, plugins and clients",
+          "relationship_type": "Dependency",
+          "why_it_matters": "Supported JVM and plugin versions can change between releases."
+        }
+      ],
+      "official_sources": [
+        {
+          "title": "Elastic Support Matrix",
+          "url": "https://www.elastic.co/support/matrix",
+          "source_type": "Official compatibility guide"
+        },
+        {
+          "title": "Elastic End of Life",
+          "url": "https://www.elastic.co/support/eol",
+          "source_type": "Official lifecycle docs"
+        }
+      ],
+      "lifecycle_source": {
+        "url": "https://www.elastic.co/support/eol",
+        "notes": "Elastic publishes maintenance and support dates."
+      },
+      "security_sources": [
+        {
+          "title": "Elastic Security Announcements",
+          "url": "https://discuss.elastic.co/c/announcements/security-announcements/31",
+          "source_type": "Vendor bulletin"
+        }
+      ],
+      "confidence": "High",
+      "notes": "Track exact patch, license, plugins, JVM, and connected stack components."
+    },
+    {
+      "id": "opensearch",
+      "name": "OpenSearch",
+      "vendor": "OpenSearch Project",
+      "category": "Databases",
+      "common_versions": [
+        "2.x",
+        "3.x"
+      ],
+      "stack_layer": "Data",
+      "used_by": [
+        "MSP",
+        "Enterprise IT",
+        "Telecom",
+        "Financial Services",
+        "System Integrator"
+      ],
+      "important_relationships": [
+        {
+          "relates_to": "OpenSearch Dashboards and plugins",
+          "relationship_type": "Compatibility",
+          "why_it_matters": "Plugin and dashboard versions must match supported release combinations."
+        },
+        {
+          "relates_to": "JVM and clients",
+          "relationship_type": "Dependency",
+          "why_it_matters": "Runtime and client compatibility can affect upgrades."
+        }
+      ],
+      "official_sources": [
+        {
+          "title": "OpenSearch Version History",
+          "url": "https://docs.opensearch.org/latest/version-history/",
+          "source_type": "Official vendor docs"
+        }
+      ],
+      "lifecycle_source": {
+        "url": "https://docs.opensearch.org/latest/version-history/",
+        "notes": "Needs Verification: a formal lifecycle duration table was not verified."
+      },
+      "security_sources": [
+        {
+          "title": "OpenSearch Security Advisories",
+          "url": "https://github.com/opensearch-project/security/security/advisories",
+          "source_type": "Vendor bulletin"
+        }
+      ],
+      "confidence": "Medium",
+      "notes": "Track exact patch and all installed plugins."
+    },
+    {
+      "id": "microsoft-azure-local",
+      "name": "Azure Local",
+      "vendor": "Microsoft",
+      "category": "Cloud",
+      "common_versions": [
+        "23H2 release family",
+        "2606 view"
+      ],
+      "stack_layer": "Platform",
+      "used_by": [
+        "Enterprise IT",
+        "AI Data Center",
+        "System Integrator"
+      ],
+      "important_relationships": [
+        {
+          "relates_to": "Validated hardware and drivers",
+          "relationship_type": "Compatibility",
+          "why_it_matters": "Deployment prerequisites require supported hardware, networking, and software."
+        },
+        {
+          "relates_to": "Azure Arc and Azure services",
+          "relationship_type": "Integration",
+          "why_it_matters": "Cloud management dependencies can affect lifecycle and connectivity."
+        }
+      ],
+      "official_sources": [
+        {
+          "title": "Azure Local Release Information",
+          "url": "https://learn.microsoft.com/en-us/azure/azure-local/release-information-23h2?view=azloc-2606",
+          "source_type": "Official lifecycle docs"
+        },
+        {
+          "title": "Azure Local Deployment Prerequisites",
+          "url": "https://learn.microsoft.com/en-us/azure/azure-local/deploy/deployment-prerequisites?view=azloc-2606",
+          "source_type": "Official compatibility guide"
+        }
+      ],
+      "lifecycle_source": {
+        "url": "https://learn.microsoft.com/en-us/azure/azure-local/release-information-23h2?view=azloc-2606",
+        "notes": "Microsoft publishes supported update paths and supported-state requirements."
+      },
+      "security_sources": [
+        {
+          "title": "Microsoft Security Response Center Update Guide",
+          "url": "https://msrc.microsoft.com/update-guide/",
+          "source_type": "Vendor bulletin"
+        }
+      ],
+      "confidence": "High",
+      "notes": "Azure Stack HCI branding transitioned to Azure Local; normalize historical names carefully."
+    },
+    {
+      "id": "aws-outposts",
+      "name": "AWS Outposts",
+      "vendor": "Amazon Web Services",
+      "category": "Cloud",
+      "common_versions": [
+        "Outposts racks",
+        "Outposts servers"
+      ],
+      "stack_layer": "Hardware",
+      "used_by": [
+        "Enterprise IT",
+        "AI Data Center",
+        "System Integrator"
+      ],
+      "important_relationships": [
+        {
+          "relates_to": "AWS Region and network connectivity",
+          "relationship_type": "Dependency",
+          "why_it_matters": "Outposts operates as an extension of an AWS Region and needs service connectivity."
+        },
+        {
+          "relates_to": "EC2, EKS and S3 on Outposts",
+          "relationship_type": "Compatibility",
+          "why_it_matters": "Available services and instance types depend on the Outpost configuration."
+        }
+      ],
+      "official_sources": [
+        {
+          "title": "AWS Outposts Documentation",
+          "url": "https://docs.aws.amazon.com/outposts/",
+          "source_type": "Official vendor docs"
+        },
+        {
+          "title": "Amazon EKS on AWS Outposts",
+          "url": "https://docs.aws.amazon.com/eks/latest/userguide/eks-outposts.html",
+          "source_type": "Official compatibility guide"
+        }
+      ],
+      "lifecycle_source": {
+        "url": "https://docs.aws.amazon.com/general/latest/gr/service-lifecycle.html",
+        "notes": "AWS publishes general service lifecycle change terminology; hardware/service specifics require account and configuration verification."
+      },
+      "security_sources": [
+        {
+          "title": "AWS Security Bulletins",
+          "url": "https://aws.amazon.com/security/security-bulletins/",
+          "source_type": "Vendor bulletin"
+        }
+      ],
+      "confidence": "High",
+      "notes": "Track Outpost type, Region, capacity, supported services, and local network dependencies."
+    },
+    {
+      "id": "google-distributed-cloud",
+      "name": "Google Distributed Cloud",
+      "vendor": "Google Cloud",
+      "category": "Cloud",
+      "common_versions": [
+        "Air-gapped 1.16.x",
+        "Software-only bare metal 1.34.x"
+      ],
+      "stack_layer": "Platform",
+      "used_by": [
+        "Enterprise IT",
+        "AI Data Center",
+        "System Integrator"
+      ],
+      "important_relationships": [
+        {
+          "relates_to": "Kubernetes",
+          "relationship_type": "Dependency",
+          "why_it_matters": "GDC software releases bundle specific Kubernetes versions."
+        },
+        {
+          "relates_to": "Qualified storage and hardware",
+          "relationship_type": "Compatibility",
+          "why_it_matters": "Third-party storage and infrastructure qualifications can be release-specific."
+        }
+      ],
+      "official_sources": [
+        {
+          "title": "GDC Air-gapped 1.16.1 Release Notes",
+          "url": "https://docs.cloud.google.com/distributed-cloud/hosted/docs/latest/gdcag/resources/release-notes-1161",
+          "source_type": "Official vendor docs"
+        },
+        {
+          "title": "GDC Software-only Bare Metal Release Notes",
+          "url": "https://docs.cloud.google.com/kubernetes-engine/distributed-cloud/bare-metal/docs/release-notes",
+          "source_type": "Official compatibility guide"
+        }
+      ],
+      "lifecycle_source": {
+        "url": "https://docs.cloud.google.com/kubernetes-engine/distributed-cloud/bare-metal/docs/release-notes",
+        "notes": "Release notes document versions and upgrade requirements; product edition matters."
+      },
+      "security_sources": [
+        {
+          "title": "Google Cloud Security Bulletins",
+          "url": "https://docs.cloud.google.com/support/bulletins",
+          "source_type": "Vendor bulletin"
+        }
+      ],
+      "confidence": "High",
+      "notes": "Do not combine air-gapped, bare metal, and VMware editions into one version without an edition field."
+    },
+    {
+      "id": "vmware-cloud-foundation",
+      "name": "VMware Cloud Foundation",
+      "vendor": "Broadcom VMware",
+      "category": "Cloud",
+      "common_versions": [
+        "5.x",
+        "9.x"
+      ],
+      "stack_layer": "Platform",
+      "used_by": [
+        "Enterprise IT",
+        "AI Data Center",
+        "System Integrator"
+      ],
+      "important_relationships": [
+        {
+          "relates_to": "vSphere, NSX and management components",
+          "relationship_type": "Dependency",
+          "why_it_matters": "VCF is a composed stack with versioned component interoperability."
+        },
+        {
+          "relates_to": "Server hardware and firmware",
+          "relationship_type": "Compatibility",
+          "why_it_matters": "Validated platform and lifecycle management constrain upgrades."
+        }
+      ],
+      "official_sources": [
+        {
+          "title": "VMware Cloud Foundation Documentation",
+          "url": "https://techdocs.broadcom.com/us/en/vmware-cis/vcf.html",
+          "source_type": "Official vendor docs"
+        },
+        {
+          "title": "VCF 9 documentation",
+          "url": "https://techdocs.broadcom.com/us/en/vmware-cis/vcf/vcf-9-0-and-later/9-1.html",
+          "source_type": "Official vendor docs"
+        }
+      ],
+      "lifecycle_source": {
+        "url": "https://support.broadcom.com/",
+        "notes": "Verify exact VCF release lifecycle and entitlement in Broadcom support."
+      },
+      "security_sources": [
+        {
+          "title": "Broadcom Security Advisories",
+          "url": "https://support.broadcom.com/web/ecx/security-advisory",
+          "source_type": "Vendor bulletin"
+        }
+      ],
+      "confidence": "Medium",
+      "notes": "Component bill of materials and exact patch level are essential for upgrade impact analysis."
+    },
+    {
+      "id": "nutanix-cloud-platform",
+      "name": "Nutanix Cloud Platform",
+      "vendor": "Nutanix",
+      "category": "Cloud",
+      "common_versions": [
+        "AOS 6.x",
+        "AOS 7.x"
+      ],
+      "stack_layer": "Platform",
+      "used_by": [
+        "Enterprise IT",
+        "AI Data Center",
+        "System Integrator"
+      ],
+      "important_relationships": [
+        {
+          "relates_to": "AHV and AOS",
+          "relationship_type": "Dependency",
+          "why_it_matters": "Platform services are tied to AOS and hypervisor compatibility."
+        },
+        {
+          "relates_to": "Hardware platforms and guest OS",
+          "relationship_type": "Compatibility",
+          "why_it_matters": "Platform and guest support are governed by Nutanix matrices."
+        }
+      ],
+      "official_sources": [
+        {
+          "title": "Nutanix Compatibility and Interoperability Matrix",
+          "url": "https://portal.nutanix.com/page/documents/compatibility-interoperability-matrix/software",
+          "source_type": "Official compatibility guide"
+        },
+        {
+          "title": "Nutanix Platform Compatibility",
+          "url": "https://portal.nutanix.com/page/compatibility-interoperability-matrix/platform-compatibility",
+          "source_type": "Official compatibility guide"
+        }
+      ],
+      "lifecycle_source": {
+        "url": "https://portal.nutanix.com/page/documents/compatibility-interoperability-matrix/software",
+        "notes": "Verify lifecycle for exact AOS and platform services in the Nutanix portal."
+      },
+      "security_sources": [
+        {
+          "title": "Nutanix Security Advisories",
+          "url": "https://portal.nutanix.com/page/documents/security-advisories/list/",
+          "source_type": "Vendor bulletin"
+        }
+      ],
+      "confidence": "High",
+      "notes": "Store exact AOS, AHV, Prism, hardware platform, and enabled services."
+    },
+    {
+      "id": "apache-kafka",
+      "name": "Apache Kafka",
+      "vendor": "Apache Software Foundation",
+      "category": "Middleware",
+      "common_versions": [
+        "3.x",
+        "4.x"
+      ],
+      "stack_layer": "Runtime",
+      "used_by": [
+        "MSP",
+        "Enterprise IT",
+        "Telecom",
+        "Financial Services",
+        "System Integrator"
+      ],
+      "important_relationships": [
+        {
+          "relates_to": "Java runtime",
+          "relationship_type": "Dependency",
+          "why_it_matters": "Supported Java versions can constrain Kafka upgrades."
+        },
+        {
+          "relates_to": "Clients and brokers",
+          "relationship_type": "Compatibility",
+          "why_it_matters": "Protocol compatibility and feature changes affect rolling upgrades."
+        }
+      ],
+      "official_sources": [
+        {
+          "title": "Apache Kafka Documentation",
+          "url": "https://kafka.apache.org/documentation/",
+          "source_type": "Official vendor docs"
+        },
+        {
+          "title": "Apache Kafka Downloads",
+          "url": "https://kafka.apache.org/downloads",
+          "source_type": "Official vendor docs"
+        }
+      ],
+      "lifecycle_source": {
+        "url": "https://kafka.apache.org/downloads",
+        "notes": "Needs Verification: upstream Kafka does not expose a single long-term lifecycle table in the sources verified here."
+      },
+      "security_sources": [
+        {
+          "title": "Apache Security Reports",
+          "url": "https://www.apache.org/security/",
+          "source_type": "Vendor bulletin"
+        }
+      ],
+      "confidence": "Medium",
+      "notes": "Versions listed are major release families; exact supported patch lines should be verified from project releases."
+    },
+    {
+      "id": "rabbitmq",
+      "name": "RabbitMQ",
+      "vendor": "Broadcom Tanzu / RabbitMQ Team",
+      "category": "Middleware",
+      "common_versions": [
+        "4.2",
+        "4.3"
+      ],
+      "stack_layer": "Runtime",
+      "used_by": [
+        "MSP",
+        "Enterprise IT",
+        "Telecom",
+        "Financial Services",
+        "System Integrator"
+      ],
+      "important_relationships": [
+        {
+          "relates_to": "Erlang/OTP",
+          "relationship_type": "Dependency",
+          "why_it_matters": "RabbitMQ maintains an explicit Erlang compatibility matrix."
+        },
+        {
+          "relates_to": "Clients, plugins and cluster members",
+          "relationship_type": "Compatibility",
+          "why_it_matters": "Rolling upgrades and plugin support can constrain changes."
+        }
+      ],
+      "official_sources": [
+        {
+          "title": "RabbitMQ Release Information",
+          "url": "https://www.rabbitmq.com/release-information",
+          "source_type": "Official lifecycle docs"
+        },
+        {
+          "title": "RabbitMQ Erlang Version Requirements",
+          "url": "https://www.rabbitmq.com/docs/which-erlang",
+          "source_type": "Official compatibility guide"
+        }
+      ],
+      "lifecycle_source": {
+        "url": "https://www.rabbitmq.com/release-information",
+        "notes": "RabbitMQ publishes community and extended commercial support status."
+      },
+      "security_sources": [
+        {
+          "title": "RabbitMQ Security",
+          "url": "https://www.rabbitmq.com/security",
+          "source_type": "Vendor bulletin"
+        }
+      ],
+      "confidence": "High",
+      "notes": "Track Erlang/OTP, plugins, and cluster upgrade path."
+    },
+    {
+      "id": "nginx-open-source",
+      "name": "NGINX Open Source",
+      "vendor": "F5 / NGINX",
+      "category": "Middleware",
+      "common_versions": [
+        "1.26",
+        "1.28",
+        "1.29"
+      ],
+      "stack_layer": "Runtime",
+      "used_by": [
+        "MSP",
+        "Enterprise IT",
+        "Telecom",
+        "Financial Services",
+        "System Integrator"
+      ],
+      "important_relationships": [
+        {
+          "relates_to": "OpenSSL and operating system",
+          "relationship_type": "Dependency",
+          "why_it_matters": "TLS library and package builds affect behavior and security."
+        },
+        {
+          "relates_to": "Modules and upstream applications",
+          "relationship_type": "Compatibility",
+          "why_it_matters": "Dynamic modules and configuration directives can break on upgrades."
+        }
+      ],
+      "official_sources": [
+        {
+          "title": "NGINX Documentation",
+          "url": "https://nginx.org/en/docs/",
+          "source_type": "Official vendor docs"
+        },
+        {
+          "title": "NGINX News",
+          "url": "https://nginx.org/en/CHANGES",
+          "source_type": "Official vendor docs"
+        }
+      ],
+      "lifecycle_source": {
+        "url": "https://nginx.org/en/CHANGES",
+        "notes": "Needs Verification: formal lifecycle duration for open source branches was not verified."
+      },
+      "security_sources": [
+        {
+          "title": "NGINX Security Advisories",
+          "url": "https://nginx.org/en/security_advisories.html",
+          "source_type": "Vendor bulletin"
+        }
+      ],
+      "confidence": "Medium",
+      "notes": "Distribution-packaged NGINX may have a different support lifecycle from upstream."
+    },
+    {
+      "id": "haproxy",
+      "name": "HAProxy",
+      "vendor": "HAProxy Technologies / HAProxy Project",
+      "category": "Middleware",
+      "common_versions": [
+        "2.8 LTS",
+        "3.0 LTS",
+        "3.2",
+        "3.4"
+      ],
+      "stack_layer": "Runtime",
+      "used_by": [
+        "MSP",
+        "Enterprise IT",
+        "Telecom",
+        "Financial Services",
+        "System Integrator"
+      ],
+      "important_relationships": [
+        {
+          "relates_to": "Operating system and TLS libraries",
+          "relationship_type": "Dependency",
+          "why_it_matters": "Package and TLS library versions affect features and security."
+        },
+        {
+          "relates_to": "Applications and service discovery",
+          "relationship_type": "Integration",
+          "why_it_matters": "Configuration grammar and integrations can affect upgrades."
+        }
+      ],
+      "official_sources": [
+        {
+          "title": "HAProxy Project",
+          "url": "https://www.haproxy.org/",
+          "source_type": "Official vendor docs"
+        },
+        {
+          "title": "HAProxy Enterprise Release Notes",
+          "url": "https://www.haproxy.com/documentation/haproxy-enterprise/release-notes/",
+          "source_type": "Official vendor docs"
+        }
+      ],
+      "lifecycle_source": {
+        "url": "https://www.haproxy.org/",
+        "notes": "The project documents maintained branches on its site; exact branch support should be checked there."
+      },
+      "security_sources": [
+        {
+          "title": "HAProxy GitHub Security Advisories",
+          "url": "https://github.com/haproxy/haproxy/security/advisories",
+          "source_type": "Vendor bulletin"
+        }
+      ],
+      "confidence": "Medium",
+      "notes": "Open source and Enterprise lifecycles differ; keep them separate in production data."
+    },
+    {
+      "id": "keycloak",
+      "name": "Keycloak",
+      "vendor": "Keycloak Project",
+      "category": "Middleware",
+      "common_versions": [
+        "26.5",
+        "26.6"
+      ],
+      "stack_layer": "Security",
+      "used_by": [
+        "MSP",
+        "Enterprise IT",
+        "Telecom",
+        "Financial Services",
+        "System Integrator"
+      ],
+      "important_relationships": [
+        {
+          "relates_to": "Java runtime and database",
+          "relationship_type": "Dependency",
+          "why_it_matters": "Supported Java and database versions constrain deployment upgrades."
+        },
+        {
+          "relates_to": "OIDC and SAML clients",
+          "relationship_type": "Upgrade impact",
+          "why_it_matters": "Protocol behavior, adapters, themes, and custom providers can change."
+        }
+      ],
+      "official_sources": [
+        {
+          "title": "Keycloak Release Notes",
+          "url": "https://www.keycloak.org/docs/latest/release_notes/index.html",
+          "source_type": "Official vendor docs"
+        },
+        {
+          "title": "Keycloak 26.6.2 Release",
+          "url": "https://www.keycloak.org/2026/05/keycloak-2662-released",
+          "source_type": "Official vendor docs"
+        }
+      ],
+      "lifecycle_source": {
+        "url": "https://www.keycloak.org/docs/latest/release_notes/index.html",
+        "notes": "Needs Verification: community Keycloak support duration differs from Red Hat build lifecycle."
+      },
+      "security_sources": [
+        {
+          "title": "Keycloak Security Policy",
+          "url": "https://www.keycloak.org/security.html",
+          "source_type": "Vendor bulletin"
+        }
+      ],
+      "confidence": "Medium",
+      "notes": "Custom providers, themes, database schema, and Java runtime should be tracked."
+    },
+    {
+      "id": "gitlab",
+      "name": "GitLab",
+      "vendor": "GitLab Inc.",
+      "category": "Applications",
+      "common_versions": [
+        "18.x",
+        "19.x"
+      ],
+      "stack_layer": "Application",
+      "used_by": [
+        "MSP",
+        "Enterprise IT",
+        "Telecom",
+        "Financial Services",
+        "System Integrator"
+      ],
+      "important_relationships": [
+        {
+          "relates_to": "PostgreSQL, Redis and object storage",
+          "relationship_type": "Dependency",
+          "why_it_matters": "Self-managed deployments depend on versioned backing services."
+        },
+        {
+          "relates_to": "GitLab Runner and integrations",
+          "relationship_type": "Compatibility",
+          "why_it_matters": "Runner and integration versions can constrain upgrades."
+        }
+      ],
+      "official_sources": [
+        {
+          "title": "GitLab Release and Maintenance Policy",
+          "url": "https://docs.gitlab.com/policy/maintenance/",
+          "source_type": "Official lifecycle docs"
+        },
+        {
+          "title": "GitLab Patch Releases",
+          "url": "https://docs.gitlab.com/releases/patches/",
+          "source_type": "Official vendor docs"
+        }
+      ],
+      "lifecycle_source": {
+        "url": "https://docs.gitlab.com/policy/maintenance/",
+        "notes": "GitLab publishes maintenance and security backport policy."
+      },
+      "security_sources": [
+        {
+          "title": "GitLab Security Releases",
+          "url": "https://about.gitlab.com/releases/categories/releases/",
+          "source_type": "Vendor bulletin"
+        }
+      ],
+      "confidence": "High",
+      "notes": "Edition, deployment method, exact patch, runners, and backing service versions should be watched."
+    },
+    {
+      "id": "jenkins",
+      "name": "Jenkins",
+      "vendor": "Jenkins Project",
+      "category": "Applications",
+      "common_versions": [
+        "2.555 LTS",
+        "weekly line"
+      ],
+      "stack_layer": "Application",
+      "used_by": [
+        "MSP",
+        "Enterprise IT",
+        "Telecom",
+        "Financial Services",
+        "System Integrator"
+      ],
+      "important_relationships": [
+        {
+          "relates_to": "Java runtime",
+          "relationship_type": "Dependency",
+          "why_it_matters": "Jenkins LTS lines can change supported Java versions."
+        },
+        {
+          "relates_to": "Plugins and agents",
+          "relationship_type": "Compatibility",
+          "why_it_matters": "Plugin and agent compatibility is a major upgrade risk."
+        }
+      ],
+      "official_sources": [
+        {
+          "title": "Jenkins LTS Changelog",
+          "url": "https://www.jenkins.io/changelog-stable/",
+          "source_type": "Official vendor docs"
+        },
+        {
+          "title": "Jenkins LTS Release Line",
+          "url": "https://www.jenkins.io/download/lts/",
+          "source_type": "Official lifecycle docs"
+        }
+      ],
+      "lifecycle_source": {
+        "url": "https://www.jenkins.io/download/lts/",
+        "notes": "Jenkins documents LTS release line cadence; exact old-line retirement should be inferred cautiously."
+      },
+      "security_sources": [
+        {
+          "title": "Jenkins Security Advisories",
+          "url": "https://www.jenkins.io/security/advisories/",
+          "source_type": "Vendor bulletin"
+        }
+      ],
+      "confidence": "High",
+      "notes": "Plugin inventory is essential; controller version alone cannot predict upgrade risk."
+    },
+    {
+      "id": "sonatype-nexus-repository",
+      "name": "Sonatype Nexus Repository",
+      "vendor": "Sonatype",
+      "category": "Applications",
+      "common_versions": [
+        "3.x"
+      ],
+      "stack_layer": "Application",
+      "used_by": [
+        "MSP",
+        "Enterprise IT",
+        "Telecom",
+        "Financial Services",
+        "System Integrator"
+      ],
+      "important_relationships": [
+        {
+          "relates_to": "Java runtime and database/storage backend",
+          "relationship_type": "Dependency",
+          "why_it_matters": "Runtime and persistence support can constrain upgrades."
+        },
+        {
+          "relates_to": "Package ecosystems and clients",
+          "relationship_type": "Integration",
+          "why_it_matters": "Repository format and client behavior can be version sensitive."
+        }
+      ],
+      "official_sources": [
+        {
+          "title": "Nexus Repository Release Notes",
+          "url": "https://help.sonatype.com/en/nexus-repository-2025-release-notes.html",
+          "source_type": "Official vendor docs"
+        }
+      ],
+      "lifecycle_source": {
+        "url": "https://help.sonatype.com/en/release-notes.html",
+        "notes": "Release history is published here; Needs Verification for exact support end date of the deployed edition and branch."
+      },
+      "security_sources": [
+        {
+          "title": "Sonatype Nexus Repository Security Advisories",
+          "url": "https://github.com/sonatype/nexus-public/security/advisories",
+          "source_type": "Vendor bulletin"
+        }
+      ],
+      "confidence": "Medium",
+      "notes": "Edition and exact patch version should be tracked."
+    },
+    {
+      "id": "jfrog-artifactory",
+      "name": "JFrog Artifactory",
+      "vendor": "JFrog",
+      "category": "Applications",
+      "common_versions": [
+        "7.x"
+      ],
+      "stack_layer": "Application",
+      "used_by": [
+        "MSP",
+        "Enterprise IT",
+        "Telecom",
+        "Financial Services",
+        "System Integrator"
+      ],
+      "important_relationships": [
+        {
+          "relates_to": "Database and object storage",
+          "relationship_type": "Dependency",
+          "why_it_matters": "Self-hosted deployments depend on supported persistence backends."
+        },
+        {
+          "relates_to": "Package clients and Xray",
+          "relationship_type": "Integration",
+          "why_it_matters": "Client and platform integration compatibility can affect upgrades."
+        }
+      ],
+      "official_sources": [
+        {
+          "title": "JFrog Platform Release Notes",
+          "url": "https://jfrog.com/help/r/jfrog-release-information/jfrog-platform-release-notes",
+          "source_type": "Official vendor docs"
+        }
+      ],
+      "lifecycle_source": {
+        "url": "https://jfrog.com/help/r/jfrog-release-information/deprecations",
+        "notes": "JFrog publishes deprecations; verify exact Artifactory release support for the deployed edition."
+      },
+      "security_sources": [
+        {
+          "title": "JFrog Security Advisories",
+          "url": "https://docs.jfrog.com/releases/docs/jfrog-security-advisories",
+          "source_type": "Vendor bulletin"
+        }
+      ],
+      "confidence": "Medium",
+      "notes": "Cloud and self-hosted editions have different release models."
+    },
+    {
+      "id": "dell-idrac9",
+      "name": "iDRAC9 with Lifecycle Controller",
+      "vendor": "Dell Technologies",
+      "category": "Firmware",
+      "common_versions": [
+        "7.x",
+        "6.x",
+        "5.x"
+      ],
+      "stack_layer": "Firmware",
+      "used_by": [
+        "Enterprise IT",
+        "AI Data Center",
+        "System Integrator"
+      ],
+      "important_relationships": [
+        {
+          "relates_to": "Dell PowerEdge server generation",
+          "relationship_type": "Compatibility",
+          "why_it_matters": "iDRAC firmware branches are tied to supported server generations."
+        },
+        {
+          "relates_to": "BIOS, CPLD and device firmware",
+          "relationship_type": "Firmware requirement",
+          "why_it_matters": "Platform updates can have ordering and dependency requirements."
+        }
+      ],
+      "official_sources": [
+        {
+          "title": "iDRAC9 7.x Manuals and Release Notes",
+          "url": "https://www.dell.com/support/product-details/en-uk/product/idrac9-lifecycle-controller-v7.x-series/resources/manuals",
+          "source_type": "Official vendor docs"
+        },
+        {
+          "title": "iDRAC9 Security Configuration Guide",
+          "url": "https://www.dell.com/support/manuals/en-us/idrac9-lifecycle-controller-v5.x-series/idrac9_security_configuration_guide/overview?guid=guid-a509a6da-8e73-419b-afc9-897e4122fc00&lang=en-us",
+          "source_type": "Official vendor docs"
+        }
+      ],
+      "lifecycle_source": {
+        "url": "https://www.dell.com/support/product-details/en-uk/product/idrac9-lifecycle-controller-v7.x-series/resources/manuals",
+        "notes": "Needs Verification: branch lifecycle depends on PowerEdge generation and Dell support status."
+      },
+      "security_sources": [
+        {
+          "title": "iDRAC9 Advisories",
+          "url": "https://www.dell.com/support/product-details/en-us/product/idrac9-lifecycle-controller-v3.1-series/resources/advisories",
+          "source_type": "Vendor bulletin"
+        }
+      ],
+      "confidence": "High",
+      "notes": "Track exact server model, iDRAC branch, BIOS and platform firmware bundle."
+    },
+    {
+      "id": "hpe-ilo-6",
+      "name": "HPE iLO 6",
+      "vendor": "HPE",
+      "category": "Firmware",
+      "common_versions": [
+        "1.74",
+        "1.75"
+      ],
+      "stack_layer": "Firmware",
+      "used_by": [
+        "Enterprise IT",
+        "AI Data Center",
+        "System Integrator"
+      ],
+      "important_relationships": [
+        {
+          "relates_to": "HPE ProLiant Gen11 servers",
+          "relationship_type": "Compatibility",
+          "why_it_matters": "iLO generation and firmware support are tied to server platforms."
+        },
+        {
+          "relates_to": "System ROM and component firmware",
+          "relationship_type": "Firmware requirement",
+          "why_it_matters": "Coordinated firmware baselines reduce dependency risk."
+        }
+      ],
+      "official_sources": [
+        {
+          "title": "HPE iLO 6 v1.74 Release Notes",
+          "url": "https://support.hpe.com/hpesc/public/docDisplay?docId=sd00007371en_us&docLocale=en_US",
+          "source_type": "Official vendor docs"
+        },
+        {
+          "title": "HPE iLO 6 Product Support",
+          "url": "https://support.hpe.com/connect/s/product?kmpmoid=1014653951&language=pl&tab=manuals",
+          "source_type": "Official vendor docs"
+        }
+      ],
+      "lifecycle_source": {
+        "url": "https://support.hpe.com/connect/s/product?kmpmoid=1014653951&language=pl&tab=manuals",
+        "notes": "Needs Verification: lifecycle should be evaluated with the server generation and support entitlement."
+      },
+      "security_sources": [
+        {
+          "title": "HPE Security Bulletin Library",
+          "url": "https://support.hpe.com/connect/s/securitybulletinlibrary?language=en_US",
+          "source_type": "Vendor bulletin"
+        }
+      ],
+      "confidence": "High",
+      "notes": "Track exact server model, iLO firmware, system ROM, and SPP baseline."
+    },
+    {
+      "id": "lenovo-xclarity-controller-2",
+      "name": "Lenovo XClarity Controller 2",
+      "vendor": "Lenovo",
+      "category": "Firmware",
+      "common_versions": [
+        "XCC2"
+      ],
+      "stack_layer": "Firmware",
+      "used_by": [
+        "Enterprise IT",
+        "AI Data Center",
+        "System Integrator"
+      ],
+      "important_relationships": [
+        {
+          "relates_to": "Lenovo ThinkSystem V3 servers",
+          "relationship_type": "Compatibility",
+          "why_it_matters": "XCC2 firmware is tied to supported server platforms."
+        },
+        {
+          "relates_to": "UEFI and device firmware",
+          "relationship_type": "Firmware requirement",
+          "why_it_matters": "Update bundles can coordinate multiple firmware components."
+        }
+      ],
+      "official_sources": [
+        {
+          "title": "Lenovo XClarity Controller 2 Product Guide",
+          "url": "https://lenovopress.lenovo.com/lp1800-lenovo-xclarity-controller-2-xcc2",
+          "source_type": "Official vendor docs"
+        },
+        {
+          "title": "XCC2 Update from Repository",
+          "url": "https://pubs.lenovo.com/xcc2/updating_firmware_repository",
+          "source_type": "Official vendor docs"
+        }
+      ],
+      "lifecycle_source": {
+        "url": "https://lenovopress.lenovo.com/lp1800-lenovo-xclarity-controller-2-xcc2",
+        "notes": "Needs Verification: lifecycle should be tied to the exact server model and firmware branch."
+      },
+      "security_sources": [
+        {
+          "title": "Lenovo XClarity Controller Vulnerabilities",
+          "url": "https://support.lenovo.com/us/en/product_security/ps500578",
+          "source_type": "Vendor bulletin"
+        }
+      ],
+      "confidence": "High",
+      "notes": "Exact server model and XCC2 firmware build are required."
+    },
+    {
+      "id": "nvidia-data-center-gpu-driver",
+      "name": "NVIDIA Data Center GPU Driver",
+      "vendor": "NVIDIA",
+      "category": "Drivers",
+      "common_versions": [
+        "R535",
+        "R550",
+        "R570",
+        "R580"
+      ],
+      "stack_layer": "Runtime",
+      "used_by": [
+        "Enterprise IT",
+        "AI Data Center",
+        "Telecom",
+        "System Integrator"
+      ],
+      "important_relationships": [
+        {
+          "relates_to": "NVIDIA GPU model",
+          "relationship_type": "Compatibility",
+          "why_it_matters": "GPU support varies by driver branch."
+        },
+        {
+          "relates_to": "CUDA, operating system and kernel",
+          "relationship_type": "Compatibility",
+          "why_it_matters": "Driver, CUDA, OS, and kernel combinations constrain upgrades."
+        }
+      ],
+      "official_sources": [
+        {
+          "title": "NVIDIA Data Center Driver Lifecycle",
+          "url": "https://docs.nvidia.com/datacenter/tesla/drivers/driver-lifecycle.html",
+          "source_type": "Official lifecycle docs"
+        },
+        {
+          "title": "NVIDIA Certified Systems",
+          "url": "https://docs.nvidia.com/certification-programs/latest/nvidia-certified-systems.html",
+          "source_type": "Official compatibility guide"
+        }
+      ],
+      "lifecycle_source": {
+        "url": "https://docs.nvidia.com/datacenter/tesla/drivers/driver-lifecycle.html",
+        "notes": "NVIDIA publishes branch lifecycle and support information."
+      },
+      "security_sources": [
+        {
+          "title": "NVIDIA Product Security",
+          "url": "https://www.nvidia.com/en-us/product-security/",
+          "source_type": "PSIRT"
+        }
+      ],
+      "confidence": "High",
+      "notes": "Track branch, exact driver build, CUDA toolkit, GPU model, OS, and kernel."
+    },
+    {
+      "id": "amd-rocm",
+      "name": "AMD ROCm",
+      "vendor": "AMD",
+      "category": "Drivers",
+      "common_versions": [
+        "6.x",
+        "7.x"
+      ],
+      "stack_layer": "Runtime",
+      "used_by": [
+        "Enterprise IT",
+        "AI Data Center",
+        "Telecom",
+        "System Integrator"
+      ],
+      "important_relationships": [
+        {
+          "relates_to": "AMD GPU model",
+          "relationship_type": "Compatibility",
+          "why_it_matters": "ROCm support varies by GPU architecture and model."
+        },
+        {
+          "relates_to": "Operating system, kernel and amdgpu driver",
+          "relationship_type": "Compatibility",
+          "why_it_matters": "ROCm has explicit OS and driver compatibility requirements."
+        }
+      ],
+      "official_sources": [
+        {
+          "title": "ROCm Compatibility Matrix",
+          "url": "https://rocm.docs.amd.com/en/latest/compatibility/compatibility-matrix.html",
+          "source_type": "Official compatibility guide"
+        },
+        {
+          "title": "ROCm Releases",
+          "url": "https://github.com/ROCm/ROCm/releases",
+          "source_type": "Official vendor docs"
+        }
+      ],
+      "lifecycle_source": {
+        "url": "https://rocm.docs.amd.com/en/latest/compatibility/compatibility-matrix.html",
+        "notes": "Compatibility matrix documents release support; a separate long-term lifecycle policy Needs Verification."
+      },
+      "security_sources": [
+        {
+          "title": "AMD Product Security",
+          "url": "https://www.amd.com/en/resources/product-security.html",
+          "source_type": "PSIRT"
+        }
+      ],
+      "confidence": "High",
+      "notes": "Track ROCm, amdgpu, kernel, OS, framework, and GPU model."
     }
-  ]
+  ],
+  "schema": 1,
+  "databaseVersion": 3
 }
