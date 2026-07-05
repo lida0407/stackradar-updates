@@ -1,10 +1,10 @@
 {
   "schema": 1,
   "app": {
-    "versionCode": 4,
-    "versionName": "1.3",
+    "versionCode": 5,
+    "versionName": "1.4",
     "apkUrl": "https://github.com/lida0407/stackradar-updates/releases/latest/download/stackradar-release-demo-signed.apk",
-    "releaseNotes": "Makes Settings visible on Home and adds controls to return to the startup screen or reset demo mode."
+    "releaseNotes": "Adds Android 15 safe-area padding for status/camera cutout and expands language choices."
   },
   "database": {
     "version": 2,
