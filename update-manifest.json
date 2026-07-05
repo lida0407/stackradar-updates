@@ -7,8 +7,8 @@
     "releaseNotes": "Adds About with sensaka.com credit, broader interface localization, and support for richer data bundles."
   },
   "database": {
-    "version": 3,
+    "version": 4,
     "url": "https://github.com/lida0407/stackradar-updates/releases/latest/download/catalog.json",
-    "notes": "Imports the 103-entry StackRadar catalog and keeps support for future risks, news, and compatibility bundles."
+    "notes": "Imports the 482-entry expanded catalog with brand series, storage families, server series, and updated models."
   }
 }
