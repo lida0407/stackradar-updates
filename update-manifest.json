@@ -1,10 +1,10 @@
 {
   "schema": 1,
   "app": {
-    "versionCode": 5,
-    "versionName": "1.4",
+    "versionCode": 6,
+    "versionName": "1.5",
     "apkUrl": "https://github.com/lida0407/stackradar-updates/releases/latest/download/stackradar-release-demo-signed.apk",
-    "releaseNotes": "Adds Android 15 safe-area padding for status/camera cutout and expands language choices."
+    "releaseNotes": "Makes language settings visibly localize common app labels, navigation, settings, update, and startup controls."
   },
   "database": {
     "version": 2,
