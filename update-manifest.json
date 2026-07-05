@@ -1,0 +1,14 @@
+{
+  "schema": 1,
+  "app": {
+    "versionCode": 2,
+    "versionName": "1.1",
+    "apkUrl": "https://github.com/lida0407/stackradar-updates/releases/latest/download/stackradar-release-demo-signed.apk",
+    "releaseNotes": "Adds in-app update checks, APK download/install handoff, and remotely updateable catalog data."
+  },
+  "database": {
+    "version": 2,
+    "url": "https://raw.githubusercontent.com/lida0407/stackradar-updates/main/catalog.json",
+    "notes": "Adds sample hardware, accelerator, virtualization, storage, and security catalog entries for remote database refresh."
+  }
+}

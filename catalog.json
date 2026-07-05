@@ -1,0 +1,106 @@
+{
+  "schema": 1,
+  "databaseVersion": 2,
+  "catalog": [
+    {
+      "id": "lenovo-sr650-v3",
+      "name": "Lenovo ThinkSystem SR650 V3",
+      "vendor": "Lenovo",
+      "category": "Servers",
+      "common_versions": ["Firmware bundle 2026.1"],
+      "stack_layer": "Hardware",
+      "confidence": "Needs Verification",
+      "notes": "Seed update entry. Replace with sourced compatibility/lifecycle records before production use."
+    },
+    {
+      "id": "supermicro-sys-221h-tnr",
+      "name": "Supermicro SYS-221H-TNR",
+      "vendor": "Supermicro",
+      "category": "Servers",
+      "common_versions": ["BIOS 2.x"],
+      "stack_layer": "Hardware",
+      "confidence": "Needs Verification",
+      "notes": "Seed update entry for AI/data-center server discovery."
+    },
+    {
+      "id": "amd-mi300x",
+      "name": "AMD Instinct MI300X",
+      "vendor": "AMD",
+      "category": "GPUs & Accelerators",
+      "common_versions": ["ROCm 6.x"],
+      "stack_layer": "Hardware",
+      "confidence": "Needs Verification",
+      "notes": "Seed update entry for accelerator stack discovery."
+    },
+    {
+      "id": "intel-gaudi-3",
+      "name": "Intel Gaudi 3",
+      "vendor": "Intel",
+      "category": "GPUs & Accelerators",
+      "common_versions": ["SynapseAI 1.x"],
+      "stack_layer": "Hardware",
+      "confidence": "Needs Verification",
+      "notes": "Seed update entry for accelerator stack discovery."
+    },
+    {
+      "id": "nutanix-ahv",
+      "name": "Nutanix AHV",
+      "vendor": "Nutanix",
+      "category": "Virtualization",
+      "common_versions": ["AOS 6.x"],
+      "stack_layer": "Platform",
+      "confidence": "Needs Verification",
+      "notes": "Seed update entry for virtualization compatibility discovery."
+    },
+    {
+      "id": "openshift",
+      "name": "Red Hat OpenShift",
+      "vendor": "Red Hat",
+      "category": "Containers",
+      "common_versions": ["4.16", "4.17"],
+      "stack_layer": "Platform",
+      "confidence": "Needs Verification",
+      "notes": "Seed update entry for Kubernetes platform discovery."
+    },
+    {
+      "id": "pure-flasharray",
+      "name": "Pure Storage FlashArray",
+      "vendor": "Pure Storage",
+      "category": "Storage",
+      "common_versions": ["Purity 6.x"],
+      "stack_layer": "Hardware",
+      "confidence": "Needs Verification",
+      "notes": "Seed update entry for storage/hypervisor compatibility discovery."
+    },
+    {
+      "id": "arista-eos",
+      "name": "Arista EOS",
+      "vendor": "Arista",
+      "category": "Networking",
+      "common_versions": ["4.32"],
+      "stack_layer": "Network",
+      "confidence": "Needs Verification",
+      "notes": "Seed update entry for network OS lifecycle and advisory discovery."
+    },
+    {
+      "id": "palo-alto-panos",
+      "name": "Palo Alto PAN-OS",
+      "vendor": "Palo Alto Networks",
+      "category": "Security",
+      "common_versions": ["10.2", "11.1"],
+      "stack_layer": "Security",
+      "confidence": "Needs Verification",
+      "notes": "Seed update entry for security appliance advisory discovery."
+    },
+    {
+      "id": "rubrik-security-cloud",
+      "name": "Rubrik Security Cloud",
+      "vendor": "Rubrik",
+      "category": "Backup & Recovery",
+      "common_versions": ["SaaS"],
+      "stack_layer": "Backup",
+      "confidence": "Needs Verification",
+      "notes": "Seed update entry for backup/recovery stack discovery."
+    }
+  ]
+}
