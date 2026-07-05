@@ -1,10 +1,10 @@
 {
   "schema": 1,
   "app": {
-    "versionCode": 2,
-    "versionName": "1.1",
+    "versionCode": 3,
+    "versionName": "1.2",
     "apkUrl": "https://github.com/lida0407/stackradar-updates/releases/latest/download/stackradar-release-demo-signed.apk",
-    "releaseNotes": "Adds in-app update checks, APK download/install handoff, and remotely updateable catalog data."
+    "releaseNotes": "Adds Settings with update check, language preference, bright/dark theme, and font size controls."
   },
   "database": {
     "version": 2,
