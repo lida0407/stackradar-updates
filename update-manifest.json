@@ -1,10 +1,10 @@
 {
   "schema": 1,
   "app": {
-    "versionCode": 8,
-    "versionName": "1.7",
+    "versionCode": 9,
+    "versionName": "1.8",
     "apkUrl": "https://github.com/lida0407/stackradar-updates/releases/latest/download/stackradar-release-demo-signed.apk",
-    "releaseNotes": "Adds About with sensaka.com credit, broader interface localization, and support for richer data bundles."
+    "releaseNotes": "Makes updated catalog entries visible when browsing Servers, Storage, and other category filters."
   },
   "database": {
     "version": 4,
