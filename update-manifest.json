@@ -7,8 +7,8 @@
     "releaseNotes": "Makes updated catalog entries visible when browsing Servers, Storage, and other category filters."
   },
   "database": {
-    "version": 7,
+    "version": 8,
     "url": "https://github.com/lida0407/stackradar-updates/releases/latest/download/catalog.json",
-    "notes": "Adds source-enriched StackRadar catalog data with expanded official evidence for databases, storage, backup, operating systems, security, applications, firmware, and drivers."
+    "notes": "Adds broader official security advisory, PSIRT, CVE, and vendor bulletin sources across networking, middleware, containers, databases, virtualization, cloud, and storage categories."
   }
 }
