@@ -1,10 +1,10 @@
 {
   "schema": 1,
   "app": {
-    "versionCode": 9,
-    "versionName": "1.8",
+    "versionCode": 10,
+    "versionName": "1.9",
     "apkUrl": "https://github.com/lida0407/stackradar-updates/releases/latest/download/stackradar-release-demo-signed.apk",
-    "releaseNotes": "Makes updated catalog entries visible when browsing Servers, Storage, and other category filters."
+    "releaseNotes": "Redesigns Build Stack around category, brand, and series selection; normalizes device models to families; adds paginated My/All risks and News for me/All news feeds with category and brand filters."
   },
   "database": {
     "version": 8,
