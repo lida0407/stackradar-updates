@@ -2,6 +2,8 @@
 
 Public update feed and database catalog for the StackRadar Android demo.
 
+Main app source code and APK: [lida0407/stackradar](https://github.com/lida0407/stackradar)
+
 StackRadar is an Android data center stack warning app. The idea is simple:
 data center stacks are messy, and important changes are spread across server,
 storage, hypervisor, operating system, GPU, backup, networking, security,
