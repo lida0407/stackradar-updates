@@ -19,9 +19,34 @@ Category -> brand -> series/platform family
 Then it helps surface relevant risk, advisory, lifecycle, compatibility, and
 source-monitoring signals for that stack.
 
+## Real Intelligence Feeds
+
+Since database `v9`, `catalog.json` also carries explicit `risks` and `news`
+arrays generated daily by `tools/build_intel_feeds.py` from two free,
+authoritative sources:
+
+- **CISA Known Exploited Vulnerabilities (KEV)** — recent KEV additions that
+  match a catalog product family become **Act Now** risks (and news items when
+  under 30 days old). Matching is family-level; the app instructs users to
+  verify exact installed versions.
+- **endoflife.date** — upcoming and recent end-of-life milestones for matched
+  products become **Plan** risks and **Lifecycle** news.
+
+The `daily-intel` GitHub Actions workflow (`.github/workflows/daily-intel.yml`)
+runs the script every day, commits changed feeds, and re-uploads
+`catalog.json` + `update-manifest.json` to the latest release so
+`releases/latest/download/...` URLs stay current. The database version only
+bumps when feed content actually changed.
+
+`update-manifest.json` publishes SHA-256 checksums (`database.sha256`,
+`app.sha256`). App builds from v1.11 verify these before applying a database
+update or installing an APK, and refuse APK updates that carry no checksum.
+Use `tools/publish_update.sh` for manual publishing; pass
+`--apk path/to/signed.apk` to `build_intel_feeds.py` to embed the APK checksum.
+
 ## Current Coverage
 
-Current database: `v8`
+Current database: `v9`
 
 - `1,341` infrastructure entries
 - `15` categories
