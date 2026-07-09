@@ -7,9 +7,9 @@
     "releaseNotes": "All risks and all news now derive from database security, advisory, lifecycle, official, and monitoring source fields when explicit feed arrays are not provided."
   },
   "database": {
-    "version": 10,
+    "version": 11,
     "url": "https://github.com/lida0407/stackradar-updates/releases/latest/download/catalog.json",
-    "notes": "v10: 71 CISA KEV Act Now risks, 86 lifecycle Plan risks, 93 news items (generated 2026-07-08).",
-    "sha256": "1193411f49566b8d5d755dfd8c6037a36c8b896b8fd417f2dd12fe1a6f70e22e"
+    "notes": "v11: 71 CISA KEV Act Now risks, 86 lifecycle Plan risks, 93 news items (generated 2026-07-09).",
+    "sha256": "152e34a7c09b792a970638e443cd19a8e877b700d7fe131a8b080d6b68bbde88"
   }
 }
