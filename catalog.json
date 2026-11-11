@@ -93970,8 +93970,8 @@
     }
   ],
   "schema": 1,
-  "databaseVersion": 134,
-  "updatedAt": "2026-11-10",
+  "databaseVersion": 135,
+  "updatedAt": "2026-11-11",
   "risks": [
     {
       "id": "kev-cve-2026-76418-cisco-asa-software",
@@ -94013,14 +94013,14 @@
           "t": "Government security authority",
           "badge": "Government",
           "pub": "2026-10-29",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         },
         {
           "n": "NVD record CVE-2026-76418",
           "t": "Government vulnerability database",
           "badge": "Government",
           "pub": "2026-10-29",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -94064,14 +94064,14 @@
           "t": "Government security authority",
           "badge": "Government",
           "pub": "2026-10-29",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         },
         {
           "n": "NVD record CVE-2026-76418",
           "t": "Government vulnerability database",
           "badge": "Government",
           "pub": "2026-10-29",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -94115,14 +94115,14 @@
           "t": "Government security authority",
           "badge": "Government",
           "pub": "2026-10-23",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         },
         {
           "n": "NVD record CVE-2026-114625",
           "t": "Government vulnerability database",
           "badge": "Government",
           "pub": "2026-10-23",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -94166,14 +94166,14 @@
           "t": "Government security authority",
           "badge": "Government",
           "pub": "2026-10-14",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         },
         {
           "n": "NVD record CVE-2026-76519",
           "t": "Government vulnerability database",
           "badge": "Government",
           "pub": "2026-10-14",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -94217,14 +94217,14 @@
           "t": "Government security authority",
           "badge": "Government",
           "pub": "2026-10-14",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         },
         {
           "n": "NVD record CVE-2026-0322",
           "t": "Government vulnerability database",
           "badge": "Government",
           "pub": "2026-10-14",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -94268,14 +94268,14 @@
           "t": "Government security authority",
           "badge": "Government",
           "pub": "2026-10-14",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         },
         {
           "n": "NVD record CVE-2026-0322",
           "t": "Government vulnerability database",
           "badge": "Government",
           "pub": "2026-10-14",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -94319,14 +94319,14 @@
           "t": "Government security authority",
           "badge": "Government",
           "pub": "2026-10-13",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         },
         {
           "n": "NVD record CVE-2026-96951",
           "t": "Government vulnerability database",
           "badge": "Government",
           "pub": "2026-10-13",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -94370,14 +94370,14 @@
           "t": "Government security authority",
           "badge": "Government",
           "pub": "2026-10-13",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         },
         {
           "n": "NVD record CVE-2026-96951",
           "t": "Government vulnerability database",
           "badge": "Government",
           "pub": "2026-10-13",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -94421,14 +94421,14 @@
           "t": "Government security authority",
           "badge": "Government",
           "pub": "2026-10-13",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         },
         {
           "n": "NVD record CVE-2026-96951",
           "t": "Government vulnerability database",
           "badge": "Government",
           "pub": "2026-10-13",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -94472,14 +94472,14 @@
           "t": "Government security authority",
           "badge": "Government",
           "pub": "2026-10-13",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         },
         {
           "n": "NVD record CVE-2026-96951",
           "t": "Government vulnerability database",
           "badge": "Government",
           "pub": "2026-10-13",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -94523,14 +94523,14 @@
           "t": "Government security authority",
           "badge": "Government",
           "pub": "2026-10-13",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         },
         {
           "n": "NVD record CVE-2026-96951",
           "t": "Government vulnerability database",
           "badge": "Government",
           "pub": "2026-10-13",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -94574,14 +94574,14 @@
           "t": "Government security authority",
           "badge": "Government",
           "pub": "2026-10-13",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         },
         {
           "n": "NVD record CVE-2026-96951",
           "t": "Government vulnerability database",
           "badge": "Government",
           "pub": "2026-10-13",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -94625,14 +94625,14 @@
           "t": "Government security authority",
           "badge": "Government",
           "pub": "2026-10-13",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         },
         {
           "n": "NVD record CVE-2026-96951",
           "t": "Government vulnerability database",
           "badge": "Government",
           "pub": "2026-10-13",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -94676,14 +94676,14 @@
           "t": "Government security authority",
           "badge": "Government",
           "pub": "2026-10-13",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         },
         {
           "n": "NVD record CVE-2026-96951",
           "t": "Government vulnerability database",
           "badge": "Government",
           "pub": "2026-10-13",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -94727,14 +94727,14 @@
           "t": "Government security authority",
           "badge": "Government",
           "pub": "2026-10-13",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         },
         {
           "n": "NVD record CVE-2026-96951",
           "t": "Government vulnerability database",
           "badge": "Government",
           "pub": "2026-10-13",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -94778,14 +94778,14 @@
           "t": "Government security authority",
           "badge": "Government",
           "pub": "2026-10-13",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         },
         {
           "n": "NVD record CVE-2026-96951",
           "t": "Government vulnerability database",
           "badge": "Government",
           "pub": "2026-10-13",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -94829,14 +94829,14 @@
           "t": "Government security authority",
           "badge": "Government",
           "pub": "2026-10-13",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         },
         {
           "n": "NVD record CVE-2026-96951",
           "t": "Government vulnerability database",
           "badge": "Government",
           "pub": "2026-10-13",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -94880,14 +94880,14 @@
           "t": "Government security authority",
           "badge": "Government",
           "pub": "2026-10-13",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         },
         {
           "n": "NVD record CVE-2026-96951",
           "t": "Government vulnerability database",
           "badge": "Government",
           "pub": "2026-10-13",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -94931,14 +94931,14 @@
           "t": "Government security authority",
           "badge": "Government",
           "pub": "2026-10-13",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         },
         {
           "n": "NVD record CVE-2026-96951",
           "t": "Government vulnerability database",
           "badge": "Government",
           "pub": "2026-10-13",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -94982,14 +94982,14 @@
           "t": "Government security authority",
           "badge": "Government",
           "pub": "2026-09-30",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         },
         {
           "n": "NVD record CVE-2026-76504",
           "t": "Government vulnerability database",
           "badge": "Government",
           "pub": "2026-09-30",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -95033,14 +95033,14 @@
           "t": "Government security authority",
           "badge": "Government",
           "pub": "2026-09-30",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         },
         {
           "n": "NVD record CVE-2026-76504",
           "t": "Government vulnerability database",
           "badge": "Government",
           "pub": "2026-09-30",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -95084,14 +95084,14 @@
           "t": "Government security authority",
           "badge": "Government",
           "pub": "2026-09-30",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         },
         {
           "n": "NVD record CVE-2026-76504",
           "t": "Government vulnerability database",
           "badge": "Government",
           "pub": "2026-09-30",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -95135,14 +95135,14 @@
           "t": "Government security authority",
           "badge": "Government",
           "pub": "2026-09-25",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         },
         {
           "n": "NVD record CVE-2026-67279",
           "t": "Government vulnerability database",
           "badge": "Government",
           "pub": "2026-09-25",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -95186,14 +95186,14 @@
           "t": "Government security authority",
           "badge": "Government",
           "pub": "2026-09-22",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         },
         {
           "n": "NVD record CVE-2026-93952",
           "t": "Government vulnerability database",
           "badge": "Government",
           "pub": "2026-09-22",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -95237,14 +95237,14 @@
           "t": "Government security authority",
           "badge": "Government",
           "pub": "2026-09-22",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         },
         {
           "n": "NVD record CVE-2026-94127",
           "t": "Government vulnerability database",
           "badge": "Government",
           "pub": "2026-09-22",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -95288,14 +95288,14 @@
           "t": "Government security authority",
           "badge": "Government",
           "pub": "2026-09-22",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         },
         {
           "n": "NVD record CVE-2026-94127",
           "t": "Government vulnerability database",
           "badge": "Government",
           "pub": "2026-09-22",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -95339,14 +95339,14 @@
           "t": "Government security authority",
           "badge": "Government",
           "pub": "2026-09-22",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         },
         {
           "n": "NVD record CVE-2026-94127",
           "t": "Government vulnerability database",
           "badge": "Government",
           "pub": "2026-09-22",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -95390,14 +95390,14 @@
           "t": "Government security authority",
           "badge": "Government",
           "pub": "2026-09-16",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         },
         {
           "n": "NVD record CVE-2026-76460",
           "t": "Government vulnerability database",
           "badge": "Government",
           "pub": "2026-09-16",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -95441,14 +95441,14 @@
           "t": "Government security authority",
           "badge": "Government",
           "pub": "2026-09-14",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         },
         {
           "n": "NVD record CVE-2026-76461",
           "t": "Government vulnerability database",
           "badge": "Government",
           "pub": "2026-09-14",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -95492,14 +95492,14 @@
           "t": "Government security authority",
           "badge": "Government",
           "pub": "2026-09-11",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         },
         {
           "n": "NVD record CVE-2026-42016",
           "t": "Government vulnerability database",
           "badge": "Government",
           "pub": "2026-09-11",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -95543,14 +95543,14 @@
           "t": "Government security authority",
           "badge": "Government",
           "pub": "2026-09-11",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         },
         {
           "n": "NVD record CVE-2026-42018",
           "t": "Government vulnerability database",
           "badge": "Government",
           "pub": "2026-09-11",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -95594,14 +95594,14 @@
           "t": "Government security authority",
           "badge": "Government",
           "pub": "2026-09-10",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         },
         {
           "n": "NVD record CVE-2026-86060",
           "t": "Government vulnerability database",
           "badge": "Government",
           "pub": "2026-09-10",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -95645,14 +95645,14 @@
           "t": "Government security authority",
           "badge": "Government",
           "pub": "2026-09-10",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         },
         {
           "n": "NVD record CVE-2026-67277",
           "t": "Government vulnerability database",
           "badge": "Government",
           "pub": "2026-09-10",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -95696,14 +95696,14 @@
           "t": "Government security authority",
           "badge": "Government",
           "pub": "2026-09-08",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         },
         {
           "n": "NVD record CVE-2026-81963",
           "t": "Government vulnerability database",
           "badge": "Government",
           "pub": "2026-09-08",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -95747,14 +95747,14 @@
           "t": "Government security authority",
           "badge": "Government",
           "pub": "2026-09-08",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         },
         {
           "n": "NVD record CVE-2026-81963",
           "t": "Government vulnerability database",
           "badge": "Government",
           "pub": "2026-09-08",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -95798,14 +95798,14 @@
           "t": "Government security authority",
           "badge": "Government",
           "pub": "2026-09-08",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         },
         {
           "n": "NVD record CVE-2026-81963",
           "t": "Government vulnerability database",
           "badge": "Government",
           "pub": "2026-09-08",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -95849,14 +95849,14 @@
           "t": "Government security authority",
           "badge": "Government",
           "pub": "2026-09-08",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         },
         {
           "n": "NVD record CVE-2026-81963",
           "t": "Government vulnerability database",
           "badge": "Government",
           "pub": "2026-09-08",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -95900,14 +95900,14 @@
           "t": "Government security authority",
           "badge": "Government",
           "pub": "2026-09-08",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         },
         {
           "n": "NVD record CVE-2026-81963",
           "t": "Government vulnerability database",
           "badge": "Government",
           "pub": "2026-09-08",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -95951,14 +95951,14 @@
           "t": "Government security authority",
           "badge": "Government",
           "pub": "2026-09-08",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         },
         {
           "n": "NVD record CVE-2026-81963",
           "t": "Government vulnerability database",
           "badge": "Government",
           "pub": "2026-09-08",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -96002,14 +96002,14 @@
           "t": "Government security authority",
           "badge": "Government",
           "pub": "2026-09-08",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         },
         {
           "n": "NVD record CVE-2026-81963",
           "t": "Government vulnerability database",
           "badge": "Government",
           "pub": "2026-09-08",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -96053,14 +96053,14 @@
           "t": "Government security authority",
           "badge": "Government",
           "pub": "2026-09-08",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         },
         {
           "n": "NVD record CVE-2026-81963",
           "t": "Government vulnerability database",
           "badge": "Government",
           "pub": "2026-09-08",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -96104,14 +96104,14 @@
           "t": "Government security authority",
           "badge": "Government",
           "pub": "2026-09-08",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         },
         {
           "n": "NVD record CVE-2026-81963",
           "t": "Government vulnerability database",
           "badge": "Government",
           "pub": "2026-09-08",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -96155,14 +96155,14 @@
           "t": "Government security authority",
           "badge": "Government",
           "pub": "2026-09-08",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         },
         {
           "n": "NVD record CVE-2026-81963",
           "t": "Government vulnerability database",
           "badge": "Government",
           "pub": "2026-09-08",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -96206,14 +96206,14 @@
           "t": "Government security authority",
           "badge": "Government",
           "pub": "2026-09-08",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         },
         {
           "n": "NVD record CVE-2026-81963",
           "t": "Government vulnerability database",
           "badge": "Government",
           "pub": "2026-09-08",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -96257,14 +96257,14 @@
           "t": "Government security authority",
           "badge": "Government",
           "pub": "2026-09-08",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         },
         {
           "n": "NVD record CVE-2026-81963",
           "t": "Government vulnerability database",
           "badge": "Government",
           "pub": "2026-09-08",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -96308,14 +96308,14 @@
           "t": "Government security authority",
           "badge": "Government",
           "pub": "2026-09-08",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         },
         {
           "n": "NVD record CVE-2026-81963",
           "t": "Government vulnerability database",
           "badge": "Government",
           "pub": "2026-09-08",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -96359,14 +96359,14 @@
           "t": "Government security authority",
           "badge": "Government",
           "pub": "2026-09-08",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         },
         {
           "n": "NVD record CVE-2026-85880",
           "t": "Government vulnerability database",
           "badge": "Government",
           "pub": "2026-09-08",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -96410,14 +96410,14 @@
           "t": "Government security authority",
           "badge": "Government",
           "pub": "2026-09-08",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         },
         {
           "n": "NVD record CVE-2026-85880",
           "t": "Government vulnerability database",
           "badge": "Government",
           "pub": "2026-09-08",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -96461,14 +96461,14 @@
           "t": "Government security authority",
           "badge": "Government",
           "pub": "2026-09-08",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         },
         {
           "n": "NVD record CVE-2026-85880",
           "t": "Government vulnerability database",
           "badge": "Government",
           "pub": "2026-09-08",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -96512,14 +96512,14 @@
           "t": "Government security authority",
           "badge": "Government",
           "pub": "2026-09-08",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         },
         {
           "n": "NVD record CVE-2026-85880",
           "t": "Government vulnerability database",
           "badge": "Government",
           "pub": "2026-09-08",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -96563,14 +96563,14 @@
           "t": "Government security authority",
           "badge": "Government",
           "pub": "2026-09-08",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         },
         {
           "n": "NVD record CVE-2026-85880",
           "t": "Government vulnerability database",
           "badge": "Government",
           "pub": "2026-09-08",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -96614,14 +96614,14 @@
           "t": "Government security authority",
           "badge": "Government",
           "pub": "2026-09-08",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         },
         {
           "n": "NVD record CVE-2026-85880",
           "t": "Government vulnerability database",
           "badge": "Government",
           "pub": "2026-09-08",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -96665,14 +96665,14 @@
           "t": "Government security authority",
           "badge": "Government",
           "pub": "2026-09-08",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         },
         {
           "n": "NVD record CVE-2026-85880",
           "t": "Government vulnerability database",
           "badge": "Government",
           "pub": "2026-09-08",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -96716,14 +96716,14 @@
           "t": "Government security authority",
           "badge": "Government",
           "pub": "2026-09-08",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         },
         {
           "n": "NVD record CVE-2026-85880",
           "t": "Government vulnerability database",
           "badge": "Government",
           "pub": "2026-09-08",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -96767,14 +96767,14 @@
           "t": "Government security authority",
           "badge": "Government",
           "pub": "2026-09-08",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         },
         {
           "n": "NVD record CVE-2026-85880",
           "t": "Government vulnerability database",
           "badge": "Government",
           "pub": "2026-09-08",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -96818,14 +96818,14 @@
           "t": "Government security authority",
           "badge": "Government",
           "pub": "2026-09-08",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         },
         {
           "n": "NVD record CVE-2026-85880",
           "t": "Government vulnerability database",
           "badge": "Government",
           "pub": "2026-09-08",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -96869,14 +96869,14 @@
           "t": "Government security authority",
           "badge": "Government",
           "pub": "2026-09-08",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         },
         {
           "n": "NVD record CVE-2026-85880",
           "t": "Government vulnerability database",
           "badge": "Government",
           "pub": "2026-09-08",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -96920,14 +96920,14 @@
           "t": "Government security authority",
           "badge": "Government",
           "pub": "2026-09-08",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         },
         {
           "n": "NVD record CVE-2026-85880",
           "t": "Government vulnerability database",
           "badge": "Government",
           "pub": "2026-09-08",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -96971,14 +96971,14 @@
           "t": "Government security authority",
           "badge": "Government",
           "pub": "2026-09-08",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         },
         {
           "n": "NVD record CVE-2026-85880",
           "t": "Government vulnerability database",
           "badge": "Government",
           "pub": "2026-09-08",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -97022,14 +97022,14 @@
           "t": "Government security authority",
           "badge": "Government",
           "pub": "2026-09-02",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         },
         {
           "n": "NVD record CVE-2026-82329",
           "t": "Government vulnerability database",
           "badge": "Government",
           "pub": "2026-09-02",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -97073,14 +97073,14 @@
           "t": "Government security authority",
           "badge": "Government",
           "pub": "2026-08-26",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         },
         {
           "n": "NVD record CVE-2019-1068",
           "t": "Government vulnerability database",
           "badge": "Government",
           "pub": "2026-08-26",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -97124,14 +97124,14 @@
           "t": "Government security authority",
           "badge": "Government",
           "pub": "2026-08-26",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         },
         {
           "n": "NVD record CVE-2019-1068",
           "t": "Government vulnerability database",
           "badge": "Government",
           "pub": "2026-08-26",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -97175,14 +97175,14 @@
           "t": "Government security authority",
           "badge": "Government",
           "pub": "2026-08-26",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         },
         {
           "n": "NVD record CVE-2019-1068",
           "t": "Government vulnerability database",
           "badge": "Government",
           "pub": "2026-08-26",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -97226,14 +97226,14 @@
           "t": "Government security authority",
           "badge": "Government",
           "pub": "2026-08-26",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         },
         {
           "n": "NVD record CVE-2019-1068",
           "t": "Government vulnerability database",
           "badge": "Government",
           "pub": "2026-08-26",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -97277,14 +97277,14 @@
           "t": "Government security authority",
           "badge": "Government",
           "pub": "2026-08-26",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         },
         {
           "n": "NVD record CVE-2019-1068",
           "t": "Government vulnerability database",
           "badge": "Government",
           "pub": "2026-08-26",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -97328,14 +97328,14 @@
           "t": "Government security authority",
           "badge": "Government",
           "pub": "2026-08-26",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         },
         {
           "n": "NVD record CVE-2019-1068",
           "t": "Government vulnerability database",
           "badge": "Government",
           "pub": "2026-08-26",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -97379,14 +97379,14 @@
           "t": "Government security authority",
           "badge": "Government",
           "pub": "2026-08-26",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         },
         {
           "n": "NVD record CVE-2019-1068",
           "t": "Government vulnerability database",
           "badge": "Government",
           "pub": "2026-08-26",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -97430,14 +97430,14 @@
           "t": "Government security authority",
           "badge": "Government",
           "pub": "2026-08-24",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         },
         {
           "n": "NVD record CVE-2026-21962",
           "t": "Government vulnerability database",
           "badge": "Government",
           "pub": "2026-08-24",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -97481,14 +97481,14 @@
           "t": "Government security authority",
           "badge": "Government",
           "pub": "2026-08-18",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         },
         {
           "n": "NVD record CVE-2026-33824",
           "t": "Government vulnerability database",
           "badge": "Government",
           "pub": "2026-08-18",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -97533,14 +97533,14 @@
           "t": "Government security authority",
           "badge": "Government",
           "pub": "2026-08-18",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         },
         {
           "n": "NVD record CVE-2026-59310",
           "t": "Government vulnerability database",
           "badge": "Government",
           "pub": "2026-08-18",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -97584,14 +97584,14 @@
           "t": "Government security authority",
           "badge": "Government",
           "pub": "2026-08-11",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         },
         {
           "n": "NVD record CVE-2026-20349",
           "t": "Government vulnerability database",
           "badge": "Government",
           "pub": "2026-08-11",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -97635,14 +97635,14 @@
           "t": "Government security authority",
           "badge": "Government",
           "pub": "2026-08-11",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         },
         {
           "n": "NVD record CVE-2026-68820",
           "t": "Government vulnerability database",
           "badge": "Government",
           "pub": "2026-08-11",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -97686,14 +97686,14 @@
           "t": "Government security authority",
           "badge": "Government",
           "pub": "2026-08-11",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         },
         {
           "n": "NVD record CVE-2026-68820",
           "t": "Government vulnerability database",
           "badge": "Government",
           "pub": "2026-08-11",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -97737,14 +97737,14 @@
           "t": "Government security authority",
           "badge": "Government",
           "pub": "2026-08-11",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         },
         {
           "n": "NVD record CVE-2026-68820",
           "t": "Government vulnerability database",
           "badge": "Government",
           "pub": "2026-08-11",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -97788,14 +97788,14 @@
           "t": "Government security authority",
           "badge": "Government",
           "pub": "2026-08-11",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         },
         {
           "n": "NVD record CVE-2026-68820",
           "t": "Government vulnerability database",
           "badge": "Government",
           "pub": "2026-08-11",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -97839,14 +97839,14 @@
           "t": "Government security authority",
           "badge": "Government",
           "pub": "2026-08-04",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         },
         {
           "n": "NVD record CVE-2026-34486",
           "t": "Government vulnerability database",
           "badge": "Government",
           "pub": "2026-08-04",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -97890,14 +97890,14 @@
           "t": "Government security authority",
           "badge": "Government",
           "pub": "2026-08-04",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         },
         {
           "n": "NVD record CVE-2026-34486",
           "t": "Government vulnerability database",
           "badge": "Government",
           "pub": "2026-08-04",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -97941,14 +97941,14 @@
           "t": "Government security authority",
           "badge": "Government",
           "pub": "2026-08-04",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         },
         {
           "n": "NVD record CVE-2026-34486",
           "t": "Government vulnerability database",
           "badge": "Government",
           "pub": "2026-08-04",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -97992,14 +97992,14 @@
           "t": "Government security authority",
           "badge": "Government",
           "pub": "2026-07-27",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         },
         {
           "n": "NVD record CVE-2025-68686",
           "t": "Government vulnerability database",
           "badge": "Government",
           "pub": "2026-07-27",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -98043,167 +98043,14 @@
           "t": "Government security authority",
           "badge": "Government",
           "pub": "2026-07-27",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         },
         {
           "n": "NVD record CVE-2026-16812",
           "t": "Government vulnerability database",
           "badge": "Government",
           "pub": "2026-07-27",
-          "chk": "2026-11-10"
-        }
-      ]
-    },
-    {
-      "id": "kev-cve-2008-4128-cisco-ios-classic",
-      "bucket": "act",
-      "tier": "ACT NOW",
-      "tone": "red",
-      "product": "Cisco IOS Software",
-      "title": "CVE-2008-4128 (Cisco IOS Cross-Site Request Forgery Vulnerability) is in the CISA KEV catalog",
-      "infrastructure_category": "Networking",
-      "brand": "Cisco",
-      "updated": "2026-07-13",
-      "why": [
-        "CVE-2008-4128 was added to the CISA Known Exploited Vulnerabilities catalog on 2026-07-13.",
-        "CISA lists this vulnerability as exploited in the wild.",
-        "CISA remediation due date for US federal agencies: 2026-07-16."
-      ],
-      "match": "Product Family Match",
-      "matchTone": "amber",
-      "conf": "High",
-      "sources": [
-        "CISA KEV",
-        "NVD"
-      ],
-      "cta": "Review Action",
-      "what": "Cisco IOS 12.4 contains multiple cross-site forgery vulnerabilities that allows remote attackers to execute arbitrary commands via (1) a certain \"show privilege\" command to the /level/15/exec/- URI, and (2) a certain \"alias exec\" command to the /level/15/exec/-/configure/http URI.",
-      "whyD": "Your database maps this product family (Cisco IOS Software) to this vendor. Exploited vulnerabilities are prioritized above all other signals.",
-      "affected": "Verify version",
-      "affTone": "amber",
-      "affNote": "KEV matching is at product-family level. Compare your exact installed version against the affected versions in the NVD record and vendor advisory.",
-      "steps": [
-        "Confirm the exact installed version",
-        "Open the NVD record for CVE-2008-4128",
-        "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-        "Check whether the product is internet-facing and restrict exposure"
-      ],
-      "srcCards": [
-        {
-          "n": "CISA Known Exploited Vulnerabilities",
-          "t": "Government security authority",
-          "badge": "Government",
-          "pub": "2026-07-13",
-          "chk": "2026-11-10"
-        },
-        {
-          "n": "NVD record CVE-2008-4128",
-          "t": "Government vulnerability database",
-          "badge": "Government",
-          "pub": "2026-07-13",
-          "chk": "2026-11-10"
-        }
-      ]
-    },
-    {
-      "id": "kev-cve-2008-4128-cisco-ios-xe",
-      "bucket": "act",
-      "tier": "ACT NOW",
-      "tone": "red",
-      "product": "Cisco IOS XE",
-      "title": "CVE-2008-4128 (Cisco IOS Cross-Site Request Forgery Vulnerability) is in the CISA KEV catalog",
-      "infrastructure_category": "Networking",
-      "brand": "Cisco",
-      "updated": "2026-07-13",
-      "why": [
-        "CVE-2008-4128 was added to the CISA Known Exploited Vulnerabilities catalog on 2026-07-13.",
-        "CISA lists this vulnerability as exploited in the wild.",
-        "CISA remediation due date for US federal agencies: 2026-07-16."
-      ],
-      "match": "Product Family Match",
-      "matchTone": "amber",
-      "conf": "High",
-      "sources": [
-        "CISA KEV",
-        "NVD"
-      ],
-      "cta": "Review Action",
-      "what": "Cisco IOS 12.4 contains multiple cross-site forgery vulnerabilities that allows remote attackers to execute arbitrary commands via (1) a certain \"show privilege\" command to the /level/15/exec/- URI, and (2) a certain \"alias exec\" command to the /level/15/exec/-/configure/http URI.",
-      "whyD": "Your database maps this product family (Cisco IOS XE) to this vendor. Exploited vulnerabilities are prioritized above all other signals.",
-      "affected": "Verify version",
-      "affTone": "amber",
-      "affNote": "KEV matching is at product-family level. Compare your exact installed version against the affected versions in the NVD record and vendor advisory.",
-      "steps": [
-        "Confirm the exact installed version",
-        "Open the NVD record for CVE-2008-4128",
-        "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-        "Check whether the product is internet-facing and restrict exposure"
-      ],
-      "srcCards": [
-        {
-          "n": "CISA Known Exploited Vulnerabilities",
-          "t": "Government security authority",
-          "badge": "Government",
-          "pub": "2026-07-13",
-          "chk": "2026-11-10"
-        },
-        {
-          "n": "NVD record CVE-2008-4128",
-          "t": "Government vulnerability database",
-          "badge": "Government",
-          "pub": "2026-07-13",
-          "chk": "2026-11-10"
-        }
-      ]
-    },
-    {
-      "id": "kev-cve-2008-4128-cisco-ios-xr",
-      "bucket": "act",
-      "tier": "ACT NOW",
-      "tone": "red",
-      "product": "Cisco IOS XR",
-      "title": "CVE-2008-4128 (Cisco IOS Cross-Site Request Forgery Vulnerability) is in the CISA KEV catalog",
-      "infrastructure_category": "Networking",
-      "brand": "Cisco",
-      "updated": "2026-07-13",
-      "why": [
-        "CVE-2008-4128 was added to the CISA Known Exploited Vulnerabilities catalog on 2026-07-13.",
-        "CISA lists this vulnerability as exploited in the wild.",
-        "CISA remediation due date for US federal agencies: 2026-07-16."
-      ],
-      "match": "Product Family Match",
-      "matchTone": "amber",
-      "conf": "High",
-      "sources": [
-        "CISA KEV",
-        "NVD"
-      ],
-      "cta": "Review Action",
-      "what": "Cisco IOS 12.4 contains multiple cross-site forgery vulnerabilities that allows remote attackers to execute arbitrary commands via (1) a certain \"show privilege\" command to the /level/15/exec/- URI, and (2) a certain \"alias exec\" command to the /level/15/exec/-/configure/http URI.",
-      "whyD": "Your database maps this product family (Cisco IOS XR) to this vendor. Exploited vulnerabilities are prioritized above all other signals.",
-      "affected": "Verify version",
-      "affTone": "amber",
-      "affNote": "KEV matching is at product-family level. Compare your exact installed version against the affected versions in the NVD record and vendor advisory.",
-      "steps": [
-        "Confirm the exact installed version",
-        "Open the NVD record for CVE-2008-4128",
-        "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-        "Check whether the product is internet-facing and restrict exposure"
-      ],
-      "srcCards": [
-        {
-          "n": "CISA Known Exploited Vulnerabilities",
-          "t": "Government security authority",
-          "badge": "Government",
-          "pub": "2026-07-13",
-          "chk": "2026-11-10"
-        },
-        {
-          "n": "NVD record CVE-2008-4128",
-          "t": "Government vulnerability database",
-          "badge": "Government",
-          "pub": "2026-07-13",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -98216,7 +98063,7 @@
       "title": "GitLab 19.5 reaches end of life on 2027-01-21",
       "infrastructure_category": "Applications",
       "brand": "GitLab Inc.",
-      "updated": "2026-11-10",
+      "updated": "2026-11-11",
       "why": [
         "endoflife.date tracks the 19.5 cycle of GitLab.",
         "Plan the migration before security fixes stop."
@@ -98244,7 +98091,7 @@
           "t": "Aggregated official lifecycle data",
           "badge": "High Authority",
           "pub": "2027-01-21",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -98257,7 +98104,7 @@
       "title": "GitLab 19.4 reaches end of life on 2026-12-17",
       "infrastructure_category": "Applications",
       "brand": "GitLab Inc.",
-      "updated": "2026-11-10",
+      "updated": "2026-11-11",
       "why": [
         "endoflife.date tracks the 19.4 cycle of GitLab.",
         "Plan the migration before security fixes stop."
@@ -98285,7 +98132,7 @@
           "t": "Aggregated official lifecycle data",
           "badge": "High Authority",
           "pub": "2026-12-17",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -98298,7 +98145,7 @@
       "title": "Red Hat Ansible Automation Platform 2.6 reaches end of life on 2027-10-01",
       "infrastructure_category": "Applications",
       "brand": "Red Hat",
-      "updated": "2026-11-10",
+      "updated": "2026-11-11",
       "why": [
         "endoflife.date tracks the 2.6 cycle of Red Hat Ansible Automation Platform.",
         "Plan the migration before security fixes stop."
@@ -98326,7 +98173,7 @@
           "t": "Aggregated official lifecycle data",
           "badge": "High Authority",
           "pub": "2027-10-01",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -98339,7 +98186,7 @@
       "title": "Red Hat Ansible Automation Platform 2.5 reached end of life on 2026-10-02",
       "infrastructure_category": "Applications",
       "brand": "Red Hat",
-      "updated": "2026-11-10",
+      "updated": "2026-11-11",
       "why": [
         "endoflife.date tracks the 2.5 cycle of Red Hat Ansible Automation Platform.",
         "This cycle no longer receives security fixes."
@@ -98367,7 +98214,7 @@
           "t": "Aggregated official lifecycle data",
           "badge": "High Authority",
           "pub": "2026-10-02",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -98380,7 +98227,7 @@
       "title": "Commvault 11.40 reaches end of life on 2027-12-15",
       "infrastructure_category": "Backup & Recovery",
       "brand": "Commvault",
-      "updated": "2026-11-10",
+      "updated": "2026-11-11",
       "why": [
         "endoflife.date tracks the 11.40 cycle of Commvault.",
         "Plan the migration before security fixes stop."
@@ -98408,7 +98255,7 @@
           "t": "Aggregated official lifecycle data",
           "badge": "High Authority",
           "pub": "2027-12-15",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -98421,7 +98268,7 @@
       "title": "Commvault 11.36 reaches end of life on 2027-06-15",
       "infrastructure_category": "Backup & Recovery",
       "brand": "Commvault",
-      "updated": "2026-11-10",
+      "updated": "2026-11-11",
       "why": [
         "endoflife.date tracks the 11.36 cycle of Commvault.",
         "Plan the migration before security fixes stop."
@@ -98449,7 +98296,7 @@
           "t": "Aggregated official lifecycle data",
           "badge": "High Authority",
           "pub": "2027-06-15",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -98462,7 +98309,7 @@
       "title": "Proxmox Backup Server 3 reached end of life on 2026-08-31",
       "infrastructure_category": "Backup & Recovery",
       "brand": "Proxmox",
-      "updated": "2026-11-10",
+      "updated": "2026-11-11",
       "why": [
         "endoflife.date tracks the 3 cycle of Proxmox Backup Server.",
         "This cycle no longer receives security fixes."
@@ -98490,7 +98337,7 @@
           "t": "Aggregated official lifecycle data",
           "badge": "High Authority",
           "pub": "2026-08-31",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -98503,7 +98350,7 @@
       "title": "Veeam Backup & Replication 12 reaches end of life on 2027-02-28",
       "infrastructure_category": "Backup & Recovery",
       "brand": "Veeam",
-      "updated": "2026-11-10",
+      "updated": "2026-11-11",
       "why": [
         "endoflife.date tracks the 12 cycle of Veeam Backup & Replication.",
         "Plan the migration before security fixes stop."
@@ -98531,7 +98378,7 @@
           "t": "Aggregated official lifecycle data",
           "badge": "High Authority",
           "pub": "2027-02-28",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -98544,7 +98391,7 @@
       "title": "Veeam Backup for Microsoft 365 8 reached end of life on 2026-09-03",
       "infrastructure_category": "Backup & Recovery",
       "brand": "Veeam",
-      "updated": "2026-11-10",
+      "updated": "2026-11-11",
       "why": [
         "endoflife.date tracks the 8 cycle of Veeam Backup for Microsoft 365.",
         "This cycle no longer receives security fixes."
@@ -98572,7 +98419,7 @@
           "t": "Aggregated official lifecycle data",
           "badge": "High Authority",
           "pub": "2026-09-03",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -98585,7 +98432,7 @@
       "title": "VMware Cloud Foundation 9.0 reaches end of life on 2027-09-17",
       "infrastructure_category": "Cloud",
       "brand": "Broadcom VMware",
-      "updated": "2026-11-10",
+      "updated": "2026-11-11",
       "why": [
         "endoflife.date tracks the 9.0 cycle of VMware Cloud Foundation.",
         "Plan the migration before security fixes stop."
@@ -98613,7 +98460,7 @@
           "t": "Aggregated official lifecycle data",
           "badge": "High Authority",
           "pub": "2027-09-17",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -98626,7 +98473,7 @@
       "title": "VMware Cloud Foundation 5.2 reaches end of life on 2027-10-11",
       "infrastructure_category": "Cloud",
       "brand": "Broadcom VMware",
-      "updated": "2026-11-10",
+      "updated": "2026-11-11",
       "why": [
         "endoflife.date tracks the 5.2 cycle of VMware Cloud Foundation.",
         "Plan the migration before security fixes stop."
@@ -98654,7 +98501,7 @@
           "t": "Aggregated official lifecycle data",
           "badge": "High Authority",
           "pub": "2027-10-11",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -98667,7 +98514,7 @@
       "title": "Google Kubernetes Engine 1.37 reaches end of life on 2027-12-22",
       "infrastructure_category": "Cloud",
       "brand": "Google Cloud",
-      "updated": "2026-11-10",
+      "updated": "2026-11-11",
       "why": [
         "endoflife.date tracks the 1.37 cycle of Google Kubernetes Engine.",
         "Plan the migration before security fixes stop."
@@ -98695,7 +98542,7 @@
           "t": "Aggregated official lifecycle data",
           "badge": "High Authority",
           "pub": "2027-12-22",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -98708,7 +98555,7 @@
       "title": "Google Kubernetes Engine 1.36 reaches end of life on 2027-08-09",
       "infrastructure_category": "Cloud",
       "brand": "Google Cloud",
-      "updated": "2026-11-10",
+      "updated": "2026-11-11",
       "why": [
         "endoflife.date tracks the 1.36 cycle of Google Kubernetes Engine.",
         "Plan the migration before security fixes stop."
@@ -98736,7 +98583,7 @@
           "t": "Aggregated official lifecycle data",
           "badge": "High Authority",
           "pub": "2027-08-09",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -98749,7 +98596,7 @@
       "title": "Azure Kubernetes Service 1.37 reaches end of life on 2027-10-31",
       "infrastructure_category": "Cloud",
       "brand": "Microsoft",
-      "updated": "2026-11-10",
+      "updated": "2026-11-11",
       "why": [
         "endoflife.date tracks the 1.37 cycle of Azure Kubernetes Service.",
         "Plan the migration before security fixes stop."
@@ -98777,7 +98624,7 @@
           "t": "Aggregated official lifecycle data",
           "badge": "High Authority",
           "pub": "2027-10-31",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -98790,7 +98637,7 @@
       "title": "Azure Kubernetes Service 1.36 reaches end of life on 2027-06-30",
       "infrastructure_category": "Cloud",
       "brand": "Microsoft",
-      "updated": "2026-11-10",
+      "updated": "2026-11-11",
       "why": [
         "endoflife.date tracks the 1.36 cycle of Azure Kubernetes Service.",
         "Plan the migration before security fixes stop."
@@ -98818,7 +98665,7 @@
           "t": "Aggregated official lifecycle data",
           "badge": "High Authority",
           "pub": "2027-06-30",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -98831,7 +98678,7 @@
       "title": "Kubernetes 1.37 reaches end of life on 2027-10-28",
       "infrastructure_category": "Containers",
       "brand": "Cloud Native Computing Foundation",
-      "updated": "2026-11-10",
+      "updated": "2026-11-11",
       "why": [
         "endoflife.date tracks the 1.37 cycle of Kubernetes.",
         "Plan the migration before security fixes stop."
@@ -98859,7 +98706,7 @@
           "t": "Aggregated official lifecycle data",
           "badge": "High Authority",
           "pub": "2027-10-28",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -98872,7 +98719,7 @@
       "title": "Kubernetes 1.36 reaches end of life on 2027-06-28",
       "infrastructure_category": "Containers",
       "brand": "Cloud Native Computing Foundation",
-      "updated": "2026-11-10",
+      "updated": "2026-11-11",
       "why": [
         "endoflife.date tracks the 1.36 cycle of Kubernetes.",
         "Plan the migration before security fixes stop."
@@ -98900,7 +98747,7 @@
           "t": "Aggregated official lifecycle data",
           "badge": "High Authority",
           "pub": "2027-06-28",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -98913,7 +98760,7 @@
       "title": "containerd 2.4 reaches end of life on 2027-05-16",
       "infrastructure_category": "Containers",
       "brand": "CNCF containerd project",
-      "updated": "2026-11-10",
+      "updated": "2026-11-11",
       "why": [
         "endoflife.date tracks the 2.4 cycle of containerd.",
         "Plan the migration before security fixes stop."
@@ -98941,7 +98788,7 @@
           "t": "Aggregated official lifecycle data",
           "badge": "High Authority",
           "pub": "2027-05-16",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -98954,7 +98801,7 @@
       "title": "containerd 2.3 reaches end of life on 2028-04-30",
       "infrastructure_category": "Containers",
       "brand": "CNCF containerd project",
-      "updated": "2026-11-10",
+      "updated": "2026-11-11",
       "why": [
         "endoflife.date tracks the 2.3 cycle of containerd.",
         "Plan the migration before security fixes stop."
@@ -98982,7 +98829,7 @@
           "t": "Aggregated official lifecycle data",
           "badge": "High Authority",
           "pub": "2028-04-30",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -98995,7 +98842,7 @@
       "title": "Docker Engine 25.0 reaches end of life on 2026-12-04",
       "infrastructure_category": "Containers",
       "brand": "Docker",
-      "updated": "2026-11-10",
+      "updated": "2026-11-11",
       "why": [
         "endoflife.date tracks the 25.0 cycle of Docker Engine.",
         "Plan the migration before security fixes stop."
@@ -99023,48 +98870,7 @@
           "t": "Aggregated official lifecycle data",
           "badge": "High Authority",
           "pub": "2026-12-04",
-          "chk": "2026-11-10"
-        }
-      ]
-    },
-    {
-      "id": "eol-podman-60-podman",
-      "bucket": "plan",
-      "tier": "PLAN",
-      "tone": "blue",
-      "product": "Podman",
-      "title": "Podman 6.0 reached end of life on 2026-08-12",
-      "infrastructure_category": "Containers",
-      "brand": "Podman Project",
-      "updated": "2026-11-10",
-      "why": [
-        "endoflife.date tracks the 6.0 cycle of Podman.",
-        "This cycle no longer receives security fixes."
-      ],
-      "match": "Product Family Match",
-      "matchTone": "gray",
-      "conf": "High",
-      "sources": [
-        "endoflife.date"
-      ],
-      "cta": "",
-      "what": "The 6.0 release cycle of Podman passed its end-of-life date.",
-      "whyD": "Running end-of-life infrastructure means no security patches and usually no vendor support.",
-      "affected": "Verify version",
-      "affTone": "gray",
-      "affNote": "Only deployments on the 6.0 cycle are affected. Confirm the running version.",
-      "steps": [
-        "Confirm which release cycle is deployed",
-        "Check the vendor lifecycle page for extended-support options",
-        "Schedule the upgrade or migration before the milestone"
-      ],
-      "srcCards": [
-        {
-          "n": "endoflife.date/podman",
-          "t": "Aggregated official lifecycle data",
-          "badge": "High Authority",
-          "pub": "2026-08-12",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -99077,7 +98883,7 @@
       "title": "Podman 5.8 reached end of life on 2026-09-26",
       "infrastructure_category": "Containers",
       "brand": "Podman Project",
-      "updated": "2026-11-10",
+      "updated": "2026-11-11",
       "why": [
         "endoflife.date tracks the 5.8 cycle of Podman.",
         "This cycle no longer receives security fixes."
@@ -99105,7 +98911,7 @@
           "t": "Aggregated official lifecycle data",
           "badge": "High Authority",
           "pub": "2026-09-26",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -99118,7 +98924,7 @@
       "title": "Amazon Neptune 1.4.8.1 reaches end of life on 2027-10-27",
       "infrastructure_category": "Databases",
       "brand": "Amazon Web Services",
-      "updated": "2026-11-10",
+      "updated": "2026-11-11",
       "why": [
         "endoflife.date tracks the 1.4.8.1 cycle of Amazon Neptune.",
         "Plan the migration before security fixes stop."
@@ -99146,7 +98952,7 @@
           "t": "Aggregated official lifecycle data",
           "badge": "High Authority",
           "pub": "2027-10-27",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -99159,7 +98965,7 @@
       "title": "Amazon Neptune 1.4.7.1 reaches end of life on 2027-06-03",
       "infrastructure_category": "Databases",
       "brand": "Amazon Web Services",
-      "updated": "2026-11-10",
+      "updated": "2026-11-11",
       "why": [
         "endoflife.date tracks the 1.4.7.1 cycle of Amazon Neptune.",
         "Plan the migration before security fixes stop."
@@ -99187,7 +98993,7 @@
           "t": "Aggregated official lifecycle data",
           "badge": "High Authority",
           "pub": "2027-06-03",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -99200,7 +99006,7 @@
       "title": "ClickHouse 26.8 reaches end of life on 2027-08-27",
       "infrastructure_category": "Databases",
       "brand": "ClickHouse",
-      "updated": "2026-11-10",
+      "updated": "2026-11-11",
       "why": [
         "endoflife.date tracks the 26.8 cycle of ClickHouse.",
         "Plan the migration before security fixes stop."
@@ -99228,7 +99034,7 @@
           "t": "Aggregated official lifecycle data",
           "badge": "High Authority",
           "pub": "2027-08-27",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -99241,7 +99047,7 @@
       "title": "ClickHouse 26.7 reached end of life on 2026-10-24",
       "infrastructure_category": "Databases",
       "brand": "ClickHouse",
-      "updated": "2026-11-10",
+      "updated": "2026-11-11",
       "why": [
         "endoflife.date tracks the 26.7 cycle of ClickHouse.",
         "This cycle no longer receives security fixes."
@@ -99269,7 +99075,7 @@
           "t": "Aggregated official lifecycle data",
           "badge": "High Authority",
           "pub": "2026-10-24",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -99282,7 +99088,7 @@
       "title": "CockroachDB 26.3 reaches end of life on 2027-02-19",
       "infrastructure_category": "Databases",
       "brand": "Cockroach Labs",
-      "updated": "2026-11-10",
+      "updated": "2026-11-11",
       "why": [
         "endoflife.date tracks the 26.3 cycle of CockroachDB.",
         "Plan the migration before security fixes stop."
@@ -99310,7 +99116,7 @@
           "t": "Aggregated official lifecycle data",
           "badge": "High Authority",
           "pub": "2027-02-19",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -99323,7 +99129,7 @@
       "title": "CockroachDB 25.4 reaches end of life on 2028-05-03",
       "infrastructure_category": "Databases",
       "brand": "Cockroach Labs",
-      "updated": "2026-11-10",
+      "updated": "2026-11-11",
       "why": [
         "endoflife.date tracks the 25.4 cycle of CockroachDB.",
         "Plan the migration before security fixes stop."
@@ -99351,7 +99157,7 @@
           "t": "Aggregated official lifecycle data",
           "badge": "High Authority",
           "pub": "2028-05-03",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -99364,7 +99170,7 @@
       "title": "Couchbase Server 7.6 reaches end of life on 2027-03-31",
       "infrastructure_category": "Databases",
       "brand": "Couchbase",
-      "updated": "2026-11-10",
+      "updated": "2026-11-11",
       "why": [
         "endoflife.date tracks the 7.6 cycle of Couchbase Server.",
         "Plan the migration before security fixes stop."
@@ -99392,7 +99198,7 @@
           "t": "Aggregated official lifecycle data",
           "badge": "High Authority",
           "pub": "2027-03-31",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -99405,7 +99211,7 @@
       "title": "Elasticsearch 8.19 reaches end of life on 2027-07-15",
       "infrastructure_category": "Databases",
       "brand": "Elastic",
-      "updated": "2026-11-10",
+      "updated": "2026-11-11",
       "why": [
         "endoflife.date tracks the 8.19 cycle of Elasticsearch.",
         "Plan the migration before security fixes stop."
@@ -99433,7 +99239,7 @@
           "t": "Aggregated official lifecycle data",
           "badge": "High Authority",
           "pub": "2027-07-15",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -99446,7 +99252,7 @@
       "title": "IBM Db2 11.5 reaches end of life on 2027-04-30",
       "infrastructure_category": "Databases",
       "brand": "IBM",
-      "updated": "2026-11-10",
+      "updated": "2026-11-11",
       "why": [
         "endoflife.date tracks the 11.5 cycle of IBM Db2.",
         "Plan the migration before security fixes stop."
@@ -99474,7 +99280,7 @@
           "t": "Aggregated official lifecycle data",
           "badge": "High Authority",
           "pub": "2027-04-30",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -99487,7 +99293,7 @@
       "title": "Microsoft SQL Server 14.0 reaches end of life on 2027-10-12",
       "infrastructure_category": "Databases",
       "brand": "Microsoft",
-      "updated": "2026-11-10",
+      "updated": "2026-11-11",
       "why": [
         "endoflife.date tracks the 14.0 cycle of Microsoft SQL Server.",
         "Plan the migration before security fixes stop."
@@ -99515,7 +99321,7 @@
           "t": "Aggregated official lifecycle data",
           "badge": "High Authority",
           "pub": "2027-10-12",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -99528,7 +99334,7 @@
       "title": "MongoDB 7.0 reaches end of life on 2027-08-31",
       "infrastructure_category": "Databases",
       "brand": "MongoDB Inc.",
-      "updated": "2026-11-10",
+      "updated": "2026-11-11",
       "why": [
         "endoflife.date tracks the 7.0 cycle of MongoDB.",
         "Plan the migration before security fixes stop."
@@ -99556,7 +99362,7 @@
           "t": "Aggregated official lifecycle data",
           "badge": "High Authority",
           "pub": "2027-08-31",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -99569,7 +99375,7 @@
       "title": "Neo4j 2026.09 reached end of life on 2026-10-20",
       "infrastructure_category": "Databases",
       "brand": "Neo4j",
-      "updated": "2026-11-10",
+      "updated": "2026-11-11",
       "why": [
         "endoflife.date tracks the 2026.09 cycle of Neo4j.",
         "This cycle no longer receives security fixes."
@@ -99597,7 +99403,7 @@
           "t": "Aggregated official lifecycle data",
           "badge": "High Authority",
           "pub": "2026-10-20",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -99610,7 +99416,7 @@
       "title": "Neo4j 2026.08 reached end of life on 2026-09-21",
       "infrastructure_category": "Databases",
       "brand": "Neo4j",
-      "updated": "2026-11-10",
+      "updated": "2026-11-11",
       "why": [
         "endoflife.date tracks the 2026.08 cycle of Neo4j.",
         "This cycle no longer receives security fixes."
@@ -99638,7 +99444,7 @@
           "t": "Aggregated official lifecycle data",
           "badge": "High Authority",
           "pub": "2026-09-21",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -99651,7 +99457,7 @@
       "title": "MySQL 26.7 reached end of life on 2026-10-20",
       "infrastructure_category": "Databases",
       "brand": "Oracle",
-      "updated": "2026-11-10",
+      "updated": "2026-11-11",
       "why": [
         "endoflife.date tracks the 26.7 cycle of MySQL.",
         "This cycle no longer receives security fixes."
@@ -99679,7 +99485,7 @@
           "t": "Aggregated official lifecycle data",
           "badge": "High Authority",
           "pub": "2026-10-20",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -99692,7 +99498,7 @@
       "title": "Oracle Database 21 reaches end of life on 2027-07-31",
       "infrastructure_category": "Databases",
       "brand": "Oracle",
-      "updated": "2026-11-10",
+      "updated": "2026-11-11",
       "why": [
         "endoflife.date tracks the 21 cycle of Oracle Database.",
         "Plan the migration before security fixes stop."
@@ -99720,7 +99526,7 @@
           "t": "Aggregated official lifecycle data",
           "badge": "High Authority",
           "pub": "2027-07-31",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -99733,7 +99539,7 @@
       "title": "PostgreSQL 15 reaches end of life on 2027-11-11",
       "infrastructure_category": "Databases",
       "brand": "PostgreSQL Global Development Group",
-      "updated": "2026-11-10",
+      "updated": "2026-11-11",
       "why": [
         "endoflife.date tracks the 15 cycle of PostgreSQL.",
         "Plan the migration before security fixes stop."
@@ -99761,7 +99567,7 @@
           "t": "Aggregated official lifecycle data",
           "badge": "High Authority",
           "pub": "2027-11-11",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -99774,7 +99580,7 @@
       "title": "PostgreSQL 14 reaches end of life on 2026-11-12",
       "infrastructure_category": "Databases",
       "brand": "PostgreSQL Global Development Group",
-      "updated": "2026-11-10",
+      "updated": "2026-11-11",
       "why": [
         "endoflife.date tracks the 14 cycle of PostgreSQL.",
         "Plan the migration before security fixes stop."
@@ -99802,7 +99608,7 @@
           "t": "Aggregated official lifecycle data",
           "badge": "High Authority",
           "pub": "2026-11-12",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -99815,7 +99621,7 @@
       "title": "Redis 8.0 reaches end of life on 2026-12-01",
       "infrastructure_category": "Databases",
       "brand": "Redis Ltd.",
-      "updated": "2026-11-10",
+      "updated": "2026-11-11",
       "why": [
         "endoflife.date tracks the 8.0 cycle of Redis.",
         "Plan the migration before security fixes stop."
@@ -99843,7 +99649,7 @@
           "t": "Aggregated official lifecycle data",
           "badge": "High Authority",
           "pub": "2026-12-01",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -99856,7 +99662,7 @@
       "title": "Redis 6.2 reaches end of life on 2027-04-01",
       "infrastructure_category": "Databases",
       "brand": "Redis Ltd.",
-      "updated": "2026-11-10",
+      "updated": "2026-11-11",
       "why": [
         "endoflife.date tracks the 6.2 cycle of Redis.",
         "Plan the migration before security fixes stop."
@@ -99884,7 +99690,7 @@
           "t": "Aggregated official lifecycle data",
           "badge": "High Authority",
           "pub": "2027-04-01",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -99897,7 +99703,7 @@
       "title": "Apache Camel 4.22 reaches end of life on 2027-08-11",
       "infrastructure_category": "Middleware",
       "brand": "Apache Software Foundation",
-      "updated": "2026-11-10",
+      "updated": "2026-11-11",
       "why": [
         "endoflife.date tracks the 4.22 cycle of Apache Camel.",
         "Plan the migration before security fixes stop."
@@ -99925,7 +99731,7 @@
           "t": "Aggregated official lifecycle data",
           "badge": "High Authority",
           "pub": "2027-08-11",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -99938,7 +99744,7 @@
       "title": "Apache Camel 4.18 reaches end of life on 2027-02-17",
       "infrastructure_category": "Middleware",
       "brand": "Apache Software Foundation",
-      "updated": "2026-11-10",
+      "updated": "2026-11-11",
       "why": [
         "endoflife.date tracks the 4.18 cycle of Apache Camel.",
         "Plan the migration before security fixes stop."
@@ -99966,7 +99772,7 @@
           "t": "Aggregated official lifecycle data",
           "badge": "High Authority",
           "pub": "2027-02-17",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -99979,7 +99785,7 @@
       "title": "Apache NiFi 2.11 reached end of life on 2026-09-13",
       "infrastructure_category": "Middleware",
       "brand": "Apache Software Foundation",
-      "updated": "2026-11-10",
+      "updated": "2026-11-11",
       "why": [
         "endoflife.date tracks the 2.11 cycle of Apache NiFi.",
         "This cycle no longer receives security fixes."
@@ -100007,7 +99813,7 @@
           "t": "Aggregated official lifecycle data",
           "badge": "High Authority",
           "pub": "2026-09-13",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -100020,7 +99826,7 @@
       "title": "Apache Pulsar 4.2 reached end of life on 2026-09-24",
       "infrastructure_category": "Middleware",
       "brand": "Apache Software Foundation",
-      "updated": "2026-11-10",
+      "updated": "2026-11-11",
       "why": [
         "endoflife.date tracks the 4.2 cycle of Apache Pulsar.",
         "This cycle no longer receives security fixes."
@@ -100048,7 +99854,7 @@
           "t": "Aggregated official lifecycle data",
           "badge": "High Authority",
           "pub": "2026-09-24",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -100061,7 +99867,7 @@
       "title": "Apache Pulsar 4.0 reached end of life on 2026-10-21",
       "infrastructure_category": "Middleware",
       "brand": "Apache Software Foundation",
-      "updated": "2026-11-10",
+      "updated": "2026-11-11",
       "why": [
         "endoflife.date tracks the 4.0 cycle of Apache Pulsar.",
         "This cycle no longer receives security fixes."
@@ -100089,7 +99895,7 @@
           "t": "Aggregated official lifecycle data",
           "badge": "High Authority",
           "pub": "2026-10-21",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -100102,7 +99908,7 @@
       "title": "Apache Tomcat 9.0 reaches end of life on 2027-03-31",
       "infrastructure_category": "Middleware",
       "brand": "Apache Software Foundation",
-      "updated": "2026-11-10",
+      "updated": "2026-11-11",
       "why": [
         "endoflife.date tracks the 9.0 cycle of Apache Tomcat.",
         "Plan the migration before security fixes stop."
@@ -100130,7 +99936,7 @@
           "t": "Aggregated official lifecycle data",
           "badge": "High Authority",
           "pub": "2027-03-31",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -100143,7 +99949,7 @@
       "title": "Spring Boot 4.1 reaches end of life on 2027-07-31",
       "infrastructure_category": "Middleware",
       "brand": "Broadcom",
-      "updated": "2026-11-10",
+      "updated": "2026-11-11",
       "why": [
         "endoflife.date tracks the 4.1 cycle of Spring Boot.",
         "Plan the migration before security fixes stop."
@@ -100171,7 +99977,7 @@
           "t": "Aggregated official lifecycle data",
           "badge": "High Authority",
           "pub": "2027-07-31",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -100184,7 +99990,7 @@
       "title": "Spring Boot 4.0 reaches end of life on 2026-12-31",
       "infrastructure_category": "Middleware",
       "brand": "Broadcom",
-      "updated": "2026-11-10",
+      "updated": "2026-11-11",
       "why": [
         "endoflife.date tracks the 4.0 cycle of Spring Boot.",
         "Plan the migration before security fixes stop."
@@ -100212,7 +100018,7 @@
           "t": "Aggregated official lifecycle data",
           "badge": "High Authority",
           "pub": "2026-12-31",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -100225,7 +100031,7 @@
       "title": "Spring Cloud 2025.1 reaches end of life on 2027-07-31",
       "infrastructure_category": "Middleware",
       "brand": "Broadcom",
-      "updated": "2026-11-10",
+      "updated": "2026-11-11",
       "why": [
         "endoflife.date tracks the 2025.1 cycle of Spring Cloud.",
         "Plan the migration before security fixes stop."
@@ -100253,7 +100059,7 @@
           "t": "Aggregated official lifecycle data",
           "badge": "High Authority",
           "pub": "2027-07-31",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -100266,7 +100072,7 @@
       "title": "Spring Framework 7.0 reaches end of life on 2027-07-31",
       "infrastructure_category": "Middleware",
       "brand": "Broadcom",
-      "updated": "2026-11-10",
+      "updated": "2026-11-11",
       "why": [
         "endoflife.date tracks the 7.0 cycle of Spring Framework.",
         "Plan the migration before security fixes stop."
@@ -100294,7 +100100,7 @@
           "t": "Aggregated official lifecycle data",
           "badge": "High Authority",
           "pub": "2027-07-31",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -100307,7 +100113,7 @@
       "title": "RabbitMQ 4.4 reaches end of life on 2027-07-31",
       "infrastructure_category": "Middleware",
       "brand": "Broadcom Tanzu / RabbitMQ Team",
-      "updated": "2026-11-10",
+      "updated": "2026-11-11",
       "why": [
         "endoflife.date tracks the 4.4 cycle of RabbitMQ.",
         "Plan the migration before security fixes stop."
@@ -100335,7 +100141,7 @@
           "t": "Aggregated official lifecycle data",
           "badge": "High Authority",
           "pub": "2027-07-31",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -100348,7 +100154,7 @@
       "title": "RabbitMQ 4.3 reaches end of life on 2027-01-31",
       "infrastructure_category": "Middleware",
       "brand": "Broadcom Tanzu / RabbitMQ Team",
-      "updated": "2026-11-10",
+      "updated": "2026-11-11",
       "why": [
         "endoflife.date tracks the 4.3 cycle of RabbitMQ.",
         "Plan the migration before security fixes stop."
@@ -100376,7 +100182,7 @@
           "t": "Aggregated official lifecycle data",
           "badge": "High Authority",
           "pub": "2027-01-31",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -100389,7 +100195,7 @@
       "title": "HAProxy 3.3 reaches end of life on 2027-01-01",
       "infrastructure_category": "Middleware",
       "brand": "HAProxy Technologies / HAProxy Project",
-      "updated": "2026-11-10",
+      "updated": "2026-11-11",
       "why": [
         "endoflife.date tracks the 3.3 cycle of HAProxy.",
         "Plan the migration before security fixes stop."
@@ -100417,7 +100223,7 @@
           "t": "Aggregated official lifecycle data",
           "badge": "High Authority",
           "pub": "2027-01-01",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -100430,7 +100236,7 @@
       "title": "HAProxy 2.8 reaches end of life on 2028-04-01",
       "infrastructure_category": "Middleware",
       "brand": "HAProxy Technologies / HAProxy Project",
-      "updated": "2026-11-10",
+      "updated": "2026-11-11",
       "why": [
         "endoflife.date tracks the 2.8 cycle of HAProxy.",
         "Plan the migration before security fixes stop."
@@ -100458,7 +100264,7 @@
           "t": "Aggregated official lifecycle data",
           "badge": "High Authority",
           "pub": "2028-04-01",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -100471,7 +100277,7 @@
       "title": "HashiCorp Vault 2.1 reached end of life on 2026-10-14",
       "infrastructure_category": "Middleware",
       "brand": "HashiCorp",
-      "updated": "2026-11-10",
+      "updated": "2026-11-11",
       "why": [
         "endoflife.date tracks the 2.1 cycle of HashiCorp Vault.",
         "This cycle no longer receives security fixes."
@@ -100499,7 +100305,7 @@
           "t": "Aggregated official lifecycle data",
           "badge": "High Authority",
           "pub": "2026-10-14",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -100512,7 +100318,7 @@
       "title": "HashiCorp Vault 2.0 reached end of life on 2026-08-31",
       "infrastructure_category": "Middleware",
       "brand": "HashiCorp",
-      "updated": "2026-11-10",
+      "updated": "2026-11-11",
       "why": [
         "endoflife.date tracks the 2.0 cycle of HashiCorp Vault.",
         "This cycle no longer receives security fixes."
@@ -100540,7 +100346,7 @@
           "t": "Aggregated official lifecycle data",
           "badge": "High Authority",
           "pub": "2026-08-31",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -100553,7 +100359,7 @@
       "title": "IBM MQ 9.3 reaches end of life on 2027-09-30",
       "infrastructure_category": "Middleware",
       "brand": "IBM",
-      "updated": "2026-11-10",
+      "updated": "2026-11-11",
       "why": [
         "endoflife.date tracks the 9.3 cycle of IBM MQ.",
         "Plan the migration before security fixes stop."
@@ -100581,7 +100387,7 @@
           "t": "Aggregated official lifecycle data",
           "badge": "High Authority",
           "pub": "2027-09-30",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -100591,10 +100397,10 @@
       "tier": "PLAN",
       "tone": "blue",
       "product": "Istio",
-      "title": "Istio 1.31 reaches end of life on 2027-02-28",
+      "title": "Istio 1.31 reaches end of life on 2027-03-31",
       "infrastructure_category": "Middleware",
       "brand": "Istio Project",
-      "updated": "2026-11-10",
+      "updated": "2026-11-11",
       "why": [
         "endoflife.date tracks the 1.31 cycle of Istio.",
         "Plan the migration before security fixes stop."
@@ -100621,8 +100427,8 @@
           "n": "endoflife.date/istio",
           "t": "Aggregated official lifecycle data",
           "badge": "High Authority",
-          "pub": "2027-02-28",
-          "chk": "2026-11-10"
+          "pub": "2027-03-31",
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -100632,10 +100438,10 @@
       "tier": "PLAN",
       "tone": "blue",
       "product": "Istio",
-      "title": "Istio 1.30 reaches end of life on 2026-12-31",
+      "title": "Istio 1.30 reaches end of life on 2026-12-16",
       "infrastructure_category": "Middleware",
       "brand": "Istio Project",
-      "updated": "2026-11-10",
+      "updated": "2026-11-11",
       "why": [
         "endoflife.date tracks the 1.30 cycle of Istio.",
         "Plan the migration before security fixes stop."
@@ -100662,8 +100468,8 @@
           "n": "endoflife.date/istio",
           "t": "Aggregated official lifecycle data",
           "badge": "High Authority",
-          "pub": "2026-12-31",
-          "chk": "2026-11-10"
+          "pub": "2026-12-16",
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -100676,7 +100482,7 @@
       "title": "Keycloak 26.7 reached end of life on 2026-10-01",
       "infrastructure_category": "Middleware",
       "brand": "Keycloak Project",
-      "updated": "2026-11-10",
+      "updated": "2026-11-11",
       "why": [
         "endoflife.date tracks the 26.7 cycle of Keycloak.",
         "This cycle no longer receives security fixes."
@@ -100704,7 +100510,7 @@
           "t": "Aggregated official lifecycle data",
           "badge": "High Authority",
           "pub": "2026-10-01",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -100717,7 +100523,7 @@
       "title": "Cisco IOS XE 17.12 reaches end of life on 2027-09-30",
       "infrastructure_category": "Networking",
       "brand": "Cisco",
-      "updated": "2026-11-10",
+      "updated": "2026-11-11",
       "why": [
         "endoflife.date tracks the 17.12 cycle of Cisco IOS XE.",
         "Plan the migration before security fixes stop."
@@ -100745,7 +100551,7 @@
           "t": "Aggregated official lifecycle data",
           "badge": "High Authority",
           "pub": "2027-09-30",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -100758,7 +100564,7 @@
       "title": "Cisco IOS XE 17.9 reached end of life on 2026-09-30",
       "infrastructure_category": "Networking",
       "brand": "Cisco",
-      "updated": "2026-11-10",
+      "updated": "2026-11-11",
       "why": [
         "endoflife.date tracks the 17.9 cycle of Cisco IOS XE.",
         "This cycle no longer receives security fixes."
@@ -100786,7 +100592,7 @@
           "t": "Aggregated official lifecycle data",
           "badge": "High Authority",
           "pub": "2026-09-30",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -100799,7 +100605,7 @@
       "title": "BIG-IP 17.1 reaches end of life on 2027-03-31",
       "infrastructure_category": "Networking",
       "brand": "F5",
-      "updated": "2026-11-10",
+      "updated": "2026-11-11",
       "why": [
         "endoflife.date tracks the 17.1 cycle of BIG-IP.",
         "Plan the migration before security fixes stop."
@@ -100827,7 +100633,7 @@
           "t": "Aggregated official lifecycle data",
           "badge": "High Authority",
           "pub": "2027-03-31",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -100840,7 +100646,7 @@
       "title": "Ubuntu Server 26.10 reaches end of life on 2027-07-01",
       "infrastructure_category": "Operating Systems",
       "brand": "Canonical",
-      "updated": "2026-11-10",
+      "updated": "2026-11-11",
       "why": [
         "endoflife.date tracks the 26.10 cycle of Ubuntu Server.",
         "Plan the migration before security fixes stop."
@@ -100868,7 +100674,7 @@
           "t": "Aggregated official lifecycle data",
           "badge": "High Authority",
           "pub": "2027-07-01",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -100881,7 +100687,7 @@
       "title": "Ubuntu Server 22.04 reaches end of life on 2027-06-01",
       "infrastructure_category": "Operating Systems",
       "brand": "Canonical",
-      "updated": "2026-11-10",
+      "updated": "2026-11-11",
       "why": [
         "endoflife.date tracks the 22.04 cycle of Ubuntu Server.",
         "Plan the migration before security fixes stop."
@@ -100909,7 +100715,7 @@
           "t": "Aggregated official lifecycle data",
           "badge": "High Authority",
           "pub": "2027-06-01",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -100922,7 +100728,7 @@
       "title": "Debian 11 reached end of life on 2026-08-31",
       "infrastructure_category": "Operating Systems",
       "brand": "Debian Project",
-      "updated": "2026-11-10",
+      "updated": "2026-11-11",
       "why": [
         "endoflife.date tracks the 11 cycle of Debian.",
         "This cycle no longer receives security fixes."
@@ -100950,7 +100756,7 @@
           "t": "Aggregated official lifecycle data",
           "badge": "High Authority",
           "pub": "2026-08-31",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -100963,7 +100769,7 @@
       "title": "Windows Server 2016 reaches end of life on 2027-01-12",
       "infrastructure_category": "Operating Systems",
       "brand": "Microsoft",
-      "updated": "2026-11-10",
+      "updated": "2026-11-11",
       "why": [
         "endoflife.date tracks the 2016 cycle of Windows Server.",
         "Plan the migration before security fixes stop."
@@ -100991,7 +100797,7 @@
           "t": "Aggregated official lifecycle data",
           "badge": "High Authority",
           "pub": "2027-01-12",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -101004,7 +100810,7 @@
       "title": "SUSE Linux Enterprise Server 16.0 reaches end of life on 2027-11-30",
       "infrastructure_category": "Operating Systems",
       "brand": "SUSE",
-      "updated": "2026-11-10",
+      "updated": "2026-11-11",
       "why": [
         "endoflife.date tracks the 16.0 cycle of SUSE Linux Enterprise Server.",
         "Plan the migration before security fixes stop."
@@ -101032,7 +100838,7 @@
           "t": "Aggregated official lifecycle data",
           "badge": "High Authority",
           "pub": "2027-11-30",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -101045,7 +100851,7 @@
       "title": "FortiOS 7.2 reached end of life on 2026-09-30",
       "infrastructure_category": "Security",
       "brand": "Fortinet",
-      "updated": "2026-11-10",
+      "updated": "2026-11-11",
       "why": [
         "endoflife.date tracks the 7.2 cycle of FortiOS.",
         "This cycle no longer receives security fixes."
@@ -101073,7 +100879,7 @@
           "t": "Aggregated official lifecycle data",
           "badge": "High Authority",
           "pub": "2026-09-30",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -101086,7 +100892,7 @@
       "title": "PAN-OS 11.2 reaches end of life on 2027-05-02",
       "infrastructure_category": "Security",
       "brand": "Palo Alto Networks",
-      "updated": "2026-11-10",
+      "updated": "2026-11-11",
       "why": [
         "endoflife.date tracks the 11.2 cycle of PAN-OS.",
         "Plan the migration before security fixes stop."
@@ -101114,7 +100920,7 @@
           "t": "Aggregated official lifecycle data",
           "badge": "High Authority",
           "pub": "2027-05-02",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -101127,7 +100933,7 @@
       "title": "PAN-OS 11.1 reaches end of life on 2027-05-03",
       "infrastructure_category": "Security",
       "brand": "Palo Alto Networks",
-      "updated": "2026-11-10",
+      "updated": "2026-11-11",
       "why": [
         "endoflife.date tracks the 11.1 cycle of PAN-OS.",
         "Plan the migration before security fixes stop."
@@ -101155,7 +100961,7 @@
           "t": "Aggregated official lifecycle data",
           "badge": "High Authority",
           "pub": "2027-05-03",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -101168,7 +100974,7 @@
       "title": "Ceph 20 reaches end of life on 2027-06-01",
       "infrastructure_category": "Storage",
       "brand": "Ceph Foundation",
-      "updated": "2026-11-10",
+      "updated": "2026-11-11",
       "why": [
         "endoflife.date tracks the 20 cycle of Ceph.",
         "Plan the migration before security fixes stop."
@@ -101196,7 +101002,7 @@
           "t": "Aggregated official lifecycle data",
           "badge": "High Authority",
           "pub": "2027-06-01",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -101209,7 +101015,7 @@
       "title": "Ceph 19 reaches end of life on 2026-12-02",
       "infrastructure_category": "Storage",
       "brand": "Ceph Foundation",
-      "updated": "2026-11-10",
+      "updated": "2026-11-11",
       "why": [
         "endoflife.date tracks the 19 cycle of Ceph.",
         "Plan the migration before security fixes stop."
@@ -101237,7 +101043,7 @@
           "t": "Aggregated official lifecycle data",
           "badge": "High Authority",
           "pub": "2026-12-02",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -101250,7 +101056,7 @@
       "title": "NetApp ONTAP 9.16.1 reaches end of life on 2028-02-26",
       "infrastructure_category": "Storage",
       "brand": "NetApp",
-      "updated": "2026-11-10",
+      "updated": "2026-11-11",
       "why": [
         "endoflife.date tracks the 9.16.1 cycle of NetApp ONTAP.",
         "Plan the migration before security fixes stop."
@@ -101278,7 +101084,7 @@
           "t": "Aggregated official lifecycle data",
           "badge": "High Authority",
           "pub": "2028-02-26",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -101291,7 +101097,7 @@
       "title": "NetApp ONTAP 9.15.1 reaches end of life on 2027-07-31",
       "infrastructure_category": "Storage",
       "brand": "NetApp",
-      "updated": "2026-11-10",
+      "updated": "2026-11-11",
       "why": [
         "endoflife.date tracks the 9.15.1 cycle of NetApp ONTAP.",
         "Plan the migration before security fixes stop."
@@ -101319,7 +101125,7 @@
           "t": "Aggregated official lifecycle data",
           "badge": "High Authority",
           "pub": "2027-07-31",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -101332,7 +101138,7 @@
       "title": "VMware vCenter Server 9.0 reaches end of life on 2027-09-17",
       "infrastructure_category": "Virtualization",
       "brand": "Broadcom VMware",
-      "updated": "2026-11-10",
+      "updated": "2026-11-11",
       "why": [
         "endoflife.date tracks the 9.0 cycle of VMware vCenter Server.",
         "Plan the migration before security fixes stop."
@@ -101360,7 +101166,7 @@
           "t": "Aggregated official lifecycle data",
           "badge": "High Authority",
           "pub": "2027-09-17",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -101373,7 +101179,7 @@
       "title": "VMware vCenter Server 8.0 reaches end of life on 2027-10-11",
       "infrastructure_category": "Virtualization",
       "brand": "Broadcom VMware",
-      "updated": "2026-11-10",
+      "updated": "2026-11-11",
       "why": [
         "endoflife.date tracks the 8.0 cycle of VMware vCenter Server.",
         "Plan the migration before security fixes stop."
@@ -101401,7 +101207,7 @@
           "t": "Aggregated official lifecycle data",
           "badge": "High Authority",
           "pub": "2027-10-11",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -101414,7 +101220,7 @@
       "title": "Nutanix AOS 7.5 reaches end of life on 2027-12-31",
       "infrastructure_category": "Virtualization",
       "brand": "Nutanix",
-      "updated": "2026-11-10",
+      "updated": "2026-11-11",
       "why": [
         "endoflife.date tracks the 7.5 cycle of Nutanix AOS.",
         "Plan the migration before security fixes stop."
@@ -101442,7 +101248,7 @@
           "t": "Aggregated official lifecycle data",
           "badge": "High Authority",
           "pub": "2027-12-31",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -101455,7 +101261,7 @@
       "title": "Nutanix AOS 7.3 reaches end of life on 2027-06-30",
       "infrastructure_category": "Virtualization",
       "brand": "Nutanix",
-      "updated": "2026-11-10",
+      "updated": "2026-11-11",
       "why": [
         "endoflife.date tracks the 7.3 cycle of Nutanix AOS.",
         "Plan the migration before security fixes stop."
@@ -101483,7 +101289,7 @@
           "t": "Aggregated official lifecycle data",
           "badge": "High Authority",
           "pub": "2027-06-30",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     },
@@ -101496,7 +101302,7 @@
       "title": "Proxmox VE 8 reached end of life on 2026-08-31",
       "infrastructure_category": "Virtualization",
       "brand": "Proxmox Server Solutions",
-      "updated": "2026-11-10",
+      "updated": "2026-11-11",
       "why": [
         "endoflife.date tracks the 8 cycle of Proxmox VE.",
         "This cycle no longer receives security fixes."
@@ -101524,7 +101330,7 @@
           "t": "Aggregated official lifecycle data",
           "badge": "High Authority",
           "pub": "2026-08-31",
-          "chk": "2026-11-10"
+          "chk": "2026-11-11"
         }
       ]
     }
@@ -102221,6 +102027,21 @@
       "why": "A lifecycle milestone applies to the 9.0 cycle of Apache Tomcat."
     },
     {
+      "id": "eol-news-istio-131-istio",
+      "vendor": "Istio Project",
+      "tag": "Lifecycle",
+      "title": "Istio 1.31 end of life scheduled for 2027-03-31",
+      "source": "endoflife.date lifecycle data",
+      "badge": "High Authority",
+      "date": "2027-03-31",
+      "infrastructure_category": "Middleware",
+      "brand": "Istio Project",
+      "rel": [
+        "Istio"
+      ],
+      "why": "A lifecycle milestone applies to the 1.31 cycle of Istio."
+    },
+    {
       "id": "eol-news-big-ip-171-f5-big-ip",
       "vendor": "F5",
       "tag": "Lifecycle",
@@ -102249,21 +102070,6 @@
         "Veeam Backup & Replication"
       ],
       "why": "A lifecycle milestone applies to the 12 cycle of Veeam Backup & Replication."
-    },
-    {
-      "id": "eol-news-istio-131-istio",
-      "vendor": "Istio Project",
-      "tag": "Lifecycle",
-      "title": "Istio 1.31 end of life scheduled for 2027-02-28",
-      "source": "endoflife.date lifecycle data",
-      "badge": "High Authority",
-      "date": "2027-02-28",
-      "infrastructure_category": "Middleware",
-      "brand": "Istio Project",
-      "rel": [
-        "Istio"
-      ],
-      "why": "A lifecycle milestone applies to the 1.31 cycle of Istio."
     },
     {
       "id": "eol-news-cockroachdb-263-cockroachdb",
@@ -102371,21 +102177,6 @@
       "why": "A lifecycle milestone applies to the 4.0 cycle of Spring Boot."
     },
     {
-      "id": "eol-news-istio-130-istio",
-      "vendor": "Istio Project",
-      "tag": "Lifecycle",
-      "title": "Istio 1.30 end of life scheduled for 2026-12-31",
-      "source": "endoflife.date lifecycle data",
-      "badge": "High Authority",
-      "date": "2026-12-31",
-      "infrastructure_category": "Middleware",
-      "brand": "Istio Project",
-      "rel": [
-        "Istio"
-      ],
-      "why": "A lifecycle milestone applies to the 1.30 cycle of Istio."
-    },
-    {
       "id": "eol-news-gitlab-194-gitlab",
       "vendor": "GitLab Inc.",
       "tag": "Lifecycle",
@@ -102399,6 +102190,21 @@
         "GitLab"
       ],
       "why": "A lifecycle milestone applies to the 19.4 cycle of GitLab."
+    },
+    {
+      "id": "eol-news-istio-130-istio",
+      "vendor": "Istio Project",
+      "tag": "Lifecycle",
+      "title": "Istio 1.30 end of life scheduled for 2026-12-16",
+      "source": "endoflife.date lifecycle data",
+      "badge": "High Authority",
+      "date": "2026-12-16",
+      "infrastructure_category": "Middleware",
+      "brand": "Istio Project",
+      "rel": [
+        "Istio"
+      ],
+      "why": "A lifecycle milestone applies to the 1.30 cycle of Istio."
     },
     {
       "id": "eol-news-docker-engine-250-docker-engine",
@@ -103014,21 +102820,6 @@
         "Proxmox VE"
       ],
       "why": "A lifecycle milestone applies to the 8 cycle of Proxmox VE."
-    },
-    {
-      "id": "eol-news-podman-60-podman",
-      "vendor": "Podman Project",
-      "tag": "Lifecycle",
-      "title": "Podman 6.0 is past end of life (2026-08-12)",
-      "source": "endoflife.date lifecycle data",
-      "badge": "High Authority",
-      "date": "2026-08-12",
-      "infrastructure_category": "Containers",
-      "brand": "Podman Project",
-      "rel": [
-        "Podman"
-      ],
-      "why": "A lifecycle milestone applies to the 6.0 cycle of Podman."
     }
   ]
 }
